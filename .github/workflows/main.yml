@@ -1,0 +1,31 @@
+name: Check and Update Stock Split Daily
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Schedule to run at 00:00 AM Daily
+    
+  workflow_dispatch:
+
+jobs:
+  check_stock_split:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2 # checkout the repository content
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python Script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python stock_split_checker.py
