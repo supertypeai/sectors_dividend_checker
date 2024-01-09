@@ -1,9 +1,9 @@
-name: Check and Update Stock Split Daily
+name: Check and Update Dividend Weekly
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Schedule to run at 00:00 AM Daily
-    
+    - cron: '0 18 * * 5'
+
   workflow_dispatch:
 
 jobs:
@@ -28,4 +28,4 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python stock_split_checker.py
+        run: python dividend_checker.py
