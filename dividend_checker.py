@@ -83,13 +83,13 @@ class DividendChecker:
             # Break the attempt while if success
             break
           except Exception as e:
-              if (attempt == max_attempt):
-                print(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. Moving to the next page... | {e}")
-                attempt += 1
-              else:
-                print(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {e}")
-                attempt += 1
-                time.sleep(2)
+            if (attempt == max_attempt):
+              print(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. | {e}")
+
+            else:
+              print(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {e}")
+              time.sleep(2)
+            attempt += 1
 
     def upsert_to_db(self):
         if not self.retrieved_records:
