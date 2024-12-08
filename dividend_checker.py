@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from supabase import create_client, Client
+import time
 
 load_dotenv()
 
@@ -20,59 +21,75 @@ class DividendChecker:
         self.allowed_symbols = [k['symbol'][:4] for k in self.supabase_client.from_("idx_company_profile").select("symbol").execute().data]
 
     def get_dividend_records(self):
-        response = requests.get(self.url)
-        if response.status_code != 200:
-            raise Exception("Error retrieving data from SahamIDX")
+        attempt = 1
+        max_attempt = 10
+        while(attempt <= max_attempt):
+          try:
+            response = requests.get(self.url)
+            if response.status_code != 200:
+                raise Exception("Error retrieving data from SahamIDX")
 
-        soup = BeautifulSoup(response.text, "lxml")
-        table = soup.find("table", {"class": "tbl_border_gray"})
-        rows = table.find_all("tr", recursive=False)[1:]
-        # parameter to iterate the rows
-        num_of_rows = len(rows)
-        counter = num_of_rows - 1
-        # stack to store the rows
-        stack = []
-        while(True):
-            row = rows[counter]
-            # push into stack
-            stack.append(row)
-            if len(row.find_all("td")) > 2:
-                values : str = row.find_all("td")[0].text.strip()
-                # can value typecast to int?
-                try:
-                    int(values)
-                    
-                    #invert the stack
-                    stack = stack[::-1]
-                    # get first element
-                    first_element = stack[0]
-                    # get as td
-                    first_element_td = first_element.find_all("td")
-                    # get symbol
-                    symbol = first_element_td[1].find("a").text.strip()
+            soup = BeautifulSoup(response.text, "lxml")
+            table = soup.find("table", {"class": "tbl_border_gray"})
+            rows = table.find_all("tr", recursive=False)[1:]
+            # parameter to iterate the rows
+            num_of_rows = len(rows)
+            counter = num_of_rows - 1
+            # stack to store the rows
+            stack = []
+            while(True):
+                row = rows[counter]
+                # push into stack
+                stack.append(row)
+                if len(row.find_all("td")) > 2:
+                    values : str = row.find_all("td")[0].text.strip()
+                    # can value typecast to int?
+                    try:
+                        int(values)
                         
-                    # get dividend
-                    dividend = first_element_td[3].text.strip()
-                    # get date
-                    date = datetime.strptime(first_element_td[6].text.strip(), "%d-%b-%Y").strftime(
-                        "%Y-%m-%d")
-                
-                    if (symbol in self.allowed_symbols) and(self.start_date <= date <= self.end_date):
-                        data_dict = {
-                            "symbol": symbol + ".JK",
-                            "date": date,
-                            "dividend": dividend,
-                            "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
-                        }
-                        self.retrieved_records.append(data_dict)
-                except:
-                    pass
-                #clear the stack
-                stack = []
-            # reduce counter
-            counter -= 1
-            if(counter < 0):
-                break
+                        #invert the stack
+                        stack = stack[::-1]
+                        # get first element
+                        first_element = stack[0]
+                        # get as td
+                        first_element_td = first_element.find_all("td")
+                        # get symbol
+                        symbol = first_element_td[1].find("a").text.strip()
+                            
+                        # get dividend
+                        dividend = first_element_td[3].text.strip()
+                        # get date
+                        date = datetime.strptime(first_element_td[6].text.strip(), "%d-%b-%Y").strftime(
+                            "%Y-%m-%d")
+
+                        if (symbol in self.allowed_symbols) and(self.start_date <= date <= self.end_date):
+                            data_dict = {
+                                "symbol": symbol + ".JK",
+                                "date": date,
+                                "dividend": dividend,
+                                "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
+                            }
+                            print(data_dict)
+                            self.retrieved_records.append(data_dict)
+                    except:
+                        pass
+                    #clear the stack
+                    stack = []
+                # reduce counter
+                counter -= 1
+                if(counter < 0):
+                    break
+            
+            # Break the attempt while if success
+            break
+          except Exception as e:
+              if (attempt == max_attempt):
+                print(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. Moving to the next page... | {e}")
+                attempt += 1
+              else:
+                print(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {e}")
+                attempt += 1
+                time.sleep(2)
 
     def upsert_to_db(self):
         if not self.retrieved_records:
@@ -96,4 +113,4 @@ if __name__ == "__main__":
 
     stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
-    stock_split_checker.upsert_to_db()
+    # stock_split_checker.upsert_to_db()

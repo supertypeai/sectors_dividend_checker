@@ -1,3 +1,5 @@
 .env
 .venv
 *.ipynb
+late_data_updater
+late_data_updater/.env
