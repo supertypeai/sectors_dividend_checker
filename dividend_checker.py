@@ -19,6 +19,7 @@ class DividendChecker:
         self.end_date = pd.Timestamp.now("Asia/Bangkok").strftime("%Y-%m-%d")
         self.retrieved_records = []
         self.allowed_symbols = [k['symbol'][:4] for k in self.supabase_client.from_("idx_company_profile").select("symbol").execute().data]
+        self.cumulative_stock_split_ratio = pd.DataFrame(supabase_client.from_("idx_stock_split_cumulative").select("symbol, cumulative_split_ratio").execute().data)
 
     def get_dividend_records(self):
         attempt = 1
@@ -56,17 +57,30 @@ class DividendChecker:
                         # get symbol
                         symbol = first_element_td[1].find("a").text.strip()
                             
-                        # get dividend
-                        dividend = first_element_td[3].text.strip()
+                        # get dividend original
+                        dividend_original = float(first_element_td[3].text.strip())
                         # get date
                         date = datetime.strptime(first_element_td[6].text.strip(), "%d-%b-%Y").strftime(
                             "%Y-%m-%d")
+                        
+                        # Adjust the symbol
+                        adjusted_symbol = symbol + ".JK"
+
+                        # Check whether the company did stock split 
+                        dividend = dividend_original
+                        sliced_df = self.cumulative_stock_split_ratio[self.cumulative_stock_split_ratio['symbol'] == adjusted_symbol]
+                        if (len(sliced_df) == 1):
+                          # If the company has ever stock splitted
+                          ratio = sliced_df['cumulative_split_ratio'].values[0]
+                          dividend = row['dividend_original'] / ratio
+
 
                         if (symbol in self.allowed_symbols) and(self.start_date <= date <= self.end_date):
                             data_dict = {
-                                "symbol": symbol + ".JK",
+                                "symbol": adjusted_symbol,
                                 "date": date,
-                                "dividend": dividend,
+                                "dividend_original": dividend_original,
+                                "dividend" : dividend,
                                 "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
                             }
                             print(data_dict)
