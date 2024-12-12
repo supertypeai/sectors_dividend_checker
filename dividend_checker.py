@@ -7,8 +7,15 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from supabase import create_client, Client
 import time
+from datetime import date 
+import yfinance as yf
 
 load_dotenv()
+
+def check_start_year():
+   today_date = date.today()
+   # Check if it is the first week of the first month in the year
+   return today_date.month == 1 and today_date.day <= 7
 
 
 class DividendChecker:
@@ -119,7 +126,41 @@ class DividendChecker:
             )
         except Exception as e:
             raise Exception(f"Error upserting to database: {e}")
+        
+    def upsert_yield_in_db(self):
+      database_data = supabase_client.from_("idx_dividend").select("*").execute().data
+      db_df = pd.DataFrame(database_data)
+      
+      count = 0
+      for index, row in db_df.iterrows():
+          if (row['yield'] is None):
+            ticker = row['symbol']
+            dividend_date = row['date']
+            dividend_year = int(dividend_date.split("-")[0])
+            current_year = datetime.now().year
 
+            if (dividend_year < current_year):
+              # If starting from that year
+              start_date = f"{dividend_year}-01-01"
+              end_date = f"{dividend_year}-12-31"
+              count += 1
+              
+              stock = yf.Ticker(ticker).history(start=start_date, end=end_date, auto_adjust=False) 
+              stock = stock[["Close"]] # Get only the Close data
+              mean_val = stock.mean().values[0]
+              db_df.at[index, 'yield'] = row['dividend']/mean_val
+              db_df.at[index, 'updated_on'] = datetime.now()
+      
+      # Upsert to db the result
+      try:
+            self.supabase_client.table("idx_dividend").upsert(
+                db_df.to_dict(orient="records")
+            ).execute()
+            print(
+                f"Successfully updated {count} yield data in database"
+            )
+      except Exception as e:
+            raise Exception(f"Error upserting to database: {e}")
 
 if __name__ == "__main__":
     url, key = os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY")
@@ -128,3 +169,5 @@ if __name__ == "__main__":
     stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
     # stock_split_checker.upsert_to_db()
+    if (check_start_year()):
+      stock_split_checker.upsert_yield_in_db()
