@@ -159,6 +159,6 @@ if __name__ == "__main__":
 
     stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
-    # stock_split_checker.upsert_to_db()
+    stock_split_checker.upsert_to_db()
     if (check_start_year()):
       stock_split_checker.upsert_yield_in_db()
