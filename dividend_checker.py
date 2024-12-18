@@ -170,11 +170,11 @@ class DividendChecker:
           diff = current_time - ss_time
           # Check if there is any stock split happening recently
           if (diff.days <= 7):
-              print(f"[FOUND NEW STOCK SPLIT] {symbol} {ss_row['date']}")
               found = True
               symbol = ss_row['symbol']
               ratio = ss_row['split_ratio']
               # Get df that is the symbol
+              print(f"[FOUND NEW STOCK SPLIT] {symbol} {ss_row['date']}")
               symbol_df = database_df[database_df['symbol'] == symbol]
 
               for s_idx, s_row in symbol_df.iterrows():
