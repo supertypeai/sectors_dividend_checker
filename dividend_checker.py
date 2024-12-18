@@ -82,7 +82,7 @@ class DividendChecker:
                                 "dividend" : dividend_original,
                                 "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
                             }
-                            print(data_dict)
+                            print(f'[FETCHING] {data_dict}')
                             self.retrieved_records.append(data_dict)
                     except:
                         pass
@@ -140,8 +140,10 @@ class DividendChecker:
               stock = yf.Ticker(ticker).history(start=start_date, end=end_date, auto_adjust=False) 
               stock = stock[["Close"]] # Get only the Close data
               mean_val = stock.mean().values[0]
-              db_df.at[index, 'yield'] = row['dividend']/mean_val
+              yield_val = row['dividend']/mean_val
+              db_df.at[index, 'yield'] = yield_val
               db_df.at[index, 'updated_on'] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
+              print(f"[UPDATING YIELD] {ticker} {dividend_date} yield : {yield_val}")
       
       db_df = db_df.replace({np.nan : None})
       # Upsert to db the result
@@ -168,6 +170,7 @@ class DividendChecker:
           diff = current_time - ss_time
           # Check if there is any stock split happening recently
           if (diff.days <= 7):
+              print(f"[FOUND NEW STOCK SPLIT] {symbol} {ss_row['date']}")
               found = True
               symbol = ss_row['symbol']
               ratio = ss_row['split_ratio']
@@ -178,10 +181,12 @@ class DividendChecker:
                 dividend_time = datetime.strptime(s_row['date'], "%Y-%m-%d")
                 # Update dividend data 
                 if (dividend_time < ss_time):
-                  new_dividend = s_row['dividend'] * ratio
+                  old_dividend = s_row['dividend']
+                  new_dividend = old_dividend * ratio
                   database_df.at[s_idx, "dividend"] = new_dividend
                   database_df.at[s_idx, "updated_on"] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
                   count += 1
+                  print(f"[UPDATING DIVIDEND] {symbol} {s_row['date']} {old_dividend} -> {new_dividend} ratio {ratio}")
       
       database_df = database_df.replace({np.nan : None})
       # Upsert to db the result
