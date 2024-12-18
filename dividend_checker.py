@@ -206,7 +206,7 @@ if __name__ == "__main__":
     url, key = os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY")
     supabase_client = create_client(url, key)
 
-    stock_split_checker = DividendChecker(supabase_client, 14)
+    stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
     stock_split_checker.upsert_to_db()
     stock_split_checker.check_stock_split()
