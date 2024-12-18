@@ -9,6 +9,7 @@ from supabase import create_client, Client
 import time
 from datetime import date 
 import yfinance as yf
+import numpy as np
 
 load_dotenv()
 
@@ -140,8 +141,9 @@ class DividendChecker:
               stock = stock[["Close"]] # Get only the Close data
               mean_val = stock.mean().values[0]
               db_df.at[index, 'yield'] = row['dividend']/mean_val
-              db_df.at[index, 'updated_on'] = datetime.now()
+              db_df.at[index, 'updated_on'] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
       
+      db_df = db_df.replace({np.nan : None})
       # Upsert to db the result
       try:
             self.supabase_client.table("idx_dividend").upsert(
@@ -159,12 +161,14 @@ class DividendChecker:
       database_data = supabase_client.from_("idx_dividend").select("*").execute().data
       database_df = pd.DataFrame(database_data)
       count = 0
+      found = False
       for _, ss_row in stock_split_df.iterrows():
           current_time = datetime.now()
           ss_time = datetime.strptime(ss_row['date'], "%Y-%m-%d")
           diff = current_time - ss_time
           # Check if there is any stock split happening recently
           if (diff.days <= 7):
+              found = True
               symbol = ss_row['symbol']
               ratio = ss_row['split_ratio']
               # Get df that is the symbol
@@ -172,29 +176,32 @@ class DividendChecker:
 
               for s_idx, s_row in symbol_df.iterrows():
                 dividend_time = datetime.strptime(s_row['date'], "%Y-%m-%d")
-                # Update dividend_original data 
+                # Update dividend data 
                 if (dividend_time < ss_time):
-                  new_dividend_original = s_row['dividend_original'] * ratio
-                  database_df.at[s_idx, "dividend_original"] = new_dividend_original
+                  new_dividend = s_row['dividend'] * ratio
+                  database_df.at[s_idx, "dividend"] = new_dividend
+                  database_df.at[s_idx, "updated_on"] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
                   count += 1
-                   
+      
+      database_df = database_df.replace({np.nan : None})
       # Upsert to db the result
-      try:
-            self.supabase_client.table("idx_dividend").upsert(
-                database_df.to_dict(orient="records")
-            ).execute()
-            print(
-                f"Successfully updated {count} dividend data in database"
-            )
-      except Exception as e:
-            raise Exception(f"Error upserting to database: {e}")
+      if (found):
+        try:
+              self.supabase_client.table("idx_dividend").upsert(
+                  database_df.to_dict(orient="records")
+              ).execute()
+              print(
+                  f"Successfully updated {count} dividend data in database"
+              )
+        except Exception as e:
+              raise Exception(f"Error upserting to database: {e}")
        
 
 if __name__ == "__main__":
     url, key = os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY")
     supabase_client = create_client(url, key)
 
-    stock_split_checker = DividendChecker(supabase_client)
+    stock_split_checker = DividendChecker(supabase_client, 14)
     stock_split_checker.get_dividend_records()
     stock_split_checker.upsert_to_db()
     stock_split_checker.check_stock_split()
