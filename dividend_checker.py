@@ -169,7 +169,7 @@ class DividendChecker:
           ss_time = datetime.strptime(ss_row['date'], "%Y-%m-%d")
           diff = current_time - ss_time
           # Check if there is any stock split happening recently
-          if (diff.days <= 7):
+          if (ss_time < current_time and diff.days <= 7):
               found = True
               symbol = ss_row['symbol']
               ratio = ss_row['split_ratio']
@@ -182,7 +182,7 @@ class DividendChecker:
                 # Update dividend data 
                 if (dividend_time < ss_time):
                   old_dividend = s_row['dividend']
-                  new_dividend = old_dividend * ratio
+                  new_dividend = old_dividend / ratio
                   database_df.at[s_idx, "dividend"] = new_dividend
                   database_df.at[s_idx, "updated_on"] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
                   count += 1
