@@ -2,12 +2,17 @@ import os
 import requests
 
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup, Tag
 from supabase import create_client
 
+# Default next N days of dividend ex-date to fetch
 _DEFAULT_TIMEFRAME = 14  # days
+# Default retention period after dividend payment date in database
+_RETENTION_PERIOD = 14  # days
 _LOCAL_TIMEZONE = 'Asia/Bangkok'
+_LOCAL_TODAY = datetime.now(tz=ZoneInfo(_LOCAL_TIMEZONE)).date()
 
 load_dotenv()
 
@@ -40,7 +45,7 @@ def parse_en_us_datetime(date_string: str):
 
 
 def get_upcoming_dividend_records(timeframe: int = _DEFAULT_TIMEFRAME):
-    start_date = datetime.now(tz=timezone.utc).date()
+    start_date = _LOCAL_TODAY
     end_date = start_date + timedelta(days=timeframe)
 
     retries = 1
@@ -93,5 +98,10 @@ def get_upcoming_dividend_records(timeframe: int = _DEFAULT_TIMEFRAME):
 
 
 if __name__ == "__main__":
+    # Update upcoming dividend data
     upcoming_dividend_data = get_upcoming_dividend_records()
     _supabase_client.table("idx_upcoming_dividend").upsert(upcoming_dividend_data, ignore_duplicates=False).execute()
+
+    # Delete past dividend data from the same table
+    deletion_date = _LOCAL_TODAY - timedelta(days=_RETENTION_PERIOD)
+    _supabase_client.table("idx_upcoming_dividend").delete().lt("payment_date", deletion_date.isoformat()).execute()
