@@ -1,0 +1,29 @@
+name: Scrape Upcoming Dividend Data
+
+on:
+  schedule:
+    - cron: '0 18 1,11,21 * *'  # Schedule to run at 1:00 AM UTC+7 every weekday
+  workflow_dispatch:
+
+jobs:
+  scrape_data:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run py script
+        run: python future_dividend_checker.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
