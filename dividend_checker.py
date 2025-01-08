@@ -26,11 +26,11 @@ class DividendChecker:
         self.supabase_client = supabase_client
         self.start_date = (pd.Timestamp.now("Asia/Bangkok") - pd.Timedelta(days=last_n_day - 1)).strftime("%Y-%m-%d")
         self.end_date = pd.Timestamp.now("Asia/Bangkok").strftime("%Y-%m-%d")
-        self.retrieved_records = []
+        self.retrieved_records: list[dict] = []
         self.allowed_symbols = [k['symbol'][:4] for k in
                                 self.supabase_client.from_("idx_company_profile").select("symbol").execute().data]
 
-    def get_dividend_records(self):
+    def get_dividend_records(self, include_payment_date=False):
         attempt = 1
         max_attempt = 10
         while (attempt <= max_attempt):
@@ -72,6 +72,10 @@ class DividendChecker:
                             date = datetime.strptime(first_element_td[6].text.strip(), "%d-%b-%Y").strftime(
                                 "%Y-%m-%d")
 
+                            # get payment date
+                            payment_date = datetime.strptime(first_element_td[10].text.strip(), "%d-%b-%Y").strftime(
+                                "%Y-%m-%d")
+
                             # Adjust the symbol
                             adjusted_symbol = symbol + ".JK"
 
@@ -83,6 +87,8 @@ class DividendChecker:
                                     "dividend": dividend_original,
                                     "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
                                 }
+                                if include_payment_date:
+                                    data_dict["payment_date"] = payment_date
                                 print(f'[FETCHING] {data_dict}')
                                 self.retrieved_records.append(data_dict)
                         except:
