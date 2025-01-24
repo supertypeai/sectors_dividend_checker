@@ -20,6 +20,7 @@ _SUPABASE_URL = os.getenv("SUPABASE_URL")
 _SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 _supabase_client = create_client(_SUPABASE_URL, _SUPABASE_KEY)
 
+
 class FutureDividendChecker(DividendChecker):
     def __init__(self, supabase_client: Client, future_n_day=14):
         super().__init__(supabase_client)
@@ -55,10 +56,6 @@ class FutureDividendChecker(DividendChecker):
     @final
     def upsert_yield_in_db(self):
         raise NotImplementedError("Future dividend does not require yield update")
-
-    @final
-    def check_stock_split(self):
-        raise NotImplementedError("Future dividend data will be overwritten with newer updates")
 
 
 if __name__ == "__main__":

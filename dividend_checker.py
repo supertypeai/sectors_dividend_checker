@@ -164,51 +164,6 @@ class DividendChecker:
         except Exception as e:
             raise Exception(f"Error upserting to database: {e}")
 
-    def check_stock_split(self):
-        stock_split_data = self.supabase_client.from_("idx_stock_split").select(
-            "symbol, date, split_ratio").execute().data
-        stock_split_df = pd.DataFrame(stock_split_data)
-        database_data = supabase_client.from_("idx_dividend").select("*").execute().data
-        database_df = pd.DataFrame(database_data)
-        count = 0
-        found = False
-        for _, ss_row in stock_split_df.iterrows():
-            current_time = datetime.now()
-            ss_time = datetime.strptime(ss_row['date'], "%Y-%m-%d")
-            diff = current_time - ss_time
-            # Check if there is any stock split happening recently
-            if (ss_time < current_time and diff.days <= 7):
-                found = True
-                symbol = ss_row['symbol']
-                ratio = ss_row['split_ratio']
-                # Get df that is the symbol
-                print(f"[FOUND NEW STOCK SPLIT] {symbol} {ss_row['date']}")
-                symbol_df = database_df[database_df['symbol'] == symbol]
-
-                for s_idx, s_row in symbol_df.iterrows():
-                    dividend_time = datetime.strptime(s_row['date'], "%Y-%m-%d")
-                    # Update dividend data
-                    if (dividend_time < ss_time):
-                        old_dividend = s_row['dividend']
-                        new_dividend = old_dividend / ratio
-                        database_df.at[s_idx, "dividend"] = new_dividend
-                        database_df.at[s_idx, "updated_on"] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
-                        count += 1
-                        print(
-                            f"[UPDATING DIVIDEND] {symbol} {s_row['date']} {old_dividend} -> {new_dividend} ratio {ratio}")
-
-        database_df = database_df.replace({np.nan: None})
-        # Upsert to db the result
-        if (found):
-            try:
-                self.supabase_client.table("idx_dividend").upsert(
-                    database_df.to_dict(orient="records")
-                ).execute()
-                print(
-                    f"Successfully updated {count} dividend data in database"
-                )
-            except Exception as e:
-                raise Exception(f"Error upserting to database: {e}")
 
 
 if __name__ == "__main__":
@@ -218,6 +173,5 @@ if __name__ == "__main__":
     stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
     stock_split_checker.upsert_to_db()
-    stock_split_checker.check_stock_split()
     if check_start_year():
         stock_split_checker.upsert_yield_in_db()
