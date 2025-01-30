@@ -132,7 +132,7 @@ class DividendChecker:
 
         count = 0
         for index, row in db_df.iterrows():
-            if (row['yield'] is None):
+            if pd.isna(row['yield']):
                 ticker = row['symbol']
                 dividend_date = row['date']
                 dividend_year = int(dividend_date.split("-")[0])
