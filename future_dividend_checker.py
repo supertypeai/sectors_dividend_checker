@@ -1,7 +1,9 @@
+import json
 import os
 import pandas as pd
 
 from dotenv import load_dotenv
+import requests
 from supabase import create_client, Client
 from typing import final
 
@@ -50,6 +52,19 @@ class FutureDividendChecker(DividendChecker):
             print(
                 f"Successfully upserted {len(self.retrieved_records)} data to database"
             )
+            # Insert news
+            print("Sending data to external endpoint")
+            api_key = os.getenv("API_KEY")
+            headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+            response = requests.post(
+                "https://sectors-news-endpoint.fly.dev/dividend",
+                headers=headers,
+                data=json.dumps(self.retrieved_records)
+            )
+            if response.status_code == 200:
+                print("Successfully sent data to external endpoint")
+            else:
+                print(f"Failed to send data to external endpoint. Status code: {response.status_code}, {response.text}")
         except Exception as e:
             raise Exception(f"Error upserting to database: {e}")
 
