@@ -40,12 +40,9 @@ jobs:
       
       - name: Pull with rebase
         run: git pull origin main --rebase
-
-      - name: Push changes
-        run: git push origin main
                   
-            - name: push changes
-              uses: ad-m/github-push-action@v0.6.0
-              with:
-                github_token: ${{ secrets.TOKEN_GITHUB }}
-                branch: main 
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.TOKEN_GITHUB }}
+          branch: main 
