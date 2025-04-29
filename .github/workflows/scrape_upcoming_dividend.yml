@@ -27,22 +27,3 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-
-      - name: commit files
-        run: |
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-      
-      - name: Commit changes
-        run: |
-          git add .
-          git commit -m "Auto-update from GitHub Action" || echo "No changes to commit"
-      
-      - name: Pull with rebase
-        run: git pull origin main --rebase
-                  
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.TOKEN_GITHUB }}
-          branch: main 
