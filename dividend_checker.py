@@ -1,6 +1,8 @@
 import os
 from datetime import datetime, timedelta
 
+import logging
+from imp import reload
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +15,14 @@ import numpy as np
 
 load_dotenv()
 
+LOG_FILENAME = 'scrapper.log'
+
+def initiate_logging(LOG_FILENAME):
+    reload(logging)
+
+    formatLOG = '%(asctime)s - %(levelname)s: %(message)s'
+    logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO, format=formatLOG)
+    logging.info('Program started')
 
 def check_start_year():
     today_date = date.today()
@@ -167,11 +177,16 @@ class DividendChecker:
 
 
 if __name__ == "__main__":
+    initiate_logging(LOG_FILENAME)
+
     url, key = os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY")
     supabase_client = create_client(url, key)
 
     stock_split_checker = DividendChecker(supabase_client)
     stock_split_checker.get_dividend_records()
     stock_split_checker.upsert_to_db()
+
+    logging.info(f"update {date.today()} dividend data")
+
     if check_start_year():
         stock_split_checker.upsert_yield_in_db()

@@ -1,6 +1,8 @@
 import json
 import os
 import pandas as pd
+import logging
+from imp import reload
 
 from dotenv import load_dotenv
 import requests
@@ -8,6 +10,15 @@ from supabase import create_client, Client
 from typing import final
 
 from dividend_checker import DividendChecker
+
+LOG_FILENAME = 'scrapper.log'
+
+def initiate_logging(LOG_FILENAME):
+    reload(logging)
+
+    formatLOG = '%(asctime)s - %(levelname)s: %(message)s'
+    logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO, format=formatLOG)
+    logging.info('Program started')
 
 # Default next N days of dividend ex-date to fetch
 _DEFAULT_TIMEFRAME = 14  # days
@@ -74,6 +85,9 @@ class FutureDividendChecker(DividendChecker):
 
 
 if __name__ == "__main__":
+
+    initiate_logging(LOG_FILENAME)
+
     # Update upcoming dividend data
     future_dividend_checker = FutureDividendChecker(_supabase_client)
     future_dividend_checker.get_dividend_records()
@@ -82,3 +96,5 @@ if __name__ == "__main__":
     # Delete past dividend data from the same table
     deletion_date = _LOCAL_TODAY - pd.Timedelta(days=_RETENTION_PERIOD)
     _supabase_client.table("idx_upcoming_dividend").delete().lt("payment_date", deletion_date.isoformat()).execute()
+
+    logging.info(f"update {_LOCAL_TODAY} upcoming dividend data")
