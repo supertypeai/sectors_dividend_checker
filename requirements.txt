@@ -4,3 +4,4 @@ python-dotenv==1.0.0
 requests==2.31.0
 supabase==2.16.0
 yfinance[nospam]==0.2.59
+lxml==4.9.3
