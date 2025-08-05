@@ -1,5 +1,1992 @@
-2025-04-29 15:39:27,153 - INFO: Program started
-2025-04-29 15:39:27,154 - INFO: finish log
-2025-04-29 15:40:56,501 - INFO: Program started
-2025-04-29 15:41:13,664 - INFO: Program started
-2025-04-29 15:41:13,664 - INFO: update 2025-04-29 dividend data
+2024-10-11 15:41:28,199 - INFO: Program started
+2024-10-11 15:41:32,536 - INFO: Index daily price data already saved in the db
+2024-10-11 08:43:30,931 - INFO: Program started
+2024-10-11 08:43:32,674 - INFO: Index daily price data already saved in the db
+2024-10-11 11:17:59,570 - INFO: Program started
+2024-10-11 11:18:01,893 - INFO: Index daily price data already saved in the db
+2024-10-14 11:18:39,110 - INFO: Program started
+2024-10-14 11:18:40,769 - INFO: Index daily price data already saved in the db
+2024-10-15 11:17:58,241 - INFO: Program started
+2024-10-15 11:17:59,771 - INFO: Index daily price data already saved in the db
+2024-10-16 11:18:15,450 - INFO: Program started
+2024-10-16 11:18:17,620 - INFO: Index daily price data already saved in the db
+2024-10-17 11:18:08,925 - INFO: Program started
+2024-10-17 11:18:10,741 - INFO: Index daily price data already saved in the db
+2024-10-18 11:17:34,872 - INFO: Program started
+2024-10-18 11:17:37,353 - INFO: Index daily price data already saved in the db
+2024-10-21 11:19:22,700 - INFO: Program started
+2024-10-21 11:19:24,966 - INFO: Index daily price data already saved in the db
+2024-10-22 11:17:59,834 - INFO: Program started
+2024-10-22 11:18:01,642 - INFO: Index daily price data already saved in the db
+2024-10-23 11:17:33,243 - INFO: Program started
+2024-10-23 11:17:35,206 - INFO: Index daily price data already saved in the db
+2024-10-24 11:17:30,819 - INFO: Program started
+2024-10-25 11:17:44,536 - INFO: Program started
+2024-10-28 11:18:41,806 - INFO: Program started
+2024-10-29 11:18:05,486 - INFO: Program started
+2024-10-30 11:17:37,410 - INFO: Program started
+2024-10-31 11:17:34,541 - INFO: Program started
+2024-10-31 11:17:46,835 - ERROR: Failed to update description for 14.
+2024-10-31 11:17:47,098 - ERROR: Failed to update description for 15.
+2024-11-01 11:17:49,036 - INFO: Program started
+2024-11-04 11:19:35,082 - INFO: Program started
+2024-11-05 11:17:26,134 - INFO: Program started
+2024-11-06 11:17:22,671 - INFO: Program started
+2024-11-07 11:18:24,995 - INFO: Program started
+2024-11-08 11:17:14,434 - INFO: Program started
+2024-11-11 11:17:54,963 - INFO: Program started
+2024-11-12 11:17:23,978 - INFO: Program started
+2024-11-13 11:17:46,436 - INFO: Program started
+2024-11-14 11:17:58,132 - INFO: Program started
+2024-11-15 11:18:08,382 - INFO: Program started
+2024-11-18 11:18:55,204 - INFO: Program started
+2024-11-19 11:18:13,700 - INFO: Program started
+2024-11-20 11:18:16,179 - INFO: Program started
+2024-11-21 11:18:56,652 - INFO: Program started
+2024-11-22 11:18:34,049 - INFO: Program started
+2024-11-25 11:18:31,094 - INFO: Program started
+2024-11-26 11:18:38,038 - INFO: Program started
+2024-11-27 11:18:58,638 - INFO: Program started
+2024-11-27 11:19:01,359 - ERROR: Failed to update description for 0.
+2024-11-27 11:19:01,572 - ERROR: Failed to update description for 1.
+2024-11-27 11:19:01,786 - ERROR: Failed to update description for 2.
+2024-11-27 11:19:02,382 - ERROR: Failed to update description for 3.
+2024-11-27 11:19:02,980 - ERROR: Failed to update description for 4.
+2024-11-27 11:19:03,570 - ERROR: Failed to update description for 5.
+2024-11-27 11:19:04,162 - ERROR: Failed to update description for 6.
+2024-11-27 11:19:04,371 - ERROR: Failed to update description for 7.
+2024-11-27 11:19:04,579 - ERROR: Failed to update description for 8.
+2024-11-27 11:19:05,170 - ERROR: Failed to update description for 9.
+2024-11-27 11:19:05,740 - ERROR: Failed to update description for 10.
+2024-11-27 11:19:06,326 - ERROR: Failed to update description for 11.
+2024-11-27 11:19:06,914 - ERROR: Failed to update description for 12.
+2024-11-27 11:19:07,481 - ERROR: Failed to update description for 13.
+2024-11-27 11:19:08,476 - ERROR: Failed to update description for 16.
+2024-11-27 11:19:08,677 - ERROR: Failed to update description for 17.
+2024-11-28 11:18:33,805 - INFO: Program started
+2024-11-29 11:18:29,673 - INFO: Program started
+2024-12-02 11:19:02,764 - INFO: Program started
+2024-12-03 11:19:12,509 - INFO: Program started
+2024-12-04 11:19:19,240 - INFO: Program started
+2024-12-05 11:18:55,106 - INFO: Program started
+2024-12-06 11:18:22,788 - INFO: Program started
+2024-12-09 11:19:35,550 - INFO: Program started
+2024-12-10 11:19:20,614 - INFO: Program started
+2024-12-11 11:18:54,047 - INFO: Program started
+2024-12-12 11:19:00,897 - INFO: Program started
+2024-12-13 11:18:39,341 - INFO: Program started
+2024-12-16 11:19:02,900 - INFO: Program started
+2024-12-17 11:18:57,054 - INFO: Program started
+2024-12-18 11:18:10,882 - INFO: Program started
+2024-12-19 11:18:24,074 - INFO: Program started
+2024-12-20 11:17:04,646 - INFO: Program started
+2024-12-23 11:17:12,636 - INFO: Program started
+2024-12-24 11:17:05,735 - INFO: Program started
+2024-12-25 11:16:52,042 - INFO: Program started
+2024-12-25 11:16:54,656 - ERROR: Failed to update description for 0.
+2024-12-25 11:16:55,235 - ERROR: Failed to update description for 1.
+2024-12-25 11:16:55,795 - ERROR: Failed to update description for 2.
+2024-12-25 11:16:56,378 - ERROR: Failed to update description for 3.
+2024-12-25 11:16:56,941 - ERROR: Failed to update description for 4.
+2024-12-25 11:16:57,515 - ERROR: Failed to update description for 5.
+2024-12-25 11:16:57,720 - ERROR: Failed to update description for 6.
+2024-12-25 11:16:58,298 - ERROR: Failed to update description for 7.
+2024-12-25 11:16:58,503 - ERROR: Failed to update description for 8.
+2024-12-25 11:16:59,065 - ERROR: Failed to update description for 9.
+2024-12-25 11:16:59,632 - ERROR: Failed to update description for 10.
+2024-12-25 11:16:59,830 - ERROR: Failed to update description for 11.
+2024-12-25 11:17:00,419 - ERROR: Failed to update description for 12.
+2024-12-25 11:17:00,995 - ERROR: Failed to update description for 13.
+2024-12-25 11:17:01,199 - ERROR: Failed to update description for 14.
+2024-12-25 11:17:01,400 - ERROR: Failed to update description for 15.
+2024-12-25 11:17:01,603 - ERROR: Failed to update description for 16.
+2024-12-25 11:17:01,808 - ERROR: Failed to update description for 17.
+2024-12-26 11:17:06,585 - INFO: Program started
+2024-12-26 11:17:10,370 - ERROR: Failed to update description for 0.
+2024-12-26 11:17:10,942 - ERROR: Failed to update description for 1.
+2024-12-26 11:17:11,500 - ERROR: Failed to update description for 2.
+2024-12-26 11:17:12,069 - ERROR: Failed to update description for 3.
+2024-12-26 11:17:12,278 - ERROR: Failed to update description for 4.
+2024-12-26 11:17:12,847 - ERROR: Failed to update description for 5.
+2024-12-26 11:17:13,059 - ERROR: Failed to update description for 6.
+2024-12-26 11:17:13,636 - ERROR: Failed to update description for 7.
+2024-12-26 11:17:14,200 - ERROR: Failed to update description for 8.
+2024-12-26 11:17:14,407 - ERROR: Failed to update description for 9.
+2024-12-26 11:17:14,964 - ERROR: Failed to update description for 10.
+2024-12-26 11:17:15,565 - ERROR: Failed to update description for 11.
+2024-12-26 11:17:16,123 - ERROR: Failed to update description for 12.
+2024-12-26 11:17:16,713 - ERROR: Failed to update description for 13.
+2024-12-26 11:17:17,718 - ERROR: Failed to update description for 16.
+2024-12-26 11:17:17,931 - ERROR: Failed to update description for 17.
+2024-12-27 11:17:00,696 - INFO: Program started
+2024-12-30 11:16:56,278 - INFO: Program started
+2024-12-31 11:16:52,980 - INFO: Program started
+2024-12-31 11:16:55,574 - ERROR: Failed to update description for 0.
+2024-12-31 11:16:56,384 - ERROR: Failed to update description for 1.
+2024-12-31 11:16:57,176 - ERROR: Failed to update description for 2.
+2024-12-31 11:16:57,941 - ERROR: Failed to update description for 3.
+2024-12-31 11:16:58,706 - ERROR: Failed to update description for 4.
+2024-12-31 11:16:59,505 - ERROR: Failed to update description for 5.
+2024-12-31 11:17:00,290 - ERROR: Failed to update description for 6.
+2024-12-31 11:17:00,557 - ERROR: Failed to update description for 7.
+2024-12-31 11:17:01,343 - ERROR: Failed to update description for 8.
+2024-12-31 11:17:01,621 - ERROR: Failed to update description for 9.
+2024-12-31 11:17:01,906 - ERROR: Failed to update description for 10.
+2024-12-31 11:17:02,696 - ERROR: Failed to update description for 11.
+2024-12-31 11:17:03,455 - ERROR: Failed to update description for 12.
+2024-12-31 11:17:04,241 - ERROR: Failed to update description for 13.
+2024-12-31 11:17:05,592 - ERROR: Failed to update description for 16.
+2024-12-31 11:17:05,861 - ERROR: Failed to update description for 17.
+2025-01-01 11:16:36,566 - INFO: Program started
+2025-01-01 11:16:39,372 - ERROR: Failed to update description for 0.
+2025-01-01 11:16:40,170 - ERROR: Failed to update description for 1.
+2025-01-01 11:16:40,924 - ERROR: Failed to update description for 2.
+2025-01-01 11:16:41,753 - ERROR: Failed to update description for 3.
+2025-01-01 11:16:42,526 - ERROR: Failed to update description for 4.
+2025-01-01 11:16:42,799 - ERROR: Failed to update description for 5.
+2025-01-01 11:16:43,534 - ERROR: Failed to update description for 6.
+2025-01-01 11:16:43,803 - ERROR: Failed to update description for 7.
+2025-01-01 11:16:44,618 - ERROR: Failed to update description for 8.
+2025-01-01 11:16:45,411 - ERROR: Failed to update description for 9.
+2025-01-01 11:16:45,699 - ERROR: Failed to update description for 10.
+2025-01-01 11:16:46,485 - ERROR: Failed to update description for 11.
+2025-01-01 11:16:47,254 - ERROR: Failed to update description for 12.
+2025-01-01 11:16:47,545 - ERROR: Failed to update description for 13.
+2025-01-01 11:16:47,806 - ERROR: Failed to update description for 14.
+2025-01-01 11:16:48,624 - ERROR: Failed to update description for 15.
+2025-01-01 11:16:49,426 - ERROR: Failed to update description for 16.
+2025-01-01 11:16:49,708 - ERROR: Failed to update description for 17.
+2025-01-02 11:17:01,123 - INFO: Program started
+2025-01-03 11:17:14,037 - INFO: Program started
+2025-01-06 11:17:40,496 - INFO: Program started
+2025-01-07 11:17:24,413 - INFO: Program started
+2025-01-08 11:17:32,490 - INFO: Program started
+2025-01-09 11:17:19,502 - INFO: Program started
+2025-01-10 11:17:33,136 - INFO: Program started
+2025-01-13 11:17:54,874 - INFO: Program started
+2025-01-14 11:16:42,853 - INFO: Program started
+2025-01-15 11:17:47,122 - INFO: Program started
+2025-01-16 11:16:32,347 - INFO: Program started
+2025-01-17 11:17:48,215 - INFO: Program started
+2025-01-20 11:16:57,573 - INFO: Program started
+2025-01-21 11:16:52,995 - INFO: Program started
+2025-01-22 11:17:07,897 - INFO: Program started
+2025-01-23 11:17:13,113 - INFO: Program started
+2025-01-24 11:17:29,057 - INFO: Program started
+2025-01-27 11:17:28,327 - INFO: Program started
+2025-01-27 11:17:29,021 - ERROR: 
+1 Failed download:
+2025-01-27 11:17:29,022 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (period=1d)')
+2025-01-27 11:17:31,237 - ERROR: Failed to update description for 0.
+2025-01-27 11:17:32,037 - ERROR: Failed to update description for 1.
+2025-01-27 11:17:32,816 - ERROR: Failed to update description for 2.
+2025-01-27 11:17:33,637 - ERROR: Failed to update description for 3.
+2025-01-27 11:17:34,432 - ERROR: Failed to update description for 4.
+2025-01-27 11:17:35,249 - ERROR: Failed to update description for 5.
+2025-01-27 11:17:35,544 - ERROR: Failed to update description for 6.
+2025-01-27 11:17:35,834 - ERROR: Failed to update description for 7.
+2025-01-27 11:17:36,619 - ERROR: Failed to update description for 8.
+2025-01-27 11:17:37,453 - ERROR: Failed to update description for 9.
+2025-01-27 11:17:38,229 - ERROR: Failed to update description for 10.
+2025-01-27 11:17:39,032 - ERROR: Failed to update description for 11.
+2025-01-27 11:17:39,318 - ERROR: Failed to update description for 12.
+2025-01-27 11:17:41,191 - ERROR: Failed to update description for 15.
+2025-01-27 11:17:41,963 - ERROR: Failed to update description for 16.
+2025-01-28 11:16:50,982 - INFO: Program started
+2025-01-28 11:16:51,537 - ERROR: 
+1 Failed download:
+2025-01-28 11:16:51,537 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (period=1d)')
+2025-01-28 11:16:53,471 - ERROR: Failed to update description for 0.
+2025-01-28 11:16:54,246 - ERROR: Failed to update description for 1.
+2025-01-28 11:16:55,052 - ERROR: Failed to update description for 2.
+2025-01-28 11:16:55,842 - ERROR: Failed to update description for 3.
+2025-01-28 11:16:56,608 - ERROR: Failed to update description for 4.
+2025-01-28 11:16:57,400 - ERROR: Failed to update description for 5.
+2025-01-28 11:16:58,197 - ERROR: Failed to update description for 6.
+2025-01-28 11:16:58,990 - ERROR: Failed to update description for 7.
+2025-01-28 11:16:59,786 - ERROR: Failed to update description for 8.
+2025-01-28 11:17:00,602 - ERROR: Failed to update description for 9.
+2025-01-28 11:17:00,892 - ERROR: Failed to update description for 10.
+2025-01-28 11:17:01,679 - ERROR: Failed to update description for 11.
+2025-01-28 11:17:01,958 - ERROR: Failed to update description for 12.
+2025-01-28 11:17:03,843 - ERROR: Failed to update description for 15.
+2025-01-28 11:17:04,114 - ERROR: Failed to update description for 16.
+2025-01-29 11:17:01,345 - INFO: Program started
+2025-01-29 11:17:02,182 - ERROR: 
+1 Failed download:
+2025-01-29 11:17:02,182 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (period=1d)')
+2025-01-29 11:17:04,131 - ERROR: Failed to update description for 0.
+2025-01-29 11:17:04,717 - ERROR: Failed to update description for 1.
+2025-01-29 11:17:05,294 - ERROR: Failed to update description for 2.
+2025-01-29 11:17:05,883 - ERROR: Failed to update description for 3.
+2025-01-29 11:17:06,090 - ERROR: Failed to update description for 4.
+2025-01-29 11:17:06,667 - ERROR: Failed to update description for 5.
+2025-01-29 11:17:07,246 - ERROR: Failed to update description for 6.
+2025-01-29 11:17:07,455 - ERROR: Failed to update description for 7.
+2025-01-29 11:17:07,660 - ERROR: Failed to update description for 8.
+2025-01-29 11:17:07,869 - ERROR: Failed to update description for 9.
+2025-01-29 11:17:08,453 - ERROR: Failed to update description for 10.
+2025-01-29 11:17:08,670 - ERROR: Failed to update description for 11.
+2025-01-29 11:17:09,256 - ERROR: Failed to update description for 12.
+2025-01-29 11:17:09,461 - ERROR: Failed to update description for 13.
+2025-01-29 11:17:09,664 - ERROR: Failed to update description for 14.
+2025-01-29 11:17:10,235 - ERROR: Failed to update description for 15.
+2025-01-29 11:17:10,438 - ERROR: Failed to update description for 16.
+2025-01-30 11:18:13,824 - INFO: Program started
+2025-01-30 11:18:21,564 - ERROR: Failed to update description for 14.
+2025-01-30 11:18:22,148 - ERROR: Failed to update description for 15.
+2025-01-31 11:16:49,363 - INFO: Program started
+2025-02-03 11:16:58,876 - INFO: Program started
+2025-02-04 11:17:35,371 - INFO: Program started
+2025-02-05 11:17:11,796 - INFO: Program started
+2025-02-06 11:17:02,040 - INFO: Program started
+2025-02-07 11:17:06,530 - INFO: Program started
+2025-02-10 11:17:22,224 - INFO: Program started
+2025-02-11 11:17:40,902 - INFO: Program started
+2025-02-11 11:17:49,960 - ERROR: Failed to update description for 15.
+2025-02-12 11:17:35,037 - INFO: Program started
+2025-02-13 11:17:17,307 - INFO: Program started
+2025-02-14 11:17:12,871 - INFO: Program started
+2025-02-17 11:18:36,821 - INFO: Program started
+2025-02-18 11:17:35,914 - INFO: Program started
+2025-02-19 11:17:29,156 - INFO: Program started
+2025-02-19 11:17:30,035 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:30,495 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:30,496 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:31,156 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:31,721 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:31,721 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:32,247 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:33,037 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:33,037 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:33,801 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:34,706 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:34,706 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:35,739 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:45,712 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:45,712 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:46,404 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:47,149 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:47,149 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:47,651 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:48,052 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:48,052 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:48,701 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:49,623 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:49,623 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:50,016 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:51,500 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:51,500 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:52,340 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:52,988 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:52,988 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:53,624 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:54,252 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:54,252 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:54,885 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:55,820 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:55,820 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:57,195 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:57,776 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:57,776 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:58,844 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:17:59,464 - ERROR: 
+1 Failed download:
+2025-02-19 11:17:59,464 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:17:59,964 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:18:00,628 - ERROR: 
+1 Failed download:
+2025-02-19 11:18:00,628 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:18:01,329 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:18:02,731 - ERROR: 
+1 Failed download:
+2025-02-19 11:18:02,731 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:18:03,507 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:18:04,651 - ERROR: 
+1 Failed download:
+2025-02-19 11:18:04,651 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-19 11:18:05,490 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-19 11:18:06,039 - ERROR: 
+1 Failed download:
+2025-02-19 11:18:06,039 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:36,511 - INFO: Program started
+2025-02-20 11:17:37,660 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:38,389 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:38,389 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:38,995 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:39,729 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:39,729 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:40,363 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:41,166 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:41,166 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:41,914 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:43,270 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:43,271 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:43,773 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:44,242 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:44,242 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:44,879 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:45,417 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:45,417 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:45,943 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:46,530 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:46,531 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:47,324 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:47,795 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:47,796 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:48,467 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:49,110 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:49,110 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:50,487 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:51,132 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:51,132 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:51,554 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:52,093 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:52,093 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:52,583 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:53,024 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:53,024 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:53,716 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:54,457 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:54,457 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:55,292 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:55,792 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:55,792 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:56,307 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:56,753 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:56,754 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:57,190 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:17:58,755 - ERROR: 
+1 Failed download:
+2025-02-20 11:17:58,755 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:17:59,498 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:18:00,291 - ERROR: 
+1 Failed download:
+2025-02-20 11:18:00,291 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-20 11:18:01,480 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-20 11:18:02,424 - ERROR: 
+1 Failed download:
+2025-02-20 11:18:02,424 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:31,373 - INFO: Program started
+2025-02-21 11:18:32,673 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:33,247 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:33,247 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:33,911 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:34,564 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:34,564 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:35,179 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:35,829 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:35,829 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:36,411 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:37,113 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:37,113 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:37,624 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:38,482 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:38,482 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:39,630 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:40,131 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:40,131 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:40,750 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:41,808 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:41,808 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:42,964 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:44,042 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:44,042 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:44,511 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:45,364 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:45,364 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:45,983 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:46,435 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:46,435 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:46,994 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:47,632 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:47,632 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:48,424 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:49,178 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:49,178 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:49,861 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:50,319 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:50,319 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:51,142 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:51,827 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:51,828 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:52,387 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:52,900 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:52,900 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:53,390 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:53,827 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:53,827 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:54,358 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:55,243 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:55,243 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-21 11:18:55,707 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-21 11:18:56,124 - ERROR: 
+1 Failed download:
+2025-02-21 11:18:56,124 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:02,635 - INFO: Program started
+2025-02-24 11:18:04,655 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:05,608 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:05,608 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:06,521 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:07,176 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:07,176 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:08,181 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:08,707 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:08,708 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:09,230 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:09,701 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:09,701 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:10,557 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:11,341 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:11,341 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:12,001 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:12,847 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:12,847 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:13,396 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:13,840 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:13,840 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:14,447 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:14,865 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:14,865 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:15,512 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:16,172 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:16,172 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:16,641 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:17,255 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:17,255 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:18,285 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:18,731 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:18,732 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:19,259 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:19,795 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:19,795 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:20,304 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:20,979 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:20,979 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:21,853 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:22,495 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:22,495 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:23,080 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:23,810 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:23,810 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:24,316 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:24,986 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:24,986 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:25,805 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:28,049 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:28,049 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-24 11:18:28,737 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-24 11:18:29,384 - ERROR: 
+1 Failed download:
+2025-02-24 11:18:29,384 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:49,360 - INFO: Program started
+2025-02-25 11:17:50,224 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:50,847 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:50,848 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:51,342 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:52,144 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:52,144 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:52,624 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:53,824 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:53,824 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:54,361 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:56,571 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:56,571 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:57,219 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:57,836 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:57,836 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:58,471 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:17:59,040 - ERROR: 
+1 Failed download:
+2025-02-25 11:17:59,040 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:17:59,606 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:00,417 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:00,417 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:01,116 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:02,661 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:02,661 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:03,138 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:03,873 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:03,873 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:04,833 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:05,723 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:05,723 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:06,186 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:07,038 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:07,038 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:07,530 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:08,982 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:08,982 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:09,793 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:10,323 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:10,323 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:11,160 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:12,606 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:12,606 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:13,764 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:14,550 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:14,550 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:15,285 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:16,006 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:16,006 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:16,689 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:17,613 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:17,613 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-25 11:18:18,560 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-25 11:18:19,180 - ERROR: 
+1 Failed download:
+2025-02-25 11:18:19,180 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:19,486 - INFO: Program started
+2025-02-26 11:18:20,689 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:21,317 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:21,317 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:21,817 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:22,440 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:22,440 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:23,001 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:23,714 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:23,714 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:24,525 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:24,947 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:24,947 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:25,438 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:26,030 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:26,030 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:26,516 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:26,944 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:26,944 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:27,421 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:27,838 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:27,838 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:28,275 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:28,731 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:28,731 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:29,366 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:29,829 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:29,829 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:30,526 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:31,103 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:31,103 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:31,836 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:32,387 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:32,387 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:32,884 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:33,350 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:33,350 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:34,140 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:34,796 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:34,796 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:35,387 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:35,829 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:35,829 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:36,501 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:36,953 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:36,953 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:37,434 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:37,924 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:37,924 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:38,454 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:39,249 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:39,249 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-26 11:18:39,816 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-26 11:18:40,223 - ERROR: 
+1 Failed download:
+2025-02-26 11:18:40,223 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:17:54,378 - INFO: Program started
+2025-02-27 11:17:55,354 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:17:56,088 - ERROR: 
+1 Failed download:
+2025-02-27 11:17:56,088 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:17:56,890 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:17:57,433 - ERROR: 
+1 Failed download:
+2025-02-27 11:17:57,433 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:17:57,863 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:17:58,373 - ERROR: 
+1 Failed download:
+2025-02-27 11:17:58,373 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:17:58,928 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:17:59,428 - ERROR: 
+1 Failed download:
+2025-02-27 11:17:59,428 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:00,070 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:00,601 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:00,601 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:01,252 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:01,796 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:01,796 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:02,665 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:03,133 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:03,133 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:03,584 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:04,196 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:04,196 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:04,741 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:05,257 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:05,257 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:05,787 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:06,228 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:06,228 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:06,701 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:07,120 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:07,121 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:07,563 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:08,004 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:08,004 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:08,422 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:08,910 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:08,910 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:09,371 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:09,867 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:09,867 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:10,315 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:11,061 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:11,061 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:11,592 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:12,326 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:12,327 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:12,840 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:13,489 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:13,489 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-27 11:18:13,941 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-27 11:18:14,433 - ERROR: 
+1 Failed download:
+2025-02-27 11:18:14,433 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:40,536 - INFO: Program started
+2025-02-28 11:17:41,544 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:41,972 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:41,972 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:42,387 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:43,216 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:43,216 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:43,615 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:44,069 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:44,069 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:44,516 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:45,000 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:45,000 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:45,440 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:46,125 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:46,125 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:46,894 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:48,310 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:48,310 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:48,871 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:49,294 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:49,294 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:49,686 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:50,126 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:50,126 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:50,740 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:51,140 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:51,140 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:51,492 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:51,869 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:51,869 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:52,254 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:52,996 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:52,996 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:53,371 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:53,736 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:53,736 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:54,142 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:54,549 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:54,549 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:55,027 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:55,621 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:55,621 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:56,241 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:56,792 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:56,792 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:57,191 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:57,565 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:57,565 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:57,996 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:58,377 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:58,377 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-02-28 11:17:58,856 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-02-28 11:17:59,490 - ERROR: 
+1 Failed download:
+2025-02-28 11:17:59,490 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:23,802 - INFO: Program started
+2025-03-03 11:18:24,669 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:25,286 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:25,286 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:25,806 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:26,678 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:26,678 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:27,195 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:27,698 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:27,698 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:28,112 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:28,813 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:28,813 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:29,314 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:29,803 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:29,803 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:30,233 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:31,089 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:31,089 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:31,741 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:32,199 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:32,199 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:32,765 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:33,282 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:33,282 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:34,014 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:34,571 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:34,571 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:35,056 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:35,644 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:35,644 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:36,093 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:36,855 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:36,855 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:37,945 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:38,849 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:38,849 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:39,382 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:39,789 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:39,789 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:40,167 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:40,635 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:40,635 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:41,326 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:41,841 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:41,842 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:42,637 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:43,061 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:43,061 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:43,565 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:44,057 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:44,057 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-03 11:18:44,512 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-03 11:18:45,038 - ERROR: 
+1 Failed download:
+2025-03-03 11:18:45,038 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:04,355 - INFO: Program started
+2025-03-04 11:18:05,091 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:05,548 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:05,548 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:06,001 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:06,499 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:06,499 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:07,076 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:07,650 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:07,650 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:08,219 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:08,653 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:08,653 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:09,148 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:09,658 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:09,658 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:10,484 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:10,892 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:10,892 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:11,551 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:11,997 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:11,997 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:12,441 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:12,853 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:12,853 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:13,528 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:14,129 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:14,129 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:14,712 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:15,110 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:15,110 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:15,835 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:16,598 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:16,598 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:17,010 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:17,500 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:17,500 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:18,120 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:18,554 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:18,554 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:19,034 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:19,668 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:19,668 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:20,085 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:20,508 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:20,508 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:21,219 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:21,631 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:21,631 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:22,106 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:22,754 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:22,754 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-04 11:18:23,216 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-04 11:18:23,728 - ERROR: 
+1 Failed download:
+2025-03-04 11:18:23,728 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:18,911 - INFO: Program started
+2025-03-05 11:18:19,698 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:20,576 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:20,576 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:21,013 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:21,477 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:21,477 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:21,897 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:22,387 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:22,388 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:23,090 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:23,796 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:23,796 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:24,478 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:24,910 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:24,910 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:25,501 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:26,032 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:26,032 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:26,684 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:27,156 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:27,156 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:27,609 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:28,117 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:28,117 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:28,705 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:29,333 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:29,333 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:29,876 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:30,435 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:30,435 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:30,906 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:31,346 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:31,346 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:31,813 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:32,327 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:32,328 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:34,655 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:35,519 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:35,520 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:36,017 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:36,520 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:36,521 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:36,945 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:37,382 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:37,382 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:37,955 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:38,749 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:38,749 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:39,308 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:39,785 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:39,785 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-05 11:18:40,345 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:18:40,824 - ERROR: 
+1 Failed download:
+2025-03-05 11:18:40,824 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:55,703 - INFO: Program started
+2025-03-06 11:17:56,218 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:56,466 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:56,466 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:56,641 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:56,813 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:56,813 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:56,980 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:57,148 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:57,148 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:57,326 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:57,493 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:57,493 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:57,661 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:57,850 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:57,850 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:58,026 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:58,206 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:58,206 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:58,380 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:58,553 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:58,553 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:58,721 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:58,899 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:58,899 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:59,073 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:59,245 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:59,245 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:59,423 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:59,600 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:59,600 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:17:59,777 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:17:59,947 - ERROR: 
+1 Failed download:
+2025-03-06 11:17:59,947 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:00,116 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:00,292 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:00,292 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:00,467 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:00,638 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:00,638 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:00,811 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:00,984 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:00,984 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:01,159 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:01,363 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:01,363 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:01,535 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:01,710 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:01,710 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:01,884 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:02,056 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:02,056 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-06 11:18:02,224 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-06 11:18:02,391 - ERROR: 
+1 Failed download:
+2025-03-06 11:18:02,391 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:09,564 - INFO: Program started
+2025-03-07 11:18:10,559 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:10,715 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:10,716 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:10,895 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:11,073 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:11,073 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:11,252 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:11,438 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:11,438 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:11,614 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:11,805 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:11,805 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:11,977 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:12,151 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:12,151 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:12,330 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:12,516 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:12,516 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:12,695 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:17,739 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:17,739 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:17,917 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:18,095 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:18,095 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:18,268 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:18,441 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:18,441 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:18,614 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:18,797 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:18,797 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:18,974 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:19,156 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:19,156 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:19,328 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:19,511 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:19,511 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:19,686 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:19,856 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:19,856 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:20,029 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:20,213 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:20,213 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:20,395 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:20,630 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:20,630 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:20,803 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:20,976 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:20,976 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:21,179 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:21,362 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:21,362 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-07 11:18:21,537 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-07 11:18:23,979 - ERROR: 
+1 Failed download:
+2025-03-07 11:18:23,979 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:48,375 - INFO: Program started
+2025-03-10 11:16:48,891 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:49,027 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:49,027 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:49,159 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:49,294 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:49,294 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:49,447 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:49,591 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:49,591 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:49,725 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:49,868 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:49,868 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:49,996 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:50,122 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:50,123 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:50,264 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:50,398 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:50,398 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:50,537 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:50,675 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:50,675 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:50,799 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:50,922 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:50,922 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:51,050 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:51,189 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:51,189 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:51,321 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:51,454 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:51,454 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:51,579 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:51,712 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:51,712 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:51,840 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:51,977 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:51,977 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:52,111 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:52,245 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:52,246 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:52,379 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:52,512 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:52,512 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:52,653 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:52,810 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:52,810 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:52,953 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:53,086 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:53,086 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:53,209 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:53,342 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:53,342 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-10 11:16:53,476 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-10 11:16:53,619 - ERROR: 
+1 Failed download:
+2025-03-10 11:16:53,619 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:42,795 - INFO: Program started
+2025-03-11 11:18:43,225 - ERROR: Failed to get ticker '^JKLQ45' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:43,374 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:43,374 - ERROR: ['^JKLQ45']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:43,500 - ERROR: Failed to get ticker 'IDX30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:43,633 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:43,633 - ERROR: ['IDX30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:43,761 - ERROR: Failed to get ticker 'IDXHIDIV20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:43,878 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:43,878 - ERROR: ['IDXHIDIV20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:44,007 - ERROR: Failed to get ticker 'IDXBUMN20.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:44,132 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:44,132 - ERROR: ['IDXBUMN20.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:44,273 - ERROR: Failed to get ticker 'WIIDN.FGI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:44,397 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:44,397 - ERROR: ['WIIDN.FGI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:44,515 - ERROR: Failed to get ticker 'IDXV30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:44,642 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:44,642 - ERROR: ['IDXV30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:44,765 - ERROR: Failed to get ticker 'IDXG30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:44,887 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:44,887 - ERROR: ['IDXG30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:45,027 - ERROR: Failed to get ticker 'IDXQ30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:45,163 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:45,163 - ERROR: ['IDXQ30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:45,289 - ERROR: Failed to get ticker 'IDXESGL.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:45,412 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:45,412 - ERROR: ['IDXESGL.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:45,534 - ERROR: Failed to get ticker 'SRI-KEHATI.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:45,657 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:45,657 - ERROR: ['SRI-KEHATI.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:45,784 - ERROR: Failed to get ticker 'SMINFRA18.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:45,913 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:45,913 - ERROR: ['SMINFRA18.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:46,039 - ERROR: Failed to get ticker 'JII70.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:46,163 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:46,163 - ERROR: ['JII70.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:46,284 - ERROR: Failed to get ticker 'KOMPAS100.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:46,410 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:46,410 - ERROR: ['KOMPAS100.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:46,529 - ERROR: Failed to get ticker '^JKSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:46,657 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:46,657 - ERROR: ['^JKSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:46,787 - ERROR: Failed to get ticker '^STI' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:46,911 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:46,911 - ERROR: ['^STI']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:47,035 - ERROR: Failed to get ticker '^KLSE' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:47,169 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:47,169 - ERROR: ['^KLSE']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:47,297 - ERROR: Failed to get ticker 'ECONOMIC30.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:47,423 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:47,423 - ERROR: ['ECONOMIC30.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-11 11:18:47,567 - ERROR: Failed to get ticker 'IDXVESTA28.JK' reason: Expecting value: line 1 column 1 (char 0)
+2025-03-11 11:18:47,701 - ERROR: 
+1 Failed download:
+2025-03-11 11:18:47,701 - ERROR: ['IDXVESTA28.JK']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-12 05:39:44,433 - INFO: Program started
+2025-03-12 05:39:48,583 - ERROR: Failed to update description for 0.
+2025-03-12 05:39:49,176 - ERROR: Failed to update description for 1.
+2025-03-12 05:39:49,761 - ERROR: Failed to update description for 2.
+2025-03-12 05:39:50,384 - ERROR: Failed to update description for 3.
+2025-03-12 05:39:50,598 - ERROR: Failed to update description for 4.
+2025-03-12 05:39:51,196 - ERROR: Failed to update description for 5.
+2025-03-12 05:39:51,799 - ERROR: Failed to update description for 6.
+2025-03-12 05:39:52,024 - ERROR: Failed to update description for 7.
+2025-03-12 05:39:52,624 - ERROR: Failed to update description for 8.
+2025-03-12 05:39:53,226 - ERROR: Failed to update description for 9.
+2025-03-12 05:39:53,441 - ERROR: Failed to update description for 10.
+2025-03-12 05:39:53,664 - ERROR: Failed to update description for 11.
+2025-03-12 05:39:53,900 - ERROR: Failed to update description for 12.
+2025-03-12 05:39:54,484 - ERROR: Failed to update description for 13.
+2025-03-12 05:39:54,699 - ERROR: Failed to update description for 14.
+2025-03-12 05:39:55,311 - ERROR: Failed to update description for 15.
+2025-03-12 05:39:55,928 - ERROR: Failed to update description for 16.
+2025-03-12 05:39:56,147 - ERROR: Failed to update description for 17.
+2025-03-12 11:18:23,351 - INFO: Program started
+2025-03-12 11:18:26,684 - ERROR: Failed to update description for 0.
+2025-03-12 11:18:27,369 - ERROR: Failed to update description for 1.
+2025-03-12 11:18:28,069 - ERROR: Failed to update description for 2.
+2025-03-12 11:18:28,325 - ERROR: Failed to update description for 3.
+2025-03-12 11:18:29,043 - ERROR: Failed to update description for 4.
+2025-03-12 11:18:29,720 - ERROR: Failed to update description for 5.
+2025-03-12 11:18:30,396 - ERROR: Failed to update description for 6.
+2025-03-12 11:18:31,088 - ERROR: Failed to update description for 7.
+2025-03-12 11:18:31,744 - ERROR: Failed to update description for 8.
+2025-03-12 11:18:32,448 - ERROR: Failed to update description for 9.
+2025-03-12 11:18:32,689 - ERROR: Failed to update description for 10.
+2025-03-12 11:18:33,383 - ERROR: Failed to update description for 11.
+2025-03-12 11:18:34,104 - ERROR: Failed to update description for 12.
+2025-03-12 11:18:34,797 - ERROR: Failed to update description for 13.
+2025-03-12 11:18:35,508 - ERROR: Failed to update description for 14.
+2025-03-12 11:18:36,191 - ERROR: Failed to update description for 15.
+2025-03-12 11:18:36,434 - ERROR: Failed to update description for 16.
+2025-03-12 11:18:36,686 - ERROR: Failed to update description for 17.
+2025-03-13 11:18:41,436 - INFO: Program started
+2025-03-14 11:18:04,244 - INFO: Program started
+2025-03-17 11:18:15,185 - INFO: Program started
+2025-03-18 11:18:15,520 - INFO: Program started
+2025-03-18 11:18:25,384 - ERROR: Failed to update description for 15.
+2025-03-19 11:18:34,299 - INFO: Program started
+2025-03-20 11:18:22,363 - INFO: Program started
+2025-03-21 11:18:26,773 - INFO: Program started
+2025-03-24 11:18:31,446 - INFO: Program started
+2025-03-25 11:19:32,657 - INFO: Program started
+2025-03-26 11:18:28,494 - INFO: Program started
+2025-03-27 11:18:23,871 - INFO: Program started
+2025-03-28 11:18:18,783 - INFO: Program started
+2025-03-28 11:18:23,141 - ERROR: Failed to update description for 0.
+2025-03-28 11:18:23,747 - ERROR: Failed to update description for 1.
+2025-03-28 11:18:24,349 - ERROR: Failed to update description for 2.
+2025-03-28 11:18:24,967 - ERROR: Failed to update description for 3.
+2025-03-28 11:18:25,549 - ERROR: Failed to update description for 4.
+2025-03-28 11:18:26,150 - ERROR: Failed to update description for 5.
+2025-03-28 11:18:26,370 - ERROR: Failed to update description for 6.
+2025-03-28 11:18:26,584 - ERROR: Failed to update description for 7.
+2025-03-28 11:18:26,800 - ERROR: Failed to update description for 8.
+2025-03-28 11:18:27,421 - ERROR: Failed to update description for 9.
+2025-03-28 11:18:27,664 - ERROR: Failed to update description for 10.
+2025-03-28 11:18:28,301 - ERROR: Failed to update description for 11.
+2025-03-28 11:18:28,508 - ERROR: Failed to update description for 12.
+2025-03-28 11:18:29,108 - ERROR: Failed to update description for 13.
+2025-03-28 11:18:30,506 - ERROR: Failed to update description for 16.
+2025-03-28 11:18:30,725 - ERROR: Failed to update description for 17.
+2025-03-31 11:18:30,790 - INFO: Program started
+2025-03-31 11:18:31,662 - ERROR: 
+1 Failed download:
+2025-03-31 11:18:31,662 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-03-31 11:18:34,109 - ERROR: Failed to update description for 0.
+2025-03-31 11:18:34,976 - ERROR: Failed to update description for 1.
+2025-03-31 11:18:35,816 - ERROR: Failed to update description for 2.
+2025-03-31 11:18:36,647 - ERROR: Failed to update description for 3.
+2025-03-31 11:18:37,490 - ERROR: Failed to update description for 4.
+2025-03-31 11:18:37,790 - ERROR: Failed to update description for 5.
+2025-03-31 11:18:38,097 - ERROR: Failed to update description for 6.
+2025-03-31 11:18:38,918 - ERROR: Failed to update description for 7.
+2025-03-31 11:18:39,744 - ERROR: Failed to update description for 8.
+2025-03-31 11:18:40,603 - ERROR: Failed to update description for 9.
+2025-03-31 11:18:40,901 - ERROR: Failed to update description for 10.
+2025-03-31 11:18:41,200 - ERROR: Failed to update description for 11.
+2025-03-31 11:18:42,021 - ERROR: Failed to update description for 12.
+2025-03-31 11:18:42,319 - ERROR: Failed to update description for 13.
+2025-03-31 11:18:42,615 - ERROR: Failed to update description for 14.
+2025-03-31 11:18:43,431 - ERROR: Failed to update description for 15.
+2025-03-31 11:18:43,819 - ERROR: Failed to update description for 16.
+2025-04-01 11:19:24,624 - INFO: Program started
+2025-04-01 11:19:26,301 - ERROR: 
+1 Failed download:
+2025-04-01 11:19:26,302 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-04-01 11:19:28,958 - ERROR: Failed to update description for 0.
+2025-04-01 11:19:29,566 - ERROR: Failed to update description for 1.
+2025-04-01 11:19:30,147 - ERROR: Failed to update description for 2.
+2025-04-01 11:19:30,774 - ERROR: Failed to update description for 3.
+2025-04-01 11:19:31,371 - ERROR: Failed to update description for 4.
+2025-04-01 11:19:31,958 - ERROR: Failed to update description for 5.
+2025-04-01 11:19:32,556 - ERROR: Failed to update description for 6.
+2025-04-01 11:19:33,140 - ERROR: Failed to update description for 7.
+2025-04-01 11:19:33,358 - ERROR: Failed to update description for 8.
+2025-04-01 11:19:33,585 - ERROR: Failed to update description for 9.
+2025-04-01 11:19:33,817 - ERROR: Failed to update description for 10.
+2025-04-01 11:19:34,443 - ERROR: Failed to update description for 11.
+2025-04-01 11:19:35,039 - ERROR: Failed to update description for 12.
+2025-04-01 11:19:35,848 - ERROR: Failed to update description for 14.
+2025-04-01 11:19:36,070 - ERROR: Failed to update description for 15.
+2025-04-01 11:19:36,296 - ERROR: Failed to update description for 16.
+2025-04-02 11:18:43,030 - INFO: Program started
+2025-04-02 11:18:43,807 - ERROR: 
+1 Failed download:
+2025-04-02 11:18:43,808 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-04-02 11:18:45,808 - ERROR: Failed to update description for 0.
+2025-04-02 11:18:46,392 - ERROR: Failed to update description for 1.
+2025-04-02 11:18:47,065 - ERROR: Failed to update description for 2.
+2025-04-02 11:18:47,683 - ERROR: Failed to update description for 3.
+2025-04-02 11:18:48,287 - ERROR: Failed to update description for 4.
+2025-04-02 11:18:48,894 - ERROR: Failed to update description for 5.
+2025-04-02 11:18:49,505 - ERROR: Failed to update description for 6.
+2025-04-02 11:18:50,110 - ERROR: Failed to update description for 7.
+2025-04-02 11:18:50,708 - ERROR: Failed to update description for 8.
+2025-04-02 11:18:51,297 - ERROR: Failed to update description for 9.
+2025-04-02 11:18:51,516 - ERROR: Failed to update description for 10.
+2025-04-02 11:18:52,120 - ERROR: Failed to update description for 11.
+2025-04-02 11:18:52,393 - ERROR: Failed to update description for 12.
+2025-04-02 11:18:53,432 - ERROR: Failed to update description for 15.
+2025-04-02 11:18:53,645 - ERROR: Failed to update description for 16.
+2025-04-03 11:20:53,870 - INFO: Program started
+2025-04-03 11:20:54,582 - ERROR: 
+1 Failed download:
+2025-04-03 11:20:54,583 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-04-03 11:20:56,690 - ERROR: Failed to update description for 0.
+2025-04-03 11:20:57,308 - ERROR: Failed to update description for 1.
+2025-04-03 11:20:57,908 - ERROR: Failed to update description for 2.
+2025-04-03 11:20:58,507 - ERROR: Failed to update description for 3.
+2025-04-03 11:20:59,109 - ERROR: Failed to update description for 4.
+2025-04-03 11:20:59,699 - ERROR: Failed to update description for 5.
+2025-04-03 11:21:00,300 - ERROR: Failed to update description for 6.
+2025-04-03 11:21:00,518 - ERROR: Failed to update description for 7.
+2025-04-03 11:21:00,733 - ERROR: Failed to update description for 8.
+2025-04-03 11:21:00,958 - ERROR: Failed to update description for 9.
+2025-04-03 11:21:01,166 - ERROR: Failed to update description for 10.
+2025-04-03 11:21:01,380 - ERROR: Failed to update description for 11.
+2025-04-03 11:21:01,997 - ERROR: Failed to update description for 12.
+2025-04-03 11:21:02,661 - ERROR: Failed to update description for 15.
+2025-04-03 11:21:03,267 - ERROR: Failed to update description for 16.
+2025-04-04 11:19:39,809 - INFO: Program started
+2025-04-04 11:19:40,540 - ERROR: 
+1 Failed download:
+2025-04-04 11:19:40,540 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-04-04 11:19:42,665 - ERROR: Failed to update description for 0.
+2025-04-04 11:19:43,492 - ERROR: Failed to update description for 1.
+2025-04-04 11:19:44,238 - ERROR: Failed to update description for 2.
+2025-04-04 11:19:45,027 - ERROR: Failed to update description for 3.
+2025-04-04 11:19:45,791 - ERROR: Failed to update description for 4.
+2025-04-04 11:19:46,609 - ERROR: Failed to update description for 5.
+2025-04-04 11:19:47,392 - ERROR: Failed to update description for 6.
+2025-04-04 11:19:48,152 - ERROR: Failed to update description for 7.
+2025-04-04 11:19:48,960 - ERROR: Failed to update description for 8.
+2025-04-04 11:19:49,754 - ERROR: Failed to update description for 9.
+2025-04-04 11:19:50,613 - ERROR: Failed to update description for 10.
+2025-04-04 11:19:51,438 - ERROR: Failed to update description for 11.
+2025-04-04 11:19:52,210 - ERROR: Failed to update description for 12.
+2025-04-04 11:19:54,600 - ERROR: Failed to update description for 15.
+2025-04-04 11:19:54,885 - ERROR: Failed to update description for 16.
+2025-04-07 11:19:12,448 - INFO: Program started
+2025-04-07 11:19:13,221 - ERROR: 
+1 Failed download:
+2025-04-07 11:19:13,221 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-04-07 11:19:15,737 - ERROR: Failed to update description for 0.
+2025-04-07 11:19:16,418 - ERROR: Failed to update description for 1.
+2025-04-07 11:19:17,087 - ERROR: Failed to update description for 2.
+2025-04-07 11:19:17,777 - ERROR: Failed to update description for 3.
+2025-04-07 11:19:18,463 - ERROR: Failed to update description for 4.
+2025-04-07 11:19:18,706 - ERROR: Failed to update description for 5.
+2025-04-07 11:19:19,392 - ERROR: Failed to update description for 6.
+2025-04-07 11:19:19,636 - ERROR: Failed to update description for 7.
+2025-04-07 11:19:20,317 - ERROR: Failed to update description for 8.
+2025-04-07 11:19:20,563 - ERROR: Failed to update description for 9.
+2025-04-07 11:19:20,798 - ERROR: Failed to update description for 10.
+2025-04-07 11:19:21,510 - ERROR: Failed to update description for 11.
+2025-04-07 11:19:21,750 - ERROR: Failed to update description for 12.
+2025-04-07 11:19:23,834 - ERROR: Failed to update description for 15.
+2025-04-07 11:19:24,073 - ERROR: Failed to update description for 16.
+2025-04-08 11:19:12,865 - INFO: Program started
+2025-04-09 11:19:09,206 - INFO: Program started
+2025-04-10 11:19:10,252 - INFO: Program started
+2025-04-11 11:18:28,749 - INFO: Program started
+2025-04-14 11:19:05,198 - INFO: Program started
+2025-04-15 11:19:00,775 - INFO: Program started
+2025-04-16 11:19:12,469 - INFO: Program started
+2025-04-17 11:19:06,574 - INFO: Program started
+2025-04-18 11:18:22,022 - INFO: Program started
+2025-04-18 11:18:24,117 - ERROR: Failed to update description for 0.
+2025-04-18 11:18:24,780 - ERROR: Failed to update description for 1.
+2025-04-18 11:18:25,431 - ERROR: Failed to update description for 2.
+2025-04-18 11:18:26,140 - ERROR: Failed to update description for 3.
+2025-04-18 11:18:26,810 - ERROR: Failed to update description for 4.
+2025-04-18 11:18:27,062 - ERROR: Failed to update description for 5.
+2025-04-18 11:18:27,759 - ERROR: Failed to update description for 6.
+2025-04-18 11:18:28,471 - ERROR: Failed to update description for 7.
+2025-04-18 11:18:29,168 - ERROR: Failed to update description for 8.
+2025-04-18 11:18:29,853 - ERROR: Failed to update description for 9.
+2025-04-18 11:18:30,088 - ERROR: Failed to update description for 10.
+2025-04-18 11:18:30,799 - ERROR: Failed to update description for 11.
+2025-04-18 11:18:31,041 - ERROR: Failed to update description for 12.
+2025-04-18 11:18:31,289 - ERROR: Failed to update description for 13.
+2025-04-18 11:18:31,998 - ERROR: Failed to update description for 14.
+2025-04-18 11:18:33,356 - ERROR: Failed to update description for 16.
+2025-04-18 11:18:33,589 - ERROR: Failed to update description for 17.
+2025-04-21 11:18:44,073 - INFO: Program started
+2025-04-22 11:19:33,924 - INFO: Program started
+2025-04-23 11:19:30,904 - INFO: Program started
+2025-04-24 11:19:38,814 - INFO: Program started
+2025-04-25 11:19:04,511 - INFO: Program started
+2025-04-28 11:36:02,791 - INFO: Program started
+2025-04-29 11:19:34,230 - INFO: Program started
+2025-04-30 11:19:29,867 - INFO: Program started
+2025-05-01 11:19:25,185 - INFO: Program started
+2025-05-01 11:19:26,454 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:26,455 - ERROR: ['^JKLQ45']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:26,992 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:26,992 - ERROR: ['IDX30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:27,582 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:27,582 - ERROR: ['IDXHIDIV20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:28,131 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:28,131 - ERROR: ['IDXBUMN20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:28,619 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:28,620 - ERROR: ['WIIDN.FGI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:29,130 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:29,130 - ERROR: ['IDXV30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:29,609 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:29,609 - ERROR: ['IDXG30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:30,117 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:30,117 - ERROR: ['IDXQ30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:30,829 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:30,829 - ERROR: ['IDXESGL.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:31,318 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:31,318 - ERROR: ['SRI-KEHATI.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:32,090 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:32,090 - ERROR: ['SMINFRA18.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:32,859 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:32,859 - ERROR: ['JII70.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:33,410 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:33,410 - ERROR: ['KOMPAS100.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:33,888 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:33,888 - ERROR: ['^JKSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:34,448 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:34,449 - ERROR: ['^STI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:35,009 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:35,009 - ERROR: ['^KLSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:35,650 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:35,650 - ERROR: ['ECONOMIC30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-01 11:19:36,151 - ERROR: 
+1 Failed download:
+2025-05-01 11:19:36,151 - ERROR: ['IDXVESTA28.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:17,521 - INFO: Program started
+2025-05-02 11:19:18,618 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:18,618 - ERROR: ['^JKLQ45']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:19,329 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:19,329 - ERROR: ['IDX30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:19,869 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:19,869 - ERROR: ['IDXHIDIV20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:20,381 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:20,381 - ERROR: ['IDXBUMN20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:20,889 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:20,889 - ERROR: ['WIIDN.FGI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:21,365 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:21,365 - ERROR: ['IDXV30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:21,860 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:21,860 - ERROR: ['IDXG30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:22,346 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:22,346 - ERROR: ['IDXQ30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:22,815 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:22,815 - ERROR: ['IDXESGL.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:23,314 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:23,314 - ERROR: ['SRI-KEHATI.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:23,828 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:23,828 - ERROR: ['SMINFRA18.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:24,529 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:24,529 - ERROR: ['JII70.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:25,018 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:25,018 - ERROR: ['KOMPAS100.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:25,667 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:25,667 - ERROR: ['^JKSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:26,284 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:26,284 - ERROR: ['^STI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:26,934 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:26,935 - ERROR: ['^KLSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:27,499 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:27,499 - ERROR: ['ECONOMIC30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-02 11:19:28,186 - ERROR: 
+1 Failed download:
+2025-05-02 11:19:28,187 - ERROR: ['IDXVESTA28.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-05 11:19:46,534 - INFO: Program started
+2025-05-06 11:19:41,607 - INFO: Program started
+2025-05-06 11:19:42,842 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:42,842 - ERROR: ['^JKLQ45']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:43,311 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:43,312 - ERROR: ['IDX30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:43,841 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:43,841 - ERROR: ['IDXHIDIV20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:44,586 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:44,586 - ERROR: ['IDXBUMN20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:45,110 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:45,110 - ERROR: ['WIIDN.FGI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:45,639 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:45,639 - ERROR: ['IDXV30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:46,098 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:46,098 - ERROR: ['IDXG30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:46,713 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:46,713 - ERROR: ['IDXQ30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:47,412 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:47,412 - ERROR: ['IDXESGL.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:47,900 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:47,900 - ERROR: ['SRI-KEHATI.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:48,578 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:48,578 - ERROR: ['SMINFRA18.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:49,037 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:49,037 - ERROR: ['JII70.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:50,554 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:50,554 - ERROR: ['KOMPAS100.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:51,002 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:51,002 - ERROR: ['^JKSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:51,537 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:51,537 - ERROR: ['^STI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:52,015 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:52,015 - ERROR: ['^KLSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 11:19:52,578 - ERROR: 
+1 Failed download:
+2025-05-06 11:19:52,578 - ERROR: ['IDXVESTA28.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:36,929 - INFO: Program started
+2025-05-07 11:20:38,190 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:38,190 - ERROR: ['^JKLQ45']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:38,687 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:38,687 - ERROR: ['IDX30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:39,233 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:39,233 - ERROR: ['IDXHIDIV20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:39,822 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:39,822 - ERROR: ['IDXBUMN20.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:40,288 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:40,288 - ERROR: ['WIIDN.FGI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:40,872 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:40,873 - ERROR: ['IDXV30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:41,372 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:41,372 - ERROR: ['IDXG30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:41,979 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:41,979 - ERROR: ['IDXQ30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:42,548 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:42,548 - ERROR: ['IDXESGL.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:43,227 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:43,227 - ERROR: ['SRI-KEHATI.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:43,721 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:43,721 - ERROR: ['SMINFRA18.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:45,025 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:45,025 - ERROR: ['JII70.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:45,585 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:45,585 - ERROR: ['KOMPAS100.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:46,307 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:46,307 - ERROR: ['^JKSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:46,773 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:46,773 - ERROR: ['^STI']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:47,444 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:47,444 - ERROR: ['^KLSE']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:49,659 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:49,659 - ERROR: ['ECONOMIC30.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:20:50,367 - ERROR: 
+1 Failed download:
+2025-05-07 11:20:50,367 - ERROR: ['IDXVESTA28.JK']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 11:20:07,398 - INFO: Program started
+2025-05-09 11:18:52,821 - INFO: Program started
+2025-05-12 11:20:19,514 - INFO: Program started
+2025-05-12 11:20:20,583 - ERROR: 
+1 Failed download:
+2025-05-12 11:20:20,584 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-05-12 11:20:22,989 - ERROR: Failed to update description for 0.
+2025-05-12 11:20:23,593 - ERROR: Failed to update description for 1.
+2025-05-12 11:20:23,806 - ERROR: Failed to update description for 2.
+2025-05-12 11:20:24,415 - ERROR: Failed to update description for 3.
+2025-05-12 11:20:25,007 - ERROR: Failed to update description for 4.
+2025-05-12 11:20:25,627 - ERROR: Failed to update description for 5.
+2025-05-12 11:20:26,237 - ERROR: Failed to update description for 6.
+2025-05-12 11:20:26,852 - ERROR: Failed to update description for 7.
+2025-05-12 11:20:27,062 - ERROR: Failed to update description for 8.
+2025-05-12 11:20:27,647 - ERROR: Failed to update description for 9.
+2025-05-12 11:20:28,279 - ERROR: Failed to update description for 10.
+2025-05-12 11:20:28,491 - ERROR: Failed to update description for 11.
+2025-05-12 11:20:29,098 - ERROR: Failed to update description for 12.
+2025-05-12 11:20:29,685 - ERROR: Failed to update description for 13.
+2025-05-12 11:20:29,899 - ERROR: Failed to update description for 14.
+2025-05-12 11:20:30,118 - ERROR: Failed to update description for 15.
+2025-05-12 11:20:30,339 - ERROR: Failed to update description for 16.
+2025-05-13 11:20:17,013 - INFO: Program started
+2025-05-13 11:20:18,961 - ERROR: 
+1 Failed download:
+2025-05-13 11:20:18,961 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-05-13 11:20:23,165 - ERROR: Failed to update description for 0.
+2025-05-13 11:20:23,772 - ERROR: Failed to update description for 1.
+2025-05-13 11:20:23,983 - ERROR: Failed to update description for 2.
+2025-05-13 11:20:24,568 - ERROR: Failed to update description for 3.
+2025-05-13 11:20:25,153 - ERROR: Failed to update description for 4.
+2025-05-13 11:20:25,760 - ERROR: Failed to update description for 5.
+2025-05-13 11:20:25,972 - ERROR: Failed to update description for 6.
+2025-05-13 11:20:26,194 - ERROR: Failed to update description for 7.
+2025-05-13 11:20:26,412 - ERROR: Failed to update description for 8.
+2025-05-13 11:20:27,018 - ERROR: Failed to update description for 9.
+2025-05-13 11:20:27,605 - ERROR: Failed to update description for 10.
+2025-05-13 11:20:27,820 - ERROR: Failed to update description for 11.
+2025-05-13 11:20:28,053 - ERROR: Failed to update description for 12.
+2025-05-13 11:20:29,093 - ERROR: Failed to update description for 15.
+2025-05-13 11:20:29,316 - ERROR: Failed to update description for 16.
+2025-05-14 11:19:54,770 - INFO: Program started
+2025-05-15 11:20:08,024 - INFO: Program started
+2025-05-16 11:19:52,540 - INFO: Program started
+2025-05-19 11:20:19,804 - INFO: Program started
+2025-05-20 11:20:02,505 - INFO: Program started
+2025-05-21 11:20:00,879 - INFO: Program started
+2025-05-22 11:20:21,081 - INFO: Program started
+2025-05-23 11:19:35,354 - INFO: Program started
+2025-05-26 11:18:40,122 - INFO: Program started
+2025-05-27 11:20:20,828 - INFO: Program started
+2025-05-28 11:20:37,361 - INFO: Program started
+2025-05-29 11:20:03,223 - INFO: Program started
+2025-05-29 11:20:07,552 - ERROR: Failed to update description for 0.
+2025-05-29 11:20:08,332 - ERROR: Failed to update description for 1.
+2025-05-29 11:20:09,092 - ERROR: Failed to update description for 2.
+2025-05-29 11:20:09,898 - ERROR: Failed to update description for 3.
+2025-05-29 11:20:10,658 - ERROR: Failed to update description for 4.
+2025-05-29 11:20:11,443 - ERROR: Failed to update description for 5.
+2025-05-29 11:20:11,708 - ERROR: Failed to update description for 6.
+2025-05-29 11:20:12,485 - ERROR: Failed to update description for 7.
+2025-05-29 11:20:13,282 - ERROR: Failed to update description for 8.
+2025-05-29 11:20:13,571 - ERROR: Failed to update description for 9.
+2025-05-29 11:20:14,364 - ERROR: Failed to update description for 10.
+2025-05-29 11:20:15,123 - ERROR: Failed to update description for 11.
+2025-05-29 11:20:15,913 - ERROR: Failed to update description for 12.
+2025-05-29 11:20:16,691 - ERROR: Failed to update description for 13.
+2025-05-29 11:20:19,018 - ERROR: Failed to update description for 16.
+2025-05-29 11:20:19,835 - ERROR: Failed to update description for 17.
+2025-05-30 11:19:25,881 - INFO: Program started
+2025-05-30 11:19:27,141 - ERROR: 
+1 Failed download:
+2025-05-30 11:19:27,142 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-05-30 11:19:30,147 - ERROR: Failed to update description for 0.
+2025-05-30 11:19:30,427 - ERROR: Failed to update description for 1.
+2025-05-30 11:19:31,201 - ERROR: Failed to update description for 2.
+2025-05-30 11:19:31,487 - ERROR: Failed to update description for 3.
+2025-05-30 11:19:32,227 - ERROR: Failed to update description for 4.
+2025-05-30 11:19:32,505 - ERROR: Failed to update description for 5.
+2025-05-30 11:19:33,279 - ERROR: Failed to update description for 6.
+2025-05-30 11:19:33,574 - ERROR: Failed to update description for 7.
+2025-05-30 11:19:33,870 - ERROR: Failed to update description for 8.
+2025-05-30 11:19:34,135 - ERROR: Failed to update description for 9.
+2025-05-30 11:19:34,415 - ERROR: Failed to update description for 10.
+2025-05-30 11:19:34,690 - ERROR: Failed to update description for 11.
+2025-05-30 11:19:34,961 - ERROR: Failed to update description for 12.
+2025-05-30 11:19:35,765 - ERROR: Failed to update description for 15.
+2025-05-30 11:19:36,051 - ERROR: Failed to update description for 16.
+2025-06-02 11:21:26,102 - INFO: Program started
+2025-06-02 11:21:35,996 - ERROR: Failed to update description for 15.
+2025-06-03 11:20:45,753 - INFO: Program started
+2025-06-04 11:21:09,934 - INFO: Program started
+2025-06-05 11:21:28,399 - INFO: Program started
+2025-06-06 11:21:01,696 - INFO: Program started
+2025-06-06 11:21:09,351 - ERROR: Failed to update description for 0.
+2025-06-06 11:21:10,044 - ERROR: Failed to update description for 1.
+2025-06-06 11:21:10,732 - ERROR: Failed to update description for 2.
+2025-06-06 11:21:11,404 - ERROR: Failed to update description for 3.
+2025-06-06 11:21:12,124 - ERROR: Failed to update description for 4.
+2025-06-06 11:21:12,841 - ERROR: Failed to update description for 5.
+2025-06-06 11:21:13,096 - ERROR: Failed to update description for 6.
+2025-06-06 11:21:13,375 - ERROR: Failed to update description for 7.
+2025-06-06 11:21:13,634 - ERROR: Failed to update description for 8.
+2025-06-06 11:21:13,898 - ERROR: Failed to update description for 9.
+2025-06-06 11:21:14,569 - ERROR: Failed to update description for 10.
+2025-06-06 11:21:14,826 - ERROR: Failed to update description for 11.
+2025-06-06 11:21:15,516 - ERROR: Failed to update description for 12.
+2025-06-06 11:21:15,775 - ERROR: Failed to update description for 13.
+2025-06-06 11:21:16,987 - ERROR: Failed to update description for 16.
+2025-06-06 11:21:17,674 - ERROR: Failed to update description for 17.
+2025-06-09 11:20:56,900 - INFO: Program started
+2025-06-09 11:20:58,049 - ERROR: 
+1 Failed download:
+2025-06-09 11:20:58,049 - ERROR: ['WIIDN.FGI']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-06-09 11:21:00,499 - ERROR: Failed to update description for 0.
+2025-06-09 11:21:01,111 - ERROR: Failed to update description for 1.
+2025-06-09 11:21:01,703 - ERROR: Failed to update description for 2.
+2025-06-09 11:21:02,320 - ERROR: Failed to update description for 3.
+2025-06-09 11:21:02,922 - ERROR: Failed to update description for 4.
+2025-06-09 11:21:03,542 - ERROR: Failed to update description for 5.
+2025-06-09 11:21:04,158 - ERROR: Failed to update description for 6.
+2025-06-09 11:21:04,758 - ERROR: Failed to update description for 7.
+2025-06-09 11:21:05,193 - ERROR: Failed to update description for 8.
+2025-06-09 11:21:05,796 - ERROR: Failed to update description for 9.
+2025-06-09 11:21:06,009 - ERROR: Failed to update description for 10.
+2025-06-09 11:21:06,610 - ERROR: Failed to update description for 11.
+2025-06-09 11:21:06,848 - ERROR: Failed to update description for 12.
+2025-06-09 11:21:08,286 - ERROR: Failed to update description for 15.
+2025-06-09 11:21:08,503 - ERROR: Failed to update description for 16.
+2025-06-10 11:20:41,751 - INFO: Program started
+2025-06-11 11:21:05,490 - INFO: Program started
+2025-06-12 11:20:44,452 - INFO: Program started
+2025-06-13 11:20:56,908 - INFO: Program started
+2025-06-16 11:21:09,778 - INFO: Program started
+2025-06-17 11:20:56,813 - INFO: Program started
+2025-06-18 11:20:53,728 - INFO: Program started
+2025-06-19 11:20:51,075 - INFO: Program started
+2025-06-20 11:20:38,884 - INFO: Program started
+2025-06-23 11:22:04,916 - INFO: Program started
+2025-06-24 11:21:11,893 - INFO: Program started
+2025-06-25 11:21:32,769 - INFO: Program started
+2025-06-26 11:21:13,052 - INFO: Program started
+2025-06-27 11:21:05,604 - INFO: Program started
+2025-06-27 11:21:09,850 - ERROR: Failed to update description for 0.
+2025-06-27 11:21:10,621 - ERROR: Failed to update description for 1.
+2025-06-27 11:21:10,901 - ERROR: Failed to update description for 2.
+2025-06-27 11:21:11,683 - ERROR: Failed to update description for 3.
+2025-06-27 11:21:12,493 - ERROR: Failed to update description for 4.
+2025-06-27 11:21:13,289 - ERROR: Failed to update description for 5.
+2025-06-27 11:21:13,585 - ERROR: Failed to update description for 6.
+2025-06-27 11:21:13,866 - ERROR: Failed to update description for 7.
+2025-06-27 11:21:14,659 - ERROR: Failed to update description for 8.
+2025-06-27 11:21:15,441 - ERROR: Failed to update description for 9.
+2025-06-27 11:21:16,237 - ERROR: Failed to update description for 10.
+2025-06-27 11:21:16,999 - ERROR: Failed to update description for 11.
+2025-06-27 11:21:17,814 - ERROR: Failed to update description for 12.
+2025-06-27 11:21:18,649 - ERROR: Failed to update description for 13.
+2025-06-27 11:21:19,725 - ERROR: Failed to update description for 15.
+2025-06-27 11:21:20,546 - ERROR: Failed to update description for 16.
+2025-06-27 11:21:21,396 - ERROR: Failed to update description for 17.
+2025-06-30 11:21:02,271 - INFO: Program started
+2025-07-01 11:21:09,474 - INFO: Program started
+2025-07-02 11:21:28,759 - INFO: Program started
+2025-07-02 11:21:29,200 - ERROR: 
+1 Failed download:
+2025-07-02 11:21:29,200 - ERROR: ['^JKLQ45']: YFPricesMissingError('possibly delisted; no price data found  (period=1d)')
+2025-07-03 11:21:27,343 - INFO: Program started
+2025-07-04 11:21:32,086 - INFO: Program started
+2025-07-07 11:21:11,059 - INFO: Program started
+2025-07-08 11:21:49,260 - INFO: Program started
+2025-07-09 11:22:21,912 - INFO: Program started
+2025-07-10 11:21:45,843 - INFO: Program started
+2025-07-11 11:22:12,700 - INFO: Program started
+2025-07-14 11:22:38,869 - INFO: Program started
+2025-07-15 17:05:52,165 - INFO: Program started
+2025-07-16 11:22:39,447 - INFO: Program started
+2025-07-17 11:23:04,988 - INFO: Program started
+2025-07-18 11:22:34,835 - INFO: Program started
+2025-07-21 11:22:37,908 - INFO: Program started
+2025-07-22 11:22:46,047 - INFO: Program started
+2025-07-23 11:23:16,305 - INFO: Program started
+2025-07-24 11:23:10,196 - INFO: Program started
+2025-07-25 11:22:41,480 - INFO: Program started
+2025-07-28 11:22:56,355 - INFO: Program started
+2025-07-29 11:23:01,424 - INFO: Program started
+2025-07-30 11:23:29,151 - INFO: Program started
+2025-07-31 11:23:13,231 - INFO: Program started
+2025-08-01 11:22:41,295 - INFO: Program started
+2025-08-04 11:24:10,058 - INFO: Program started
+2025-08-05 16:56:35 [INFO] - Init Global Variable
+2025-08-05 16:56:36 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
+2025-08-05 16:56:36 [INFO] - Fetching page 1...
+2025-08-05 16:56:37 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 09:56:37'}
+2025-08-05 16:56:37 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
+2025-08-05 17:03:46 [INFO] - Init Global Variable
+2025-08-05 17:03:47 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
+2025-08-05 17:03:47 [INFO] - Fetching page 1...
+2025-08-05 17:03:48 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:03:48'}
+2025-08-05 17:03:48 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
+2025-08-05 17:04:08 [INFO] - Init Global Variable
+2025-08-05 17:04:09 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
+2025-08-05 17:04:09 [INFO] - Fetching page 1...
+2025-08-05 17:04:10 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:04:10'}
+2025-08-05 17:04:10 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
+2025-08-05 17:08:03 [INFO] - Init Global Variable
+2025-08-05 17:08:04 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
+2025-08-05 17:08:04 [INFO] - Fetching page 1...
+2025-08-05 17:08:04 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:08:04'}
+2025-08-05 17:08:04 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
