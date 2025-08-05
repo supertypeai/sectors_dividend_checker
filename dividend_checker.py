@@ -81,20 +81,20 @@ class DividendChecker:
                     if not table:
                         LOGGER.info("No table found on page. Stopping.")
                         keep_scraping = False
-                        continue
+                        break
 
                     rows = table.find_all("tr", recursive=False)[1:]
                     
                     if not rows:
                         LOGGER.info("No more data rows found. Stopping scrape.")
                         keep_scraping = False 
-                        continue
+                        break
                     
                     for row in rows:
                         try:
                             # Skip if the row does not have enough columns
                             cols = row.find_all("td")
-                            if len(cols) < 8:
+                            if len(cols) < 7:
                                 continue
                             
                             # Get reguler & negosiasi ex-date
