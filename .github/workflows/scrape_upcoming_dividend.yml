@@ -2,7 +2,7 @@ name: Scrape Upcoming Dividend Data
 
 on:
   schedule:
-    - cron: '0 18 * * 0,3'  # Schedule to run at 1:00 AM UTC+7 every Wednesday and Sunday
+    - cron: '0 18 * * 1-5'  # Schedule to run at 1:00 AM UTC+7 every Wednesday and Sunday
   workflow_dispatch:
 
 jobs:
