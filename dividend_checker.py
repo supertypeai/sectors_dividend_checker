@@ -16,13 +16,20 @@ load_dotenv()
 
 
 # Setup Logging
-logging.basicConfig(
-    filename='scrapper.log',
-    level=logging.INFO, # Set the logging level
-    format='%(asctime)s [%(levelname)s] - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-    )
 LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.INFO)
+
+file_handler = logging.FileHandler('scrapper.log')
+file_handler.setLevel(logging.INFO)
+
+formatter = logging.Formatter(
+    '%(asctime)s [%(levelname)s] - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+file_handler.setFormatter(formatter)
+
+LOGGER.addHandler(file_handler)
+
 LOGGER.info("Init Global Variable")
 
 
@@ -44,7 +51,7 @@ class DividendChecker:
             supabase_client (Client): Supabase client instance for database operations.
             last_n_day (int): Number of days to look back for dividend data. Default is 7
         """
-        self.url = "https://sahamidx.com/?view=Stock.Cash.Dividend&path=Stock&field_sort=rg_ng_ex_date&sort_by=DESC&page={page}"
+        self.url = "https://www.new.sahamidx.com/?/deviden/page/{page}"
         self.supabase_client = supabase_client
         self.start_date = (pd.Timestamp.now("Asia/Bangkok") - pd.Timedelta(days=last_n_day - 1)).strftime("%Y-%m-%d")
         self.end_date = pd.Timestamp.now("Asia/Bangkok").strftime("%Y-%m-%d")
@@ -76,85 +83,92 @@ class DividendChecker:
                         raise Exception("Error retrieving data from SahamIDX")
 
                     soup = BeautifulSoup(response.text, "lxml")
-                    table = soup.find("table", {"class": "tbl_border_gray"})
-                
-                    if not table:
-                        LOGGER.info("No table found on page. Stopping.")
-                        keep_scraping = False
-                        break
+                    rows = soup.find_all("tr")
 
-                    rows = table.find_all("tr", recursive=False)[1:]
-                    
-                    if not rows:
-                        LOGGER.info("No more data rows found. Stopping scrape.")
-                        keep_scraping = False 
-                        break
-                    
+                    data_found_on_page = False
+
                     for row in rows:
                         try:
-                            # Skip if the row does not have enough columns
-                            cols = row.find_all("td")
-                            if len(cols) < 7:
+                            # Get necessary data cell
+                            symbol = row.find("td", {"data-header": "Nama"})
+                            dividend = row.find("td", {"data-header": "Amount"})
+                            ex_date = row.find("td", {"data-header": "Ex Date"})
+                            payment_date = row.find("td", {"data-header": "Payment Date"})
+                            
+                            if not (symbol and dividend and ex_date):
                                 continue
                             
-                            # Get reguler & negosiasi ex-date
-                            date = datetime.strptime(cols[6].text.strip(), "%d-%b-%Y").strftime("%Y-%m-%d")
-                            if date < self.start_date:
-                                LOGGER.info(f"Stop condition met: Found Ex-Date {date} which is older than start date.")
+                            data_found_on_page = True
+
+                            # Prepare symbol 
+                            symbol = symbol.text.strip()
+                            if symbol not in self.allowed_symbols:
+                                continue 
+                            
+                            symbol = symbol + '.JK'
+
+                            # Prepare divident original 
+                            dividend = dividend.text.strip()
+                            dividend = float(dividend) 
+
+                            # Prepare Ex Date 
+                            ex_date_str = ex_date.text.strip()
+                            ex_date = datetime.strptime(ex_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
+                            
+                            if ex_date < self.start_date:
+                                LOGGER.info(f"Stop condition met: Found Ex-Date {ex_date} which is older than start date {self.start_date}.")
                                 keep_scraping = False
                                 break
-                            
-                            # Get symbol
-                            symbol = cols[1].find("a").text.strip()
-                            if not symbol or symbol not in self.allowed_symbols:
-                                continue
 
-                            # Get dividend original
-                            dividend_original = float(cols[3].text.strip())
-
-                            # Get payment date
-                            payment_date = datetime.strptime(cols[10].text.strip(), "%d-%b-%Y").strftime("%Y-%m-%d")
-    
-                            # Adjust the symbol
-                            adjusted_symbol = symbol + ".JK"
-                            
                             # Validation for data in a range start_date and end_date
-                            if not (self.start_date <= date <= self.end_date):
-                                continue    
-                            
+                            if not (self.start_date <= ex_date <= self.end_date):
+                                continue  
+
                             # Data valid to be upserted
                             data_dict = {
-                                    "symbol": adjusted_symbol,
-                                    "date": date,
-                                    "dividend_original": dividend_original,
-                                    "dividend": dividend_original,
-                                    "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
-                                }
+                                "symbol": symbol,
+                                "date": ex_date,
+                                "dividend_original": dividend,
+                                "dividend": dividend,
+                                "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
+                            }
 
                             if include_payment_date:
+                                if not payment_date:
+                                    continue 
+
+                                payment_date_str = payment_date.text.strip()
+                                payment_date = datetime.strptime(payment_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
+                            
                                 data_dict["payment_date"] = payment_date
 
                             LOGGER.info(f'[FETCHING] {data_dict}')
-
                             self.retrieved_records.append(data_dict)
 
-                        except (ValueError, IndexError):
+                        except (ValueError, TypeError) as error:
+                            LOGGER.error(f"Skipping row due to parsing error: {error}")
                             continue
-                    
+
+                    if not data_found_on_page:
+                        LOGGER.info("No more data rows found on this page. Stopping scrape")
+                        keep_scraping = False
+
+                    time.sleep(1)
                     page += 1 
 
                 break
-            except Exception as e:
+
+            except Exception as error:
                 if (attempt == max_attempt):
-                    LOGGER.error(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. | {e}")
+                    LOGGER.error(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. | {error}")
                 else:
-                    LOGGER.error(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {e}")
+                    LOGGER.error(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {error}")
                     time.sleep(2)
                 attempt += 1
-    
+
     def check_fill_missing_dividend(self, 
                                     is_saved: bool= True,
-                                    cutoff_date: str = "2020-01-01", 
+                                    cutoff_date: str = "2025-10-08", 
                                     db_table_name: str = "idx_dividend"):
         """
         Scrapes all dividends from SahamIDX and inserts any that are missing from the database.
@@ -172,7 +186,7 @@ class DividendChecker:
         
         # Convert the string cutoff_date to a datetime object for comparison
         cutoff_dt = datetime.strptime(cutoff_date, "%Y-%m-%d")
-
+        
         while keep_scraping:
             current_url = self.url.format(page=page)
             LOGGER.info(f"Processing page {page}...")
@@ -187,30 +201,33 @@ class DividendChecker:
                 break
 
             soup = BeautifulSoup(response.text, "lxml")
-            table = soup.find("table", {"class": "tbl_border_gray"})
-            rows = table.find_all("tr", recursive=False)[1:] if table else []
-            if not rows:
-                LOGGER.info("Reached the last page with data. Process complete.")
-                keep_scraping = False
-                continue
             
+            rows = soup.find_all("tr")
+            data_found_on_page = False
+
             for row in rows:
                 try:
-                    cols = row.find_all("td")
-                    if len(cols) < 10:
-                        continue
-                    
-                    # Get date
-                    date_from_site_dt = datetime.strptime(cols[6].text.strip(), "%d-%b-%Y")
+                    symbol_cell = row.find("td", {"data-header": "Nama"})
+                    dividend_cell = row.find("td", {"data-header": "Amount"})
+                    ex_date_cell = row.find("td", {"data-header": "Ex Date"})
 
-                    # Stop check using the cutoff date
+                    if not (symbol_cell and dividend_cell and ex_date_cell):
+                        continue
+                        
+                    data_found_on_page = True
+
+                    # Get date
+                    ex_date_str = ex_date_cell.text.strip()
+                    date_from_site_dt = datetime.strptime(ex_date_str, "%d-%b-%Y")
+
+                    # Stop check using the cutoff date 
                     if date_from_site_dt < cutoff_dt:
                         LOGGER.info(f"Stop condition met: Found date {date_from_site_dt.strftime('%Y-%m-%d')} which is older than cutoff {cutoff_date}.")
                         keep_scraping = False
-                        break 
+                        break
                     
-                    # Get symbol
-                    symbol = cols[1].find("a").text.strip()
+                    # Get symbol (Using your confirmed simple logic)
+                    symbol = symbol_cell.text.strip()
                     if symbol not in self.allowed_symbols:
                         continue
 
@@ -221,14 +238,15 @@ class DividendChecker:
                     date_str = date_from_site_dt.strftime("%Y-%m-%d")
 
                     # Get dividend
-                    dividend_original = float(cols[3].text.strip())
+                    dividend_str = dividend_cell.text.strip()
+                    dividend_original = float(dividend_str)
 
                     # Check Supabase data if a record with this key (symbol, date) already exists
                     count_res = self.supabase_client.from_(db_table_name) \
-                                      .select('symbol', count='exact') \
-                                      .eq("symbol", adjusted_symbol) \
-                                      .eq("date", date_str) \
-                                      .execute()
+                                    .select('symbol', count='exact') \
+                                    .eq("symbol", adjusted_symbol) \
+                                    .eq("date", date_str) \
+                                    .execute()
                     
                     # Check if the count is zero, meaning no existing record
                     if count_res.count == 0: 
@@ -255,8 +273,13 @@ class DividendChecker:
                         pass 
             
                 except (ValueError, IndexError) as error:
+                    LOGGER.warning(f"Skipping a row due to parsing error: {error}")
                     continue
             
+            if not data_found_on_page:
+                LOGGER.info("Reached the last page with data. Process complete.")
+                keep_scraping = False
+
             if not keep_scraping:
                 break
                 

@@ -1971,22 +1971,18 @@
 2025-08-01 11:22:41,295 - INFO: Program started
 2025-08-04 11:24:10,058 - INFO: Program started
 2025-08-05 16:56:35 [INFO] - Init Global Variable
-2025-08-05 16:56:36 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
 2025-08-05 16:56:36 [INFO] - Fetching page 1...
 2025-08-05 16:56:37 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 09:56:37'}
 2025-08-05 16:56:37 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
 2025-08-05 17:03:46 [INFO] - Init Global Variable
-2025-08-05 17:03:47 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
 2025-08-05 17:03:47 [INFO] - Fetching page 1...
 2025-08-05 17:03:48 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:03:48'}
 2025-08-05 17:03:48 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
 2025-08-05 17:04:08 [INFO] - Init Global Variable
-2025-08-05 17:04:09 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
 2025-08-05 17:04:09 [INFO] - Fetching page 1...
 2025-08-05 17:04:10 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:04:10'}
 2025-08-05 17:04:10 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
 2025-08-05 17:08:03 [INFO] - Init Global Variable
-2025-08-05 17:08:04 [INFO] - HTTP Request: GET https://rfiycxgjbnkefczvbosm.supabase.co/rest/v1/idx_company_profile?select=symbol "HTTP/2 200 OK"
 2025-08-05 17:08:04 [INFO] - Fetching page 1...
 2025-08-05 17:08:04 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:08:04'}
 2025-08-05 17:08:04 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
