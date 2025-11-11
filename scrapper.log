@@ -1986,3 +1986,20 @@
 2025-08-05 17:08:04 [INFO] - Fetching page 1...
 2025-08-05 17:08:04 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2025-08-04', 'dividend_original': 15.0, 'dividend': 15.0, 'updated_on': '2025-08-05 10:08:04'}
 2025-08-05 17:08:04 [INFO] - Stop condition met: Found Ex-Date 2025-07-25 which is older than start date.
+2025-11-11 09:50:00 [INFO] - Init Global Variable
+2025-11-11 09:50:01 [INFO] - Fetching page 1...
+2025-11-11 09:50:02 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-11-11 09:50:02 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2025-11-11', 'dividend_original': 22.0, 'dividend': 22.0, 'updated_on': '2025-11-11 09:50:02'}
+2025-11-11 09:50:02 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2025-11-11', 'dividend_original': 50.0, 'dividend': 50.0, 'updated_on': '2025-11-11 09:50:02'}
+2025-11-11 09:50:02 [INFO] - [FETCHING] {'symbol': 'TPIA.JK', 'date': '2025-11-11', 'dividend_original': 3.8427, 'dividend': 3.8427, 'updated_on': '2025-11-11 09:50:02'}
+2025-11-11 09:50:03 [INFO] - Fetching page 2...
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'ESIP.JK', 'date': '2025-11-10', 'dividend_original': 0.5, 'dividend': 0.5, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2025-11-10', 'dividend_original': 40.0, 'dividend': 40.0, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'TSPC.JK', 'date': '2025-11-10', 'dividend_original': 100.0, 'dividend': 100.0, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'BUAH.JK', 'date': '2025-11-07', 'dividend_original': 12.5, 'dividend': 12.5, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'CNMA.JK', 'date': '2025-11-07', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'MLPT.JK', 'date': '2025-11-07', 'dividend_original': 53.5, 'dividend': 53.5, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'NSSS.JK', 'date': '2025-11-07', 'dividend_original': 3.0, 'dividend': 3.0, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2025-11-06', 'dividend_original': 20.0, 'dividend': 20.0, 'updated_on': '2025-11-11 09:50:04'}
+2025-11-11 09:50:04 [INFO] - Stop condition met: Found Ex-Date 2025-10-30 which is older than start date 2025-11-05.
+2025-11-11 09:50:05 [INFO] - Successfully upserted 11 data to database
