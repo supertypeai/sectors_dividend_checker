@@ -2003,3 +2003,20 @@
 2025-11-11 09:50:04 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2025-11-06', 'dividend_original': 20.0, 'dividend': 20.0, 'updated_on': '2025-11-11 09:50:04'}
 2025-11-11 09:50:04 [INFO] - Stop condition met: Found Ex-Date 2025-10-30 which is older than start date 2025-11-05.
 2025-11-11 09:50:05 [INFO] - Successfully upserted 11 data to database
+2025-11-11 18:35:04 [INFO] - Init Global Variable
+2025-11-11 18:35:04,746 - INFO: Program started
+2025-11-11 18:35:05 [INFO] - Fetching page 1...
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'EMTK.JK', 'date': '2025-11-20', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-12-11'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'META.JK', 'date': '2025-11-19', 'dividend_original': 2.63, 'dividend': 2.63, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-12-03'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'SCMA.JK', 'date': '2025-11-19', 'dividend_original': 10.0, 'dividend': 10.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-12-09'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'AADI.JK', 'date': '2025-11-18', 'dividend_original': 536.38, 'dividend': 536.38, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-27'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'AMOR.JK', 'date': '2025-11-14', 'dividend_original': 18.5, 'dividend': 18.5, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-24'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'ASSA.JK', 'date': '2025-11-14', 'dividend_original': 20.0, 'dividend': 20.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-21'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2025-11-14', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-12-05'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'PPGL.JK', 'date': '2025-11-14', 'dividend_original': 4.0, 'dividend': 4.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-28'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'BSSR.JK', 'date': '2025-11-13', 'dividend_original': 222.587426, 'dividend': 222.587426, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-21'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'ITMG.JK', 'date': '2025-11-13', 'dividend_original': 738.0, 'dividend': 738.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-26'}
+2025-11-11 18:35:06 [INFO] - [FETCHING] {'symbol': 'AVIA.JK', 'date': '2025-11-12', 'dividend_original': 11.0, 'dividend': 11.0, 'updated_on': '2025-11-11 18:35:06', 'payment_date': '2025-11-20'}
+2025-11-11 18:35:06 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-11-11 18:35:06 [INFO] - Stop condition met: Found Ex-Date 2025-11-11 which is older than start date 2025-11-12.
+2025-11-11 18:35:08,068 - INFO: update 2025-11-12 upcoming dividend data
