@@ -2050,3 +2050,22 @@
 2025-11-13 18:35:59 [INFO] - [FETCHING] {'symbol': 'PPGL.JK', 'date': '2025-11-14', 'dividend_original': 4.0, 'dividend': 4.0, 'updated_on': '2025-11-13 18:35:59', 'payment_date': '2025-11-28'}
 2025-11-13 18:35:59 [INFO] - Stop condition met: Found Ex-Date 2025-11-13 which is older than start date 2025-11-14.
 2025-11-13 18:36:01,563 - INFO: update 2025-11-14 upcoming dividend data
+2025-11-14 18:27:11 [INFO] - Init Global Variable
+2025-11-14 18:27:12 [INFO] - Fetching page 1...
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'AMOR.JK', 'date': '2025-11-14', 'dividend_original': 18.5, 'dividend': 18.5, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'ASSA.JK', 'date': '2025-11-14', 'dividend_original': 20.0, 'dividend': 20.0, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2025-11-14', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'PPGL.JK', 'date': '2025-11-14', 'dividend_original': 4.0, 'dividend': 4.0, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'BSSR.JK', 'date': '2025-11-13', 'dividend_original': 222.587426, 'dividend': 222.587426, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'ITMG.JK', 'date': '2025-11-13', 'dividend_original': 738.0, 'dividend': 738.0, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:13 [INFO] - [FETCHING] {'symbol': 'AVIA.JK', 'date': '2025-11-12', 'dividend_original': 11.0, 'dividend': 11.0, 'updated_on': '2025-11-14 18:27:13'}
+2025-11-14 18:27:14 [INFO] - Fetching page 2...
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'MEDC.JK', 'date': '2025-11-11', 'dividend_original': 28.4459, 'dividend': 28.4459, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2025-11-11', 'dividend_original': 22.0, 'dividend': 22.0, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2025-11-11', 'dividend_original': 50.0, 'dividend': 50.0, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'TPIA.JK', 'date': '2025-11-11', 'dividend_original': 3.8427, 'dividend': 3.8427, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'ESIP.JK', 'date': '2025-11-10', 'dividend_original': 0.5, 'dividend': 0.5, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2025-11-10', 'dividend_original': 40.0, 'dividend': 40.0, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'TSPC.JK', 'date': '2025-11-10', 'dividend_original': 100.0, 'dividend': 100.0, 'updated_on': '2025-11-14 18:27:16'}
+2025-11-14 18:27:16 [INFO] - Stop condition met: Found Ex-Date 2025-11-07 which is older than start date 2025-11-09.
+2025-11-14 18:27:17 [INFO] - Successfully upserted 14 data to database
