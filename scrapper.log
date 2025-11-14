@@ -2069,3 +2069,16 @@
 2025-11-14 18:27:16 [INFO] - [FETCHING] {'symbol': 'TSPC.JK', 'date': '2025-11-10', 'dividend_original': 100.0, 'dividend': 100.0, 'updated_on': '2025-11-14 18:27:16'}
 2025-11-14 18:27:16 [INFO] - Stop condition met: Found Ex-Date 2025-11-07 which is older than start date 2025-11-09.
 2025-11-14 18:27:17 [INFO] - Successfully upserted 14 data to database
+2025-11-14 18:35:18 [INFO] - Init Global Variable
+2025-11-14 18:35:18,920 - INFO: Program started
+2025-11-14 18:35:19 [INFO] - Fetching page 1...
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'MLBI.JK', 'date': '2025-11-25', 'dividend_original': 190.0, 'dividend': 190.0, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-12'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'POWR.JK', 'date': '2025-11-25', 'dividend_original': 24.20528, 'dividend': 24.20528, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-12'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'SPTO.JK', 'date': '2025-11-25', 'dividend_original': 36.0, 'dividend': 36.0, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-12'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'BUDI.JK', 'date': '2025-11-21', 'dividend_original': 7.0, 'dividend': 7.0, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-11'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'EMTK.JK', 'date': '2025-11-20', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-11'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'META.JK', 'date': '2025-11-19', 'dividend_original': 2.63, 'dividend': 2.63, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-03'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'SCMA.JK', 'date': '2025-11-19', 'dividend_original': 9.0, 'dividend': 9.0, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-12-09'}
+2025-11-14 18:35:20 [INFO] - [FETCHING] {'symbol': 'AADI.JK', 'date': '2025-11-18', 'dividend_original': 536.38, 'dividend': 536.38, 'updated_on': '2025-11-14 18:35:20', 'payment_date': '2025-11-27'}
+2025-11-14 18:35:20 [INFO] - Stop condition met: Found Ex-Date 2025-11-14 which is older than start date 2025-11-15.
+2025-11-14 18:35:22,376 - INFO: update 2025-11-15 upcoming dividend data
