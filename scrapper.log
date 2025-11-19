@@ -2112,3 +2112,17 @@
 2025-11-18 18:37:21 [INFO] - [FETCHING] {'symbol': 'SCMA.JK', 'date': '2025-11-19', 'dividend_original': 9.0, 'dividend': 9.0, 'updated_on': '2025-11-18 18:37:21', 'payment_date': '2025-12-09'}
 2025-11-18 18:37:21 [INFO] - Stop condition met: Found Ex-Date 2025-11-18 which is older than start date 2025-11-19.
 2025-11-18 18:37:23,083 - INFO: update 2025-11-19 upcoming dividend data
+2025-11-19 18:37:15 [INFO] - Init Global Variable
+2025-11-19 18:37:15,822 - INFO: Program started
+2025-11-19 18:37:16 [INFO] - Fetching page 1...
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'MCOL.JK', 'date': '2025-11-27', 'dividend_original': 80.0, 'dividend': 80.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-15'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'IDEA.JK', 'date': '2025-11-26', 'dividend_original': 0.8, 'dividend': 0.8, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-17'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'TOTO.JK', 'date': '2025-11-26', 'dividend_original': 10.0, 'dividend': 10.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-16'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'WINS.JK', 'date': '2025-11-26', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-11'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'MLBI.JK', 'date': '2025-11-25', 'dividend_original': 190.0, 'dividend': 190.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-12'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'POWR.JK', 'date': '2025-11-25', 'dividend_original': 24.20528, 'dividend': 24.20528, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-12'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'SPTO.JK', 'date': '2025-11-25', 'dividend_original': 35.0, 'dividend': 35.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-12'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'BUDI.JK', 'date': '2025-11-21', 'dividend_original': 7.0, 'dividend': 7.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-11'}
+2025-11-19 18:37:18 [INFO] - [FETCHING] {'symbol': 'EMTK.JK', 'date': '2025-11-20', 'dividend_original': 5.0, 'dividend': 5.0, 'updated_on': '2025-11-19 18:37:18', 'payment_date': '2025-12-11'}
+2025-11-19 18:37:18 [INFO] - Stop condition met: Found Ex-Date 2025-11-19 which is older than start date 2025-11-20.
+2025-11-19 18:37:19,566 - INFO: update 2025-11-20 upcoming dividend data
