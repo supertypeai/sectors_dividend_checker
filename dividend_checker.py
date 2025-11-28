@@ -69,6 +69,8 @@ class DividendChecker:
         attempt = 1
         max_attempt = 10
         
+        LOGGER.info(f'Scrape for start date: {self.start_date} and end date: {self.end_date}')
+
         while (attempt <= max_attempt):
             try:
                 page = 1                      
