@@ -86,7 +86,6 @@ class DividendChecker:
 
                     soup = BeautifulSoup(response.text, "lxml")
                     rows = soup.find_all("tr")
-
                     data_found_on_page = False
 
                     for row in rows:
@@ -98,7 +97,7 @@ class DividendChecker:
                             payment_date = row.find("td", {"data-header": "Payment Date"})
                             recording_date = row.find("td", {"data-header": "Recording Date"})
                             cum_date = row.find("td", {"data-header": "Cum Date"})
-                            
+                    
                             if not (symbol and dividend and ex_date):
                                 continue
                             
@@ -119,11 +118,11 @@ class DividendChecker:
                             ex_date_str = ex_date.text.strip()
                             ex_date = datetime.strptime(ex_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
 
-                            # Prepare Ex Date 
+                            # Prepare Cum Date 
                             cum_date_str = cum_date.text.strip()
                             cum_date = datetime.strptime(cum_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
 
-                            # Prepare Ex Date 
+                            # Prepare Recording Date 
                             recording_date_str = recording_date.text.strip()
                             recording_date = datetime.strptime(recording_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
                             

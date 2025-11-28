@@ -3,3 +3,4 @@
 *.ipynb
 late_data_updater
 late_data_updater/.env
+__pycache__/
