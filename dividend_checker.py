@@ -96,6 +96,8 @@ class DividendChecker:
                             dividend = row.find("td", {"data-header": "Amount"})
                             ex_date = row.find("td", {"data-header": "Ex Date"})
                             payment_date = row.find("td", {"data-header": "Payment Date"})
+                            recording_date = row.find("td", {"data-header": "Recording Date"})
+                            cum_date = row.find("td", {"data-header": "Cum Date"})
                             
                             if not (symbol and dividend and ex_date):
                                 continue
@@ -116,6 +118,14 @@ class DividendChecker:
                             # Prepare Ex Date 
                             ex_date_str = ex_date.text.strip()
                             ex_date = datetime.strptime(ex_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
+
+                            # Prepare Ex Date 
+                            cum_date_str = cum_date.text.strip()
+                            cum_date = datetime.strptime(cum_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
+
+                            # Prepare Ex Date 
+                            recording_date_str = recording_date.text.strip()
+                            recording_date = datetime.strptime(recording_date_str, "%d-%b-%Y").strftime("%Y-%m-%d")
                             
                             if ex_date < self.start_date:
                                 LOGGER.info(f"Stop condition met: Found Ex-Date {ex_date} which is older than start date {self.start_date}.")
@@ -132,6 +142,8 @@ class DividendChecker:
                                 "date": ex_date,
                                 "dividend_original": dividend,
                                 "dividend": dividend,
+                                "recording_date": recording_date,
+                                "cum_date": cum_date,
                                 "updated_on": pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S"),
                             }
 
