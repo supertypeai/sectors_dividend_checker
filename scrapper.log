@@ -2228,3 +2228,20 @@
 2025-11-28 02:00:12 [INFO] - [FETCHING] {'symbol': 'PTPS.JK', 'date': '2025-11-28', 'dividend_original': 3.5, 'dividend': 3.5, 'recording_date': '2025-12-01', 'cum_date': '2025-11-27', 'updated_on': '2025-11-28 02:00:12', 'payment_date': '2025-12-15'}
 2025-11-28 02:00:12 [INFO] - Stop condition met: Found Ex-Date 2025-11-27 which is older than start date 2025-11-28.
 2025-11-28 02:00:14,371 - INFO: update 2025-11-28 upcoming dividend data
+2025-11-28 18:27:19 [INFO] - Init Global Variable
+2025-11-28 18:27:20 [INFO] - Scrape for start date: 2025-11-23 and end date: 2025-11-29
+2025-11-28 18:27:20 [INFO] - Fetching page 1...
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'BTPS.JK', 'date': '2025-11-28', 'dividend_original': 39.5, 'dividend': 39.5, 'recording_date': '2025-12-01', 'cum_date': '2025-11-27', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'DWGL.JK', 'date': '2025-11-28', 'dividend_original': 8.5, 'dividend': 8.5, 'recording_date': '2025-12-01', 'cum_date': '2025-11-27', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'PTPS.JK', 'date': '2025-11-28', 'dividend_original': 3.5, 'dividend': 3.5, 'recording_date': '2025-12-01', 'cum_date': '2025-11-27', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'MCOL.JK', 'date': '2025-11-27', 'dividend_original': 80.0, 'dividend': 80.0, 'recording_date': '2025-11-28', 'cum_date': '2025-11-26', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'TGKA.JK', 'date': '2025-11-27', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2025-11-28', 'cum_date': '2025-11-26', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'IDEA.JK', 'date': '2025-11-26', 'dividend_original': 0.8, 'dividend': 0.8, 'recording_date': '2025-11-27', 'cum_date': '2025-11-25', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'TOTO.JK', 'date': '2025-11-26', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2025-11-27', 'cum_date': '2025-11-25', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'WINS.JK', 'date': '2025-11-26', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2025-11-27', 'cum_date': '2025-11-25', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'MLBI.JK', 'date': '2025-11-25', 'dividend_original': 190.0, 'dividend': 190.0, 'recording_date': '2025-11-26', 'cum_date': '2025-11-24', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:22 [INFO] - [FETCHING] {'symbol': 'POWR.JK', 'date': '2025-11-25', 'dividend_original': 24.20528, 'dividend': 24.20528, 'recording_date': '2025-11-26', 'cum_date': '2025-11-24', 'updated_on': '2025-11-28 18:27:22'}
+2025-11-28 18:27:23 [INFO] - Fetching page 2...
+2025-11-28 18:27:24 [INFO] - [FETCHING] {'symbol': 'SPTO.JK', 'date': '2025-11-25', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2025-11-26', 'cum_date': '2025-11-24', 'updated_on': '2025-11-28 18:27:24'}
+2025-11-28 18:27:24 [INFO] - Stop condition met: Found Ex-Date 2025-11-21 which is older than start date 2025-11-23.
+2025-11-28 18:27:25 [INFO] - Successfully upserted 11 data to database
