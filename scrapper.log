@@ -2277,3 +2277,13 @@
 2025-12-02 18:40:46 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2025-12-03', 'dividend_original': 55.0, 'dividend': 55.0, 'recording_date': '2025-12-04', 'cum_date': '2025-12-02', 'updated_on': '2025-12-02 18:40:46', 'payment_date': '2025-12-22'}
 2025-12-02 18:40:46 [INFO] - Stop condition met: Found Ex-Date 2025-12-02 which is older than start date 2025-12-03.
 2025-12-02 18:40:47,788 - INFO: update 2025-12-03 upcoming dividend data
+2025-12-03 18:39:51 [INFO] - Init Global Variable
+2025-12-03 18:39:51,418 - INFO: Program started
+2025-12-03 18:39:52 [INFO] - Scrape for start date: 2025-12-04 and end date: 2025-12-18
+2025-12-03 18:39:52 [INFO] - Fetching page 1...
+2025-12-03 18:39:53 [INFO] - [FETCHING] {'symbol': 'BFIN.JK', 'date': '2025-12-11', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2025-12-12', 'cum_date': '2025-12-10', 'updated_on': '2025-12-03 18:39:53', 'payment_date': '2025-12-18'}
+2025-12-03 18:39:53 [INFO] - [FETCHING] {'symbol': 'TOWR.JK', 'date': '2025-12-10', 'dividend_original': 6.87, 'dividend': 6.87, 'recording_date': '2025-12-11', 'cum_date': '2025-12-09', 'updated_on': '2025-12-03 18:39:53', 'payment_date': '2025-12-23'}
+2025-12-03 18:39:53 [INFO] - [FETCHING] {'symbol': 'KMDS.JK', 'date': '2025-12-05', 'dividend_original': 16.0, 'dividend': 16.0, 'recording_date': '2025-12-08', 'cum_date': '2025-12-04', 'updated_on': '2025-12-03 18:39:53', 'payment_date': '2025-12-19'}
+2025-12-03 18:39:53 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2025-12-04', 'dividend_original': 35.1103513075, 'dividend': 35.1103513075, 'recording_date': '2025-12-05', 'cum_date': '2025-12-03', 'updated_on': '2025-12-03 18:39:53', 'payment_date': '2025-12-18'}
+2025-12-03 18:39:53 [INFO] - Stop condition met: Found Ex-Date 2025-12-03 which is older than start date 2025-12-04.
+2025-12-03 18:39:54,997 - INFO: update 2025-12-04 upcoming dividend data
