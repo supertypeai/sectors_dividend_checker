@@ -2346,3 +2346,10 @@
 2025-12-10 18:38:17 [INFO] - [FETCHING] {'symbol': 'MSTI.JK', 'date': '2025-12-11', 'dividend_original': 16.0, 'dividend': 16.0, 'recording_date': '2025-12-12', 'cum_date': '2025-12-10', 'updated_on': '2025-12-10 18:38:17', 'payment_date': '2025-12-29'}
 2025-12-10 18:38:17 [INFO] - Stop condition met: Found Ex-Date 2025-12-10 which is older than start date 2025-12-11.
 2025-12-10 18:38:18,859 - INFO: update 2025-12-11 upcoming dividend data
+2025-12-11 18:38:49 [INFO] - Init Global Variable
+2025-12-11 18:38:49,782 - INFO: Program started
+2025-12-11 18:38:50 [INFO] - Scrape for start date: 2025-12-12 and end date: 2025-12-26
+2025-12-11 18:38:50 [INFO] - Fetching page 1...
+2025-12-11 18:38:52 [INFO] - [FETCHING] {'symbol': 'UNVR.JK', 'date': '2025-12-15', 'dividend_original': 87.0, 'dividend': 87.0, 'recording_date': '2025-12-16', 'cum_date': '2025-12-12', 'updated_on': '2025-12-11 18:38:52', 'payment_date': '2025-12-30'}
+2025-12-11 18:38:52 [INFO] - Stop condition met: Found Ex-Date 2025-12-11 which is older than start date 2025-12-12.
+2025-12-11 18:38:53,808 - INFO: update 2025-12-12 upcoming dividend data
