@@ -2353,3 +2353,12 @@
 2025-12-11 18:38:52 [INFO] - [FETCHING] {'symbol': 'UNVR.JK', 'date': '2025-12-15', 'dividend_original': 87.0, 'dividend': 87.0, 'recording_date': '2025-12-16', 'cum_date': '2025-12-12', 'updated_on': '2025-12-11 18:38:52', 'payment_date': '2025-12-30'}
 2025-12-11 18:38:52 [INFO] - Stop condition met: Found Ex-Date 2025-12-11 which is older than start date 2025-12-12.
 2025-12-11 18:38:53,808 - INFO: update 2025-12-12 upcoming dividend data
+2025-12-12 18:31:10 [INFO] - Init Global Variable
+2025-12-12 18:31:11 [INFO] - Scrape for start date: 2025-12-07 and end date: 2025-12-13
+2025-12-12 18:31:11 [INFO] - Fetching page 1...
+2025-12-12 18:31:12 [INFO] - [FETCHING] {'symbol': 'ARCI.JK', 'date': '2025-12-11', 'dividend_original': 19.81, 'dividend': 19.81, 'recording_date': '2025-12-12', 'cum_date': '2025-12-10', 'updated_on': '2025-12-12 18:31:12'}
+2025-12-12 18:31:12 [INFO] - [FETCHING] {'symbol': 'BFIN.JK', 'date': '2025-12-11', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2025-12-12', 'cum_date': '2025-12-10', 'updated_on': '2025-12-12 18:31:12'}
+2025-12-12 18:31:12 [INFO] - [FETCHING] {'symbol': 'MSTI.JK', 'date': '2025-12-11', 'dividend_original': 16.0, 'dividend': 16.0, 'recording_date': '2025-12-12', 'cum_date': '2025-12-10', 'updated_on': '2025-12-12 18:31:12'}
+2025-12-12 18:31:12 [INFO] - [FETCHING] {'symbol': 'TOWR.JK', 'date': '2025-12-10', 'dividend_original': 6.87, 'dividend': 6.87, 'recording_date': '2025-12-11', 'cum_date': '2025-12-09', 'updated_on': '2025-12-12 18:31:12'}
+2025-12-12 18:31:12 [INFO] - Stop condition met: Found Ex-Date 2025-12-05 which is older than start date 2025-12-07.
+2025-12-12 18:31:13 [INFO] - Successfully upserted 4 data to database
