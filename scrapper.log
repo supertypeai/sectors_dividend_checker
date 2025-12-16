@@ -2376,3 +2376,11 @@
 2025-12-15 18:40:07 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2025-12-23', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-15 18:40:07', 'payment_date': '2026-01-15'}
 2025-12-15 18:40:07 [INFO] - Stop condition met: Found Ex-Date 2025-12-15 which is older than start date 2025-12-16.
 2025-12-15 18:40:09,322 - INFO: update 2025-12-16 upcoming dividend data
+2025-12-16 18:39:52 [INFO] - Init Global Variable
+2025-12-16 18:39:52,756 - INFO: Program started
+2025-12-16 18:39:53 [INFO] - Scrape for start date: 2025-12-17 and end date: 2025-12-31
+2025-12-16 18:39:53 [INFO] - Fetching page 1...
+2025-12-16 18:39:55 [INFO] - [FETCHING] {'symbol': 'AMAR.JK', 'date': '2025-12-23', 'dividend_original': 1.54, 'dividend': 1.54, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-16 18:39:55', 'payment_date': '2026-01-12'}
+2025-12-16 18:39:55 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2025-12-23', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-16 18:39:55', 'payment_date': '2026-01-15'}
+2025-12-16 18:39:55 [INFO] - Stop condition met: Found Ex-Date 2025-12-15 which is older than start date 2025-12-17.
+2025-12-16 18:39:57,167 - INFO: update 2025-12-17 upcoming dividend data
