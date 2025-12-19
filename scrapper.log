@@ -2425,3 +2425,12 @@
 2025-12-18 18:39:37 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2025-12-23', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-18 18:39:37', 'payment_date': '2026-01-14'}
 2025-12-18 18:39:37 [INFO] - Stop condition met: Found Ex-Date 2025-12-17 which is older than start date 2025-12-19.
 2025-12-18 18:39:38,569 - INFO: update 2025-12-19 upcoming dividend data
+2025-12-19 18:28:54 [INFO] - Init Global Variable
+2025-12-19 18:28:55 [INFO] - Scrape for start date: 2025-12-14 and end date: 2025-12-20
+2025-12-19 18:28:55 [INFO] - Fetching page 1...
+2025-12-19 18:28:56 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-12-19 18:28:56 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-12-19 18:28:56 [INFO] - [FETCHING] {'symbol': 'IPCC.JK', 'date': '2025-12-17', 'dividend_original': 26.1629, 'dividend': 26.1629, 'recording_date': '2025-12-18', 'cum_date': '2025-12-16', 'updated_on': '2025-12-19 18:28:56'}
+2025-12-19 18:28:56 [INFO] - [FETCHING] {'symbol': 'UNVR.JK', 'date': '2025-12-15', 'dividend_original': 87.0, 'dividend': 87.0, 'recording_date': '2025-12-16', 'cum_date': '2025-12-12', 'updated_on': '2025-12-19 18:28:56'}
+2025-12-19 18:28:56 [INFO] - Stop condition met: Found Ex-Date 2025-12-11 which is older than start date 2025-12-14.
+2025-12-19 18:28:58 [INFO] - Successfully upserted 2 data to database
