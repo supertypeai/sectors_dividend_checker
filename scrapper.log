@@ -2457,3 +2457,16 @@
 2025-12-19 18:38:23 [ERROR] - 	[FAILED] Failed after 9 attempt(s). Retrying after 2 seconds... | Error retrieving data from SahamIDX
 2025-12-19 18:38:25 [INFO] - Fetching page 1...
 2025-12-19 18:38:25 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
+2025-12-22 18:38:50 [INFO] - Init Global Variable
+2025-12-22 18:38:50,932 - INFO: Program started
+2025-12-22 18:38:51 [INFO] - Scrape for start date: 2025-12-23 and end date: 2026-01-06
+2025-12-22 18:38:51 [INFO] - Fetching page 1...
+2025-12-22 18:38:52 [INFO] - [FETCHING] {'symbol': 'BMRI.JK', 'date': '2026-01-06', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-01-07', 'cum_date': '2026-01-05', 'updated_on': '2025-12-22 18:38:52', 'payment_date': '2026-01-14'}
+2025-12-22 18:38:52 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-12-22 18:38:52 [INFO] - [FETCHING] {'symbol': 'IPCM.JK', 'date': '2026-01-05', 'dividend_original': 4.4, 'dividend': 4.4, 'recording_date': '2026-01-06', 'cum_date': '2026-01-02', 'updated_on': '2025-12-22 18:38:52', 'payment_date': '2026-01-15'}
+2025-12-22 18:38:52 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-12-22 18:38:52 [INFO] - [FETCHING] {'symbol': 'BBRI.JK', 'date': '2025-12-30', 'dividend_original': 137.0, 'dividend': 137.0, 'recording_date': '2026-01-02', 'cum_date': '2025-12-29', 'updated_on': '2025-12-22 18:38:52', 'payment_date': '2026-01-15'}
+2025-12-22 18:38:52 [INFO] - [FETCHING] {'symbol': 'AMAR.JK', 'date': '2025-12-23', 'dividend_original': 1.54, 'dividend': 1.54, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-22 18:38:52', 'payment_date': '2026-01-12'}
+2025-12-22 18:38:52 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2025-12-23', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2025-12-24', 'cum_date': '2025-12-22', 'updated_on': '2025-12-22 18:38:52', 'payment_date': '2026-01-14'}
+2025-12-22 18:38:52 [INFO] - Stop condition met: Found Ex-Date 2025-12-17 which is older than start date 2025-12-23.
+2025-12-22 18:38:54,126 - INFO: update 2025-12-23 upcoming dividend data
