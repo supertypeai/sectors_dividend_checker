@@ -2559,3 +2559,18 @@
 2025-12-30 18:39:32 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
 2025-12-30 18:39:32 [INFO] - Stop condition met: Found Ex-Date 2025-12-30 which is older than start date 2025-12-31.
 2025-12-30 18:39:34,746 - INFO: update 2025-12-31 upcoming dividend data
+2025-12-31 18:37:05 [INFO] - Init Global Variable
+2025-12-31 18:37:05,277 - INFO: Program started
+2025-12-31 18:37:05 [INFO] - Scrape for start date: 2026-01-01 and end date: 2026-01-15
+2025-12-31 18:37:05 [INFO] - Fetching page 1...
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'RAJA.JK', 'date': '2026-01-09', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-01-12', 'cum_date': '2026-01-08', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-28'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'RDTX.JK', 'date': '2026-01-09', 'dividend_original': 200.0, 'dividend': 200.0, 'recording_date': '2026-01-12', 'cum_date': '2026-01-08', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-21'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'GDST.JK', 'date': '2026-01-08', 'dividend_original': 2.5, 'dividend': 2.5, 'recording_date': '2026-01-09', 'cum_date': '2026-01-07', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-23'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-01-07', 'dividend_original': 5.6, 'dividend': 5.6, 'recording_date': '2026-01-08', 'cum_date': '2026-01-06', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-22'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'SOHO.JK', 'date': '2026-01-07', 'dividend_original': 33.1, 'dividend': 33.1, 'recording_date': '2026-01-08', 'cum_date': '2026-01-06', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-13'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'BMRI.JK', 'date': '2026-01-06', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-01-07', 'cum_date': '2026-01-05', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-14'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'BSSR.JK', 'date': '2026-01-05', 'dividend_original': 127.41448, 'dividend': 127.41448, 'recording_date': '2026-01-06', 'cum_date': '2026-01-02', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-15'}
+2025-12-31 18:37:06 [INFO] - [FETCHING] {'symbol': 'IPCM.JK', 'date': '2026-01-05', 'dividend_original': 4.4, 'dividend': 4.4, 'recording_date': '2026-01-06', 'cum_date': '2026-01-02', 'updated_on': '2025-12-31 18:37:06', 'payment_date': '2026-01-15'}
+2025-12-31 18:37:06 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2025-12-31 18:37:06 [INFO] - Stop condition met: Found Ex-Date 2025-12-30 which is older than start date 2026-01-01.
+2025-12-31 18:37:08,386 - INFO: update 2026-01-01 upcoming dividend data
