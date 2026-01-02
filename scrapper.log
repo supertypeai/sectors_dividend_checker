@@ -2589,3 +2589,16 @@
 2026-01-01 18:37:25 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
 2026-01-01 18:37:25 [INFO] - Stop condition met: Found Ex-Date 2025-12-30 which is older than start date 2026-01-02.
 2026-01-01 18:37:27,007 - INFO: update 2026-01-02 upcoming dividend data
+2026-01-02 18:29:18 [INFO] - Init Global Variable
+2026-01-02 18:29:20 [INFO] - Scrape for start date: 2025-12-28 and end date: 2026-01-03
+2026-01-02 18:29:20 [INFO] - Fetching page 1...
+2026-01-02 18:29:21 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-01-02 18:29:21 [INFO] - [FETCHING] {'symbol': 'BBRI.JK', 'date': '2025-12-30', 'dividend_original': 137.0, 'dividend': 137.0, 'recording_date': '2026-01-02', 'cum_date': '2025-12-29', 'updated_on': '2026-01-02 18:29:21'}
+2026-01-02 18:29:21 [INFO] - Stop condition met: Found Ex-Date 2025-12-23 which is older than start date 2025-12-28.
+2026-01-02 18:29:22 [INFO] - Successfully upserted 1 data to database
+2026-01-02 18:29:23 [INFO] - [UPDATING YIELD] BBRI.JK 2025-12-30 yield : 0.03511599617690503
+2026-01-02 18:29:24 [INFO] - [UPDATING YIELD] TURI.JK 2021-06-29 yield : nan
+2026-01-02 18:29:24 [INFO] - [UPDATING YIELD] TURI.JK 2022-05-30 yield : nan
+2026-01-02 18:29:24 [INFO] - [UPDATING YIELD] TURI.JK 2021-12-02 yield : nan
+2026-01-02 18:29:24 [INFO] - [UPDATING YIELD] TURI.JK 2020-06-30 yield : nan
+2026-01-02 18:29:26 [INFO] - Successfully updated 5 yield data in database
