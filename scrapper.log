@@ -2705,3 +2705,8 @@
 2026-01-14 18:41:28 [INFO] - [FETCHING] {'symbol': 'PNGO.JK', 'date': '2026-01-15', 'dividend_original': 90.0, 'dividend': 90.0, 'recording_date': '2026-01-19', 'cum_date': '2026-01-14', 'updated_on': '2026-01-14 18:41:28', 'payment_date': '2026-01-27'}
 2026-01-14 18:41:28 [INFO] - Stop condition met: Found Ex-Date 2026-01-12 which is older than start date 2026-01-15.
 2026-01-14 18:41:29,645 - INFO: update 2026-01-15 upcoming dividend data
+2026-01-15 18:45:03 [INFO] - Init Global Variable
+2026-01-15 18:45:03,757 - INFO: Program started
+2026-01-15 18:45:04 [INFO] - Scrape for start date: 2026-01-16 and end date: 2026-01-30
+2026-01-15 18:45:04 [INFO] - Fetching page 1...
+2026-01-15 18:45:05 [INFO] - Stop condition met: Found Ex-Date 2026-01-15 which is older than start date 2026-01-16.
