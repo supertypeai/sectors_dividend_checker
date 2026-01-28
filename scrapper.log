@@ -2780,3 +2780,8 @@
 2026-01-27 18:49:52 [INFO] - Scrape for start date: 2026-01-28 and end date: 2026-02-11
 2026-01-27 18:49:52 [INFO] - Fetching page 1...
 2026-01-27 18:49:57 [INFO] - Stop condition met: Found Ex-Date 2026-01-15 which is older than start date 2026-01-28.
+2026-01-28 18:45:42 [INFO] - Init Global Variable
+2026-01-28 18:45:42,430 - INFO: Program started
+2026-01-28 18:45:42 [INFO] - Scrape for start date: 2026-01-29 and end date: 2026-02-12
+2026-01-28 18:45:42 [INFO] - Fetching page 1...
+2026-01-28 18:45:44 [INFO] - Stop condition met: Found Ex-Date 2026-01-15 which is older than start date 2026-01-29.
