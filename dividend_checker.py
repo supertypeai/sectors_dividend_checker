@@ -374,7 +374,7 @@ if __name__ == "__main__":
     supabase_client = create_client(url, key)
 
     stock_split_checker = DividendChecker(supabase_client)
-    stock_split_checker.get_dividend_records()
+    stock_split_checker.get_dividend_records(include_payment_date=True)
 
     # Run the dividend check and fill missing data
     # stock_split_checker.check_fill_missing_dividend()
