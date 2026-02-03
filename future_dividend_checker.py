@@ -48,9 +48,8 @@ class FutureDividendChecker(DividendChecker):
         for record in self.retrieved_records:
             record["ex_date"] = record.pop("date")
             record["dividend_amount"] = record.pop("dividend")
+
             record.pop("dividend_original")
-            record.pop("cum_date")
-            record.pop("recording_date")
 
     @final
     def upsert_to_db(self):
