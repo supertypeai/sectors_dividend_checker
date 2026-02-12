@@ -2862,3 +2862,10 @@
 2026-02-11 19:11:22 [INFO] - [FETCHING] {'symbol': 'BOLT.JK', 'date': '2026-02-20', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-02-23', 'cum_date': '2026-02-19', 'updated_on': '2026-02-11 19:11:22', 'payment_date': '2026-03-03'}
 2026-02-11 19:11:22 [INFO] - Stop condition met: Found Ex-Date 2026-02-11 which is older than start date 2026-02-12.
 2026-02-11 19:11:24,751 - INFO: update 2026-02-12 upcoming dividend data
+2026-02-12 19:10:30 [INFO] - Init Global Variable
+2026-02-12 19:10:30,272 - INFO: Program started
+2026-02-12 19:10:30 [INFO] - Scrape for start date: 2026-02-13 and end date: 2026-02-27
+2026-02-12 19:10:30 [INFO] - Fetching page 1...
+2026-02-12 19:10:35 [INFO] - [FETCHING] {'symbol': 'BOLT.JK', 'date': '2026-02-20', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-02-23', 'cum_date': '2026-02-19', 'updated_on': '2026-02-12 19:10:35', 'payment_date': '2026-03-03'}
+2026-02-12 19:10:35 [INFO] - Stop condition met: Found Ex-Date 2026-02-11 which is older than start date 2026-02-13.
+2026-02-12 19:10:37,667 - INFO: update 2026-02-13 upcoming dividend data
