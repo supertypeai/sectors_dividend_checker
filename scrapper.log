@@ -2919,3 +2919,10 @@
 2026-02-18 19:04:20 [ERROR] - 	[FAILED] Failed after 9 attempt(s). Retrying after 2 seconds... | Error retrieving data from SahamIDX
 2026-02-18 19:04:22 [INFO] - Fetching page 1...
 2026-02-18 19:04:23 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
+2026-02-19 18:59:01 [INFO] - Init Global Variable
+2026-02-19 18:59:01,944 - INFO: Program started
+2026-02-19 18:59:02 [INFO] - Scrape for start date: 2026-02-20 and end date: 2026-03-06
+2026-02-19 18:59:02 [INFO] - Fetching page 1...
+2026-02-19 18:59:04 [INFO] - [FETCHING] {'symbol': 'BOLT.JK', 'date': '2026-02-20', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-02-23', 'cum_date': '2026-02-19', 'updated_on': '2026-02-19 18:59:04', 'payment_date': '2026-03-03'}
+2026-02-19 18:59:04 [INFO] - Stop condition met: Found Ex-Date 2026-02-11 which is older than start date 2026-02-20.
+2026-02-19 18:59:05,790 - INFO: update 2026-02-20 upcoming dividend data
