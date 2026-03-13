@@ -3045,3 +3045,11 @@
 2026-03-13 18:41:27 [INFO] - Fetching page 1...
 2026-03-13 18:41:27 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
 2026-03-13 18:41:27 [WARNING] - No records to upsert to database. All data is up to date
+2026-03-13 18:52:21 [INFO] - Init Global Variable
+2026-03-13 18:52:21,314 - INFO: Program started
+2026-03-13 18:52:22 [INFO] - Scrape for start date: 2026-03-14 and end date: 2026-03-28
+2026-03-13 18:52:22 [INFO] - Fetching page 1...
+2026-03-13 18:52:23 [INFO] - [FETCHING] {'symbol': 'BBNI.JK', 'date': '2026-03-25', 'dividend_original': 349.4133654, 'dividend': 349.4133654, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-13 18:52:23', 'payment_date': '2026-04-07'}
+2026-03-13 18:52:23 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-13 18:52:23', 'payment_date': '2026-04-10'}
+2026-03-13 18:52:23 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-14.
+2026-03-13 18:52:26,039 - INFO: update 2026-03-14 upcoming dividend data
