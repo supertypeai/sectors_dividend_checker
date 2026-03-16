@@ -3053,3 +3053,11 @@
 2026-03-13 18:52:23 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-13 18:52:23', 'payment_date': '2026-04-10'}
 2026-03-13 18:52:23 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-14.
 2026-03-13 18:52:26,039 - INFO: update 2026-03-14 upcoming dividend data
+2026-03-16 19:12:32 [INFO] - Init Global Variable
+2026-03-16 19:12:32,891 - INFO: Program started
+2026-03-16 19:12:33 [INFO] - Scrape for start date: 2026-03-17 and end date: 2026-03-31
+2026-03-16 19:12:33 [INFO] - Fetching page 1...
+2026-03-16 19:12:40 [INFO] - [FETCHING] {'symbol': 'BBNI.JK', 'date': '2026-03-25', 'dividend_original': 349.4133654, 'dividend': 349.4133654, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-16 19:12:40', 'payment_date': '2026-04-07'}
+2026-03-16 19:12:40 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-16 19:12:40', 'payment_date': '2026-04-10'}
+2026-03-16 19:12:40 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-17.
+2026-03-16 19:12:41,591 - INFO: update 2026-03-17 upcoming dividend data
