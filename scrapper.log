@@ -3071,3 +3071,13 @@
 2026-03-17 19:11:19 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-17 19:11:19', 'payment_date': '2026-04-09'}
 2026-03-17 19:11:19 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-18.
 2026-03-17 19:11:21,827 - INFO: update 2026-03-18 upcoming dividend data
+2026-03-18 19:10:31 [INFO] - Init Global Variable
+2026-03-18 19:10:31,339 - INFO: Program started
+2026-03-18 19:10:32 [INFO] - Scrape for start date: 2026-03-19 and end date: 2026-04-02
+2026-03-18 19:10:32 [INFO] - Fetching page 1...
+2026-03-18 19:10:33 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-03-30', 'dividend_original': 281.0, 'dividend': 281.0, 'recording_date': '2026-03-31', 'cum_date': '2026-03-27', 'updated_on': '2026-03-18 19:10:33', 'payment_date': '2026-04-08'}
+2026-03-18 19:10:33 [INFO] - [FETCHING] {'symbol': 'HAIS.JK', 'date': '2026-03-26', 'dividend_original': 9.95, 'dividend': 9.95, 'recording_date': '2026-03-27', 'cum_date': '2026-03-25', 'updated_on': '2026-03-18 19:10:33', 'payment_date': '2026-04-10'}
+2026-03-18 19:10:33 [INFO] - [FETCHING] {'symbol': 'BBNI.JK', 'date': '2026-03-25', 'dividend_original': 349.4133654, 'dividend': 349.4133654, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-18 19:10:33', 'payment_date': '2026-04-07'}
+2026-03-18 19:10:33 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-18 19:10:33', 'payment_date': '2026-04-09'}
+2026-03-18 19:10:33 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-19.
+2026-03-18 19:10:35,156 - INFO: update 2026-03-19 upcoming dividend data
