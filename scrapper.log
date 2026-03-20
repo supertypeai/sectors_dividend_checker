@@ -3091,3 +3091,8 @@
 2026-03-19 19:06:42 [INFO] - [FETCHING] {'symbol': 'ELPI.JK', 'date': '2026-03-25', 'dividend_original': 17.0, 'dividend': 17.0, 'recording_date': '2026-03-26', 'cum_date': '2026-03-17', 'updated_on': '2026-03-19 19:06:42', 'payment_date': '2026-04-09'}
 2026-03-19 19:06:42 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-20.
 2026-03-19 19:06:44,481 - INFO: update 2026-03-20 upcoming dividend data
+2026-03-20 18:49:43 [INFO] - Init Global Variable
+2026-03-20 18:49:44 [INFO] - Scrape for start date: 2026-03-15 and end date: 2026-03-21
+2026-03-20 18:49:44 [INFO] - Fetching page 1...
+2026-03-20 18:49:45 [INFO] - Stop condition met: Found Ex-Date 2026-02-20 which is older than start date 2026-03-15.
+2026-03-20 18:49:46 [WARNING] - No records to upsert to database. All data is up to date
