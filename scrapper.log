@@ -3134,3 +3134,10 @@
 2026-03-25 19:03:39 [INFO] - [FETCHING] {'symbol': 'HAIS.JK', 'date': '2026-03-26', 'dividend_original': 9.95, 'dividend': 9.95, 'recording_date': '2026-03-27', 'cum_date': '2026-03-25', 'updated_on': '2026-03-25 19:03:39', 'payment_date': '2026-04-10'}
 2026-03-25 19:03:39 [INFO] - Stop condition met: Found Ex-Date 2026-03-25 which is older than start date 2026-03-26.
 2026-03-25 19:03:41,786 - INFO: update 2026-03-26 upcoming dividend data
+2026-03-26 19:16:24 [INFO] - Init Global Variable
+2026-03-26 19:16:25,035 - INFO: Program started
+2026-03-26 19:16:25 [INFO] - Scrape for start date: 2026-03-27 and end date: 2026-04-10
+2026-03-26 19:16:25 [INFO] - Fetching page 1...
+2026-03-26 19:16:27 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-03-30', 'dividend_original': 281.0, 'dividend': 281.0, 'recording_date': '2026-03-31', 'cum_date': '2026-03-27', 'updated_on': '2026-03-26 19:16:27', 'payment_date': '2026-04-08'}
+2026-03-26 19:16:27 [INFO] - Stop condition met: Found Ex-Date 2026-03-26 which is older than start date 2026-03-27.
+2026-03-26 19:16:28,813 - INFO: update 2026-03-27 upcoming dividend data
