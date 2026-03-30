@@ -3171,3 +3171,8 @@
 2026-03-27 19:03:15 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-03-30', 'dividend_original': 281.0, 'dividend': 281.0, 'recording_date': '2026-03-31', 'cum_date': '2026-03-27', 'updated_on': '2026-03-27 19:03:15', 'payment_date': '2026-04-08'}
 2026-03-27 19:03:15 [INFO] - Stop condition met: Found Ex-Date 2026-03-26 which is older than start date 2026-03-28.
 2026-03-27 19:03:17,020 - INFO: update 2026-03-28 upcoming dividend data
+2026-03-30 19:08:17 [INFO] - Init Global Variable
+2026-03-30 19:08:17,644 - INFO: Program started
+2026-03-30 19:08:18 [INFO] - Scrape for start date: 2026-03-31 and end date: 2026-04-14
+2026-03-30 19:08:18 [INFO] - Fetching page 1...
+2026-03-30 19:08:19 [INFO] - Stop condition met: Found Ex-Date 2026-03-30 which is older than start date 2026-03-31.
