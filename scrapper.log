@@ -3204,3 +3204,10 @@
 2026-04-01 19:12:27 [ERROR] - 	[FAILED] Failed after 9 attempt(s). Retrying after 2 seconds... | Error retrieving data from SahamIDX
 2026-04-01 19:12:29 [INFO] - Fetching page 1...
 2026-04-01 19:12:30 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
+2026-04-02 19:04:23 [INFO] - Init Global Variable
+2026-04-02 19:04:23,688 - INFO: Program started
+2026-04-02 19:04:24 [INFO] - Scrape for start date: 2026-04-03 and end date: 2026-04-17
+2026-04-02 19:04:24 [INFO] - Fetching page 1...
+2026-04-02 19:04:28 [INFO] - [FETCHING] {'symbol': 'TEBE.JK', 'date': '2026-04-10', 'dividend_original': 156.0, 'dividend': 156.0, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-02 19:04:28', 'payment_date': '2026-04-24'}
+2026-04-02 19:04:28 [INFO] - Stop condition met: Found Ex-Date 2026-03-30 which is older than start date 2026-04-03.
+2026-04-02 19:04:30,224 - INFO: update 2026-04-03 upcoming dividend data
