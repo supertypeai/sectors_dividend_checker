@@ -3242,3 +3242,15 @@
 2026-04-07 19:13:22 [INFO] - [FETCHING] {'symbol': 'WOMF.JK', 'date': '2026-04-09', 'dividend_original': 12.28, 'dividend': 12.28, 'recording_date': '2026-04-10', 'cum_date': '2026-04-08', 'updated_on': '2026-04-07 19:13:22', 'payment_date': '2026-05-04'}
 2026-04-07 19:13:22 [INFO] - Stop condition met: Found Ex-Date 2026-03-30 which is older than start date 2026-04-08.
 2026-04-07 19:13:24,084 - INFO: update 2026-04-08 upcoming dividend data
+2026-04-08 19:25:28 [INFO] - Init Global Variable
+2026-04-08 19:25:28,157 - INFO: Program started
+2026-04-08 19:25:28 [INFO] - Scrape for start date: 2026-04-09 and end date: 2026-04-23
+2026-04-08 19:25:28 [INFO] - Fetching page 1...
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'ROTI.JK', 'date': '2026-04-16', 'dividend_original': 80.04, 'dividend': 80.04, 'recording_date': '2026-04-17', 'cum_date': '2026-04-15', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-04-24'}
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'ADMF.JK', 'date': '2026-04-15', 'dividend_original': 630.0, 'dividend': 630.0, 'recording_date': '2026-04-16', 'cum_date': '2026-04-14', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-04-30'}
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'BDMN.JK', 'date': '2026-04-10', 'dividend_original': 142.19, 'dividend': 142.19, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-04-30'}
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'MEGA.JK', 'date': '2026-04-10', 'dividend_original': 171.947293, 'dividend': 171.947293, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-04-30'}
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'TEBE.JK', 'date': '2026-04-09', 'dividend_original': 156.0, 'dividend': 156.0, 'recording_date': '2026-04-10', 'cum_date': '2026-04-08', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-04-24'}
+2026-04-08 19:25:30 [INFO] - [FETCHING] {'symbol': 'WOMF.JK', 'date': '2026-04-09', 'dividend_original': 12.28, 'dividend': 12.28, 'recording_date': '2026-04-10', 'cum_date': '2026-04-08', 'updated_on': '2026-04-08 19:25:30', 'payment_date': '2026-05-04'}
+2026-04-08 19:25:30 [INFO] - Stop condition met: Found Ex-Date 2026-03-30 which is older than start date 2026-04-09.
+2026-04-08 19:25:31,762 - INFO: update 2026-04-09 upcoming dividend data
