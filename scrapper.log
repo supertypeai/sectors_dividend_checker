@@ -3264,3 +3264,12 @@
 2026-04-09 19:17:05 [INFO] - [FETCHING] {'symbol': 'MEGA.JK', 'date': '2026-04-10', 'dividend_original': 171.947293, 'dividend': 171.947293, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-09 19:17:05', 'payment_date': '2026-04-30'}
 2026-04-09 19:17:05 [INFO] - Stop condition met: Found Ex-Date 2026-04-09 which is older than start date 2026-04-10.
 2026-04-09 19:17:07,065 - INFO: update 2026-04-10 upcoming dividend data
+2026-04-10 18:51:23 [INFO] - Init Global Variable
+2026-04-10 18:51:24 [INFO] - Scrape for start date: 2026-04-05 and end date: 2026-04-11
+2026-04-10 18:51:24 [INFO] - Fetching page 1...
+2026-04-10 18:51:35 [INFO] - [FETCHING] {'symbol': 'BDMN.JK', 'date': '2026-04-10', 'dividend_original': 142.19, 'dividend': 142.19, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-10 18:51:35', 'payment_date': '2026-04-30'}
+2026-04-10 18:51:35 [INFO] - [FETCHING] {'symbol': 'MEGA.JK', 'date': '2026-04-10', 'dividend_original': 171.947293, 'dividend': 171.947293, 'recording_date': '2026-04-13', 'cum_date': '2026-04-09', 'updated_on': '2026-04-10 18:51:35', 'payment_date': '2026-04-30'}
+2026-04-10 18:51:35 [INFO] - [FETCHING] {'symbol': 'TEBE.JK', 'date': '2026-04-09', 'dividend_original': 156.0, 'dividend': 156.0, 'recording_date': '2026-04-10', 'cum_date': '2026-04-08', 'updated_on': '2026-04-10 18:51:35', 'payment_date': '2026-04-24'}
+2026-04-10 18:51:35 [INFO] - [FETCHING] {'symbol': 'WOMF.JK', 'date': '2026-04-09', 'dividend_original': 12.28, 'dividend': 12.28, 'recording_date': '2026-04-10', 'cum_date': '2026-04-08', 'updated_on': '2026-04-10 18:51:35', 'payment_date': '2026-04-30'}
+2026-04-10 18:51:35 [INFO] - Stop condition met: Found Ex-Date 2026-03-30 which is older than start date 2026-04-05.
+2026-04-10 18:51:37 [INFO] - Successfully upserted 4 data to database
