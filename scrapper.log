@@ -3334,3 +3334,8 @@
 2026-04-15 19:26:55 [INFO] - [FETCHING] {'symbol': 'ROTI.JK', 'date': '2026-04-16', 'dividend_original': 80.04, 'dividend': 80.04, 'recording_date': '2026-04-17', 'cum_date': '2026-04-15', 'updated_on': '2026-04-15 19:26:55', 'payment_date': '2026-04-24'}
 2026-04-15 19:26:55 [INFO] - Stop condition met: Found Ex-Date 2026-04-15 which is older than start date 2026-04-16.
 2026-04-15 19:26:58,369 - INFO: update 2026-04-16 upcoming dividend data
+2026-04-16 19:23:41 [INFO] - Init Global Variable
+2026-04-16 19:23:41,294 - INFO: Program started
+2026-04-16 19:23:42 [INFO] - Scrape for start date: 2026-04-17 and end date: 2026-05-01
+2026-04-16 19:23:42 [INFO] - Fetching page 1...
+2026-04-16 19:23:42 [INFO] - No more data rows found on this page. Stopping scrape
