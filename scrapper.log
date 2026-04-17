@@ -3339,3 +3339,15 @@
 2026-04-16 19:23:42 [INFO] - Scrape for start date: 2026-04-17 and end date: 2026-05-01
 2026-04-16 19:23:42 [INFO] - Fetching page 1...
 2026-04-16 19:23:42 [INFO] - No more data rows found on this page. Stopping scrape
+2026-04-17 18:59:19 [INFO] - Init Global Variable
+2026-04-17 18:59:20 [INFO] - Scrape for start date: 2026-04-12 and end date: 2026-04-18
+2026-04-17 18:59:20 [INFO] - Fetching page 1...
+2026-04-17 18:59:21 [INFO] - [FETCHING] {'symbol': 'ARNA.JK', 'date': '2026-04-17', 'dividend_original': 45.0, 'dividend': 45.0, 'recording_date': '2026-04-20', 'cum_date': '2026-04-16', 'updated_on': '2026-04-17 18:59:21', 'payment_date': '2026-04-28'}
+2026-04-17 18:59:21 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.000116'
+2026-04-17 18:59:21 [INFO] - [FETCHING] {'symbol': 'BNLI.JK', 'date': '2026-04-16', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2026-04-17', 'cum_date': '2026-04-15', 'updated_on': '2026-04-17 18:59:21', 'payment_date': '2026-05-07'}
+2026-04-17 18:59:21 [INFO] - [FETCHING] {'symbol': 'ROTI.JK', 'date': '2026-04-16', 'dividend_original': 80.04, 'dividend': 80.04, 'recording_date': '2026-04-17', 'cum_date': '2026-04-15', 'updated_on': '2026-04-17 18:59:21', 'payment_date': '2026-04-24'}
+2026-04-17 18:59:21 [INFO] - [FETCHING] {'symbol': 'ADMF.JK', 'date': '2026-04-15', 'dividend_original': 630.0, 'dividend': 630.0, 'recording_date': '2026-04-16', 'cum_date': '2026-04-14', 'updated_on': '2026-04-17 18:59:21', 'payment_date': '2026-04-30'}
+2026-04-17 18:59:21 [INFO] - [FETCHING] {'symbol': 'CNMA.JK', 'date': '2026-04-15', 'dividend_original': 7.0, 'dividend': 7.0, 'recording_date': '2026-04-16', 'cum_date': '2026-04-14', 'updated_on': '2026-04-17 18:59:21', 'payment_date': '2026-04-28'}
+2026-04-17 18:59:22 [INFO] - Fetching page 2...
+2026-04-17 18:59:23 [INFO] - Stop condition met: Found Ex-Date 2026-04-10 which is older than start date 2026-04-12.
+2026-04-17 18:59:25 [INFO] - Successfully upserted 5 data to database
