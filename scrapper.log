@@ -3366,3 +3366,23 @@
 2026-04-17 19:10:05 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2026-04-20', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-04-21', 'cum_date': '2026-04-17', 'updated_on': '2026-04-17 19:10:05', 'payment_date': '2026-05-07'}
 2026-04-17 19:10:05 [INFO] - Stop condition met: Found Ex-Date 2026-04-17 which is older than start date 2026-04-18.
 2026-04-17 19:10:07,292 - INFO: update 2026-04-18 upcoming dividend data
+2026-04-20 19:15:30 [INFO] - Init Global Variable
+2026-04-20 19:15:30,465 - INFO: Program started
+2026-04-20 19:15:31 [INFO] - Scrape for start date: 2026-04-21 and end date: 2026-05-05
+2026-04-20 19:15:31 [INFO] - Fetching page 1...
+2026-04-20 19:17:45 [ERROR] - 	[FAILED] Failed after 1 attempt(s). Retrying after 2 seconds... | HTTPSConnectionPool(host='www.new.sahamidx.com', port=443): Max retries exceeded with url: /?/deviden/page/1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.new.sahamidx.com', port=443) at 0x7f1ecdfa5f10>, 'Connection to www.new.sahamidx.com timed out. (connect timeout=None)'))
+2026-04-20 19:17:47 [INFO] - Fetching page 1...
+2026-04-20 19:20:01 [ERROR] - 	[FAILED] Failed after 2 attempt(s). Retrying after 2 seconds... | HTTPSConnectionPool(host='www.new.sahamidx.com', port=443): Max retries exceeded with url: /?/deviden/page/1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.new.sahamidx.com', port=443) at 0x7f1ecdfa7490>, 'Connection to www.new.sahamidx.com timed out. (connect timeout=None)'))
+2026-04-20 19:20:03 [INFO] - Fetching page 1...
+2026-04-20 19:20:04 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00294'
+2026-04-20 19:20:04 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00672'
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'BNGA.JK', 'date': '2026-04-28', 'dividend_original': 161.77, 'dividend': 161.77, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-13'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'TLDN.JK', 'date': '2026-04-27', 'dividend_original': 38.65, 'dividend': 38.65, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-19'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'AALI.JK', 'date': '2026-04-24', 'dividend_original': 335.0, 'dividend': 335.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-13'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'ASGR.JK', 'date': '2026-04-24', 'dividend_original': 211.0, 'dividend': 211.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-13'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'LPPF.JK', 'date': '2026-04-24', 'dividend_original': 250.0, 'dividend': 250.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-04'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'PJAA.JK', 'date': '2026-04-23', 'dividend_original': 26.05, 'dividend': 26.05, 'recording_date': '2026-04-24', 'cum_date': '2026-04-22', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-13'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'BBRI.JK', 'date': '2026-04-21', 'dividend_original': 209.0, 'dividend': 209.0, 'recording_date': '2026-04-22', 'cum_date': '2026-04-20', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-08'}
+2026-04-20 19:20:04 [INFO] - [FETCHING] {'symbol': 'YULE.JK', 'date': '2026-04-21', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-04-22', 'cum_date': '2026-04-20', 'updated_on': '2026-04-20 19:20:04', 'payment_date': '2026-05-13'}
+2026-04-20 19:20:04 [INFO] - Stop condition met: Found Ex-Date 2026-04-20 which is older than start date 2026-04-21.
+2026-04-20 19:20:06,158 - INFO: update 2026-04-21 upcoming dividend data
