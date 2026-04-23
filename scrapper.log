@@ -3427,3 +3427,23 @@
 2026-04-22 19:22:57 [INFO] - Fetching page 2...
 2026-04-22 19:22:58 [INFO] - Stop condition met: Found Ex-Date 2026-04-21 which is older than start date 2026-04-23.
 2026-04-22 19:23:00,126 - INFO: update 2026-04-23 upcoming dividend data
+2026-04-23 19:21:02 [INFO] - Init Global Variable
+2026-04-23 19:21:02,383 - INFO: Program started
+2026-04-23 19:21:03 [INFO] - Scrape for start date: 2026-04-24 and end date: 2026-05-08
+2026-04-23 19:21:03 [INFO] - Fetching page 1...
+2026-04-23 19:21:04 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00294'
+2026-04-23 19:21:04 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00672'
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'AUTO.JK', 'date': '2026-04-28', 'dividend_original': 170.0, 'dividend': 170.0, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-18'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'BNGA.JK', 'date': '2026-04-28', 'dividend_original': 161.77, 'dividend': 161.77, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-13'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'BNII.JK', 'date': '2026-04-28', 'dividend_original': 7.61106, 'dividend': 7.61106, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-13'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'DRMA.JK', 'date': '2026-04-28', 'dividend_original': 70.0, 'dividend': 70.0, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-07'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'ITMG.JK', 'date': '2026-04-28', 'dividend_original': 0.05712, 'dividend': 0.05712, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-19'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'BTPS.JK', 'date': '2026-04-27', 'dividend_original': 46.2, 'dividend': 46.2, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-19'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'TLDN.JK', 'date': '2026-04-27', 'dividend_original': 38.65, 'dividend': 38.65, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-19'}
+2026-04-23 19:21:04 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00107766'
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'UNTR.JK', 'date': '2026-04-27', 'dividend_original': 1096.0, 'dividend': 1096.0, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-18'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'AALI.JK', 'date': '2026-04-24', 'dividend_original': 335.0, 'dividend': 335.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-13'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'ASGR.JK', 'date': '2026-04-24', 'dividend_original': 211.0, 'dividend': 211.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-13'}
+2026-04-23 19:21:04 [INFO] - [FETCHING] {'symbol': 'LPPF.JK', 'date': '2026-04-24', 'dividend_original': 250.0, 'dividend': 250.0, 'recording_date': '2026-04-27', 'cum_date': '2026-04-23', 'updated_on': '2026-04-23 19:21:04', 'payment_date': '2026-05-04'}
+2026-04-23 19:21:04 [INFO] - Stop condition met: Found Ex-Date 2026-04-23 which is older than start date 2026-04-24.
+2026-04-23 19:21:06,394 - INFO: update 2026-04-24 upcoming dividend data
