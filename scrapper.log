@@ -3467,3 +3467,26 @@
 2026-04-24 18:50:37 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2026-04-20', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-04-21', 'cum_date': '2026-04-17', 'updated_on': '2026-04-24 18:50:37', 'payment_date': '2026-05-07'}
 2026-04-24 18:50:37 [INFO] - Stop condition met: Found Ex-Date 2026-04-17 which is older than start date 2026-04-19.
 2026-04-24 18:50:38 [INFO] - Successfully upserted 11 data to database
+2026-04-24 19:02:37 [INFO] - Init Global Variable
+2026-04-24 19:02:37,725 - INFO: Program started
+2026-04-24 19:02:38 [INFO] - Scrape for start date: 2026-04-25 and end date: 2026-05-09
+2026-04-24 19:02:38 [INFO] - Fetching page 1...
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'ASII.JK', 'date': '2026-05-05', 'dividend_original': 292.0, 'dividend': 292.0, 'recording_date': '2026-05-06', 'cum_date': '2026-05-04', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-25'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'PGEO.JK', 'date': '2026-05-04', 'dividend_original': 49.4423, 'dividend': 49.4423, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-22'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'ULTJ.JK', 'date': '2026-05-04', 'dividend_original': 130.0, 'dividend': 130.0, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-22'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'KEJU.JK', 'date': '2026-04-30', 'dividend_original': 16.0, 'dividend': 16.0, 'recording_date': '2026-05-04', 'cum_date': '2026-04-29', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-13'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'NAIK.JK', 'date': '2026-04-30', 'dividend_original': 3.0, 'dividend': 3.0, 'recording_date': '2026-05-04', 'cum_date': '2026-04-29', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-22'}
+2026-04-24 19:02:39 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00294'
+2026-04-24 19:02:39 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00672'
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'AUTO.JK', 'date': '2026-04-28', 'dividend_original': 170.0, 'dividend': 170.0, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-18'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'BNGA.JK', 'date': '2026-04-28', 'dividend_original': 161.77, 'dividend': 161.77, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-13'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'BNII.JK', 'date': '2026-04-28', 'dividend_original': 7.61106, 'dividend': 7.61106, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-13'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'DRMA.JK', 'date': '2026-04-28', 'dividend_original': 70.0, 'dividend': 70.0, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-07'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'ITMG.JK', 'date': '2026-04-28', 'dividend_original': 0.05712, 'dividend': 0.05712, 'recording_date': '2026-04-29', 'cum_date': '2026-04-27', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-19'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'BTPS.JK', 'date': '2026-04-27', 'dividend_original': 46.2, 'dividend': 46.2, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-19'}
+2026-04-24 19:02:39 [INFO] - [FETCHING] {'symbol': 'TLDN.JK', 'date': '2026-04-27', 'dividend_original': 38.65, 'dividend': 38.65, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-24 19:02:39', 'payment_date': '2026-05-19'}
+2026-04-24 19:02:40 [INFO] - Fetching page 2...
+2026-04-24 19:02:41 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00107766'
+2026-04-24 19:02:41 [INFO] - [FETCHING] {'symbol': 'UNTR.JK', 'date': '2026-04-27', 'dividend_original': 1096.0, 'dividend': 1096.0, 'recording_date': '2026-04-28', 'cum_date': '2026-04-24', 'updated_on': '2026-04-24 19:02:41', 'payment_date': '2026-05-18'}
+2026-04-24 19:02:41 [INFO] - Stop condition met: Found Ex-Date 2026-04-24 which is older than start date 2026-04-25.
+2026-04-24 19:02:43,282 - INFO: update 2026-04-25 upcoming dividend data
