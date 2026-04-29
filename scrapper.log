@@ -3535,3 +3535,25 @@
 2026-04-28 19:48:54 [INFO] - Fetching page 2...
 2026-04-28 19:48:55 [INFO] - Stop condition met: Found Ex-Date 2026-04-28 which is older than start date 2026-04-29.
 2026-04-28 19:48:57,113 - INFO: update 2026-04-29 upcoming dividend data
+2026-04-29 19:44:27 [INFO] - Init Global Variable
+2026-04-29 19:44:27,641 - INFO: Program started
+2026-04-29 19:44:28 [INFO] - Scrape for start date: 2026-04-30 and end date: 2026-05-14
+2026-04-29 19:44:28 [INFO] - Fetching page 1...
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-05-08', 'dividend_original': 3.8, 'dividend': 3.8, 'recording_date': '2026-05-11', 'cum_date': '2026-05-07', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'GMTD.JK', 'date': '2026-05-06', 'dividend_original': 4.04, 'dividend': 4.04, 'recording_date': '2026-05-07', 'cum_date': '2026-05-05', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'ASII.JK', 'date': '2026-05-05', 'dividend_original': 292.0, 'dividend': 292.0, 'recording_date': '2026-05-06', 'cum_date': '2026-05-04', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-25'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'BTPN.JK', 'date': '2026-05-05', 'dividend_original': 9.497638609, 'dividend': 9.497638609, 'recording_date': '2026-05-06', 'cum_date': '2026-05-04', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'PRDA.JK', 'date': '2026-05-05', 'dividend_original': 162.683, 'dividend': 162.683, 'recording_date': '2026-05-06', 'cum_date': '2026-05-04', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'CINT.JK', 'date': '2026-05-04', 'dividend_original': 13.7775, 'dividend': 13.7775, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'DKFT.JK', 'date': '2026-05-04', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-12'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'KDSI.JK', 'date': '2026-05-04', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'MINE.JK', 'date': '2026-05-04', 'dividend_original': 14.75, 'dividend': 14.75, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'PGEO.JK', 'date': '2026-05-04', 'dividend_original': 49.4423, 'dividend': 49.4423, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'ULTJ.JK', 'date': '2026-05-04', 'dividend_original': 130.0, 'dividend': 130.0, 'recording_date': '2026-05-05', 'cum_date': '2026-04-30', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'KEJU.JK', 'date': '2026-04-30', 'dividend_original': 16.0, 'dividend': 16.0, 'recording_date': '2026-05-04', 'cum_date': '2026-04-29', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-13'}
+2026-04-29 19:44:29 [INFO] - [FETCHING] {'symbol': 'NAIK.JK', 'date': '2026-04-30', 'dividend_original': 3.0, 'dividend': 3.0, 'recording_date': '2026-05-04', 'cum_date': '2026-04-29', 'updated_on': '2026-04-29 19:44:29', 'payment_date': '2026-05-22'}
+2026-04-29 19:44:29 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00294'
+2026-04-29 19:44:30 [INFO] - Fetching page 2...
+2026-04-29 19:44:31 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00672'
+2026-04-29 19:44:31 [INFO] - Stop condition met: Found Ex-Date 2026-04-28 which is older than start date 2026-04-30.
+2026-04-29 19:44:33,326 - INFO: update 2026-04-30 upcoming dividend data
