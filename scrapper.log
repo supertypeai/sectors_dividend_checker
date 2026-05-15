@@ -3899,3 +3899,33 @@
 2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'ZYRX.JK', 'date': '2026-05-11', 'dividend_original': 4.9, 'dividend': 4.9, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-05-29'}
 2026-05-15 19:30:21 [INFO] - Stop condition met: Found Ex-Date 2026-05-08 which is older than start date 2026-05-10.
 2026-05-15 19:30:23 [INFO] - Successfully upserted 12 data to database
+2026-05-15 19:46:11 [INFO] - Init Global Variable
+2026-05-15 19:46:11,499 - INFO: Program started
+2026-05-15 19:46:12 [INFO] - Scrape for start date: 2026-05-16 and end date: 2026-05-30
+2026-05-15 19:46:12 [INFO] - Fetching page 1...
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'PLIN.JK', 'date': '2026-05-25', 'dividend_original': 180.12, 'dividend': 180.12, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-04'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'MCOL.JK', 'date': '2026-05-22', 'dividend_original': 200.0, 'dividend': 200.0, 'recording_date': '2026-05-25', 'cum_date': '2026-05-21', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-08'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'OBAT.JK', 'date': '2026-05-22', 'dividend_original': 7.548, 'dividend': 7.548, 'recording_date': '2026-05-25', 'cum_date': '2026-05-21', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-12'}
+2026-05-15 19:46:13 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'PANR.JK', 'date': '2026-05-21', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-11'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'PBID.JK', 'date': '2026-05-21', 'dividend_original': 53.0, 'dividend': 53.0, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-04'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'PDES.JK', 'date': '2026-05-21', 'dividend_original': 1.0, 'dividend': 1.0, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-11'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'POWR.JK', 'date': '2026-05-21', 'dividend_original': 49.5272, 'dividend': 49.5272, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-05'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'PSSI.JK', 'date': '2026-05-21', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-11'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'SMGR.JK', 'date': '2026-05-21', 'dividend_original': 28.33, 'dividend': 28.33, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-11'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'WEHA.JK', 'date': '2026-05-21', 'dividend_original': 6.0, 'dividend': 6.0, 'recording_date': '2026-05-22', 'cum_date': '2026-05-20', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-11'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'ARCI.JK', 'date': '2026-05-20', 'dividend_original': 20.69, 'dividend': 20.69, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-09'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'BAYU.JK', 'date': '2026-05-20', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-10'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'KUAS.JK', 'date': '2026-05-20', 'dividend_original': 1.5, 'dividend': 1.5, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-06-10'}
+2026-05-15 19:46:13 [INFO] - [FETCHING] {'symbol': 'LTLS.JK', 'date': '2026-05-20', 'dividend_original': 31.0, 'dividend': 31.0, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:13', 'payment_date': '2026-05-29'}
+2026-05-15 19:46:14 [INFO] - Fetching page 2...
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2026-05-20', 'dividend_original': 90.0, 'dividend': 90.0, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-10'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'RATU.JK', 'date': '2026-05-20', 'dividend_original': 45.0, 'dividend': 45.0, 'recording_date': '2026-05-21', 'cum_date': '2026-05-19', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-10'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'BJTM.JK', 'date': '2026-05-19', 'dividend_original': 56.62, 'dividend': 56.62, 'recording_date': '2026-05-20', 'cum_date': '2026-05-18', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-05'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'SHIP.JK', 'date': '2026-05-19', 'dividend_original': 35.0, 'dividend': 35.0, 'recording_date': '2026-05-20', 'cum_date': '2026-05-18', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-05-26'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'TOTL.JK', 'date': '2026-05-19', 'dividend_original': 110.0, 'dividend': 110.0, 'recording_date': '2026-05-20', 'cum_date': '2026-05-18', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-05'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2026-05-19', 'dividend_original': 16.5742141148, 'dividend': 16.5742141148, 'recording_date': '2026-05-20', 'cum_date': '2026-05-18', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-05-29'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'BRIS.JK', 'date': '2026-05-18', 'dividend_original': 32.810077, 'dividend': 32.810077, 'recording_date': '2026-05-19', 'cum_date': '2026-05-13', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-05'}
+2026-05-15 19:46:15 [INFO] - [FETCHING] {'symbol': 'ISAT.JK', 'date': '2026-05-18', 'dividend_original': 111.0, 'dividend': 111.0, 'recording_date': '2026-05-19', 'cum_date': '2026-05-13', 'updated_on': '2026-05-15 19:46:15', 'payment_date': '2026-06-05'}
+2026-05-15 19:46:15 [INFO] - Stop condition met: Found Ex-Date 2026-05-13 which is older than start date 2026-05-16.
+2026-05-15 19:46:16,874 - INFO: update 2026-05-16 upcoming dividend data
