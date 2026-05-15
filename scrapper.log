@@ -3877,3 +3877,25 @@
 2026-05-14 19:53:33 [INFO] - [FETCHING] {'symbol': 'ISAT.JK', 'date': '2026-05-18', 'dividend_original': 111.0, 'dividend': 111.0, 'recording_date': '2026-05-19', 'cum_date': '2026-05-13', 'updated_on': '2026-05-14 19:53:33', 'payment_date': '2026-06-05'}
 2026-05-14 19:53:33 [INFO] - Stop condition met: Found Ex-Date 2026-05-13 which is older than start date 2026-05-15.
 2026-05-14 19:53:35,267 - INFO: update 2026-05-15 upcoming dividend data
+2026-05-15 19:27:36 [INFO] - Init Global Variable
+2026-05-15 19:27:37 [INFO] - Scrape for start date: 2026-05-10 and end date: 2026-05-16
+2026-05-15 19:27:37 [INFO] - Fetching page 1...
+2026-05-15 19:29:53 [ERROR] - 	[FAILED] Failed after 1 attempt(s). Retrying after 2 seconds... | HTTPSConnectionPool(host='www.new.sahamidx.com', port=443): Max retries exceeded with url: /?/deviden/page/1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.new.sahamidx.com', port=443) at 0x7f077d475210>, 'Connection to www.new.sahamidx.com timed out. (connect timeout=None)'))
+2026-05-15 19:29:55 [INFO] - Fetching page 1...
+2026-05-15 19:29:57 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-05-15 19:29:58 [INFO] - Fetching page 2...
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2026-05-13', 'dividend_original': 6.0, 'dividend': 6.0, 'recording_date': '2026-05-18', 'cum_date': '2026-05-12', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-05-26'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'MSJA.JK', 'date': '2026-05-12', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-05-13', 'cum_date': '2026-05-11', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-06-04'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'SSMS.JK', 'date': '2026-05-12', 'dividend_original': 83.99, 'dividend': 83.99, 'recording_date': '2026-05-13', 'cum_date': '2026-05-11', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-06-04'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'ABMM.JK', 'date': '2026-05-11', 'dividend_original': 97.0, 'dividend': 97.0, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-05-26'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'BMRI.JK', 'date': '2026-05-11', 'dividend_original': 376.956938949, 'dividend': 376.956938949, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-05-25'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'JPFA.JK', 'date': '2026-05-11', 'dividend_original': 140.0, 'dividend': 140.0, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-05-19'}
+2026-05-15 19:30:18 [INFO] - [FETCHING] {'symbol': 'LPGI.JK', 'date': '2026-05-11', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:18', 'payment_date': '2026-05-29'}
+2026-05-15 19:30:19 [INFO] - Fetching page 3...
+2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'MLPT.JK', 'date': '2026-05-11', 'dividend_original': 80.0, 'dividend': 80.0, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-06-03'}
+2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'PZZA.JK', 'date': '2026-05-11', 'dividend_original': 1.66, 'dividend': 1.66, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-06-03'}
+2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-05-11', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-05-26'}
+2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'TUGU.JK', 'date': '2026-05-11', 'dividend_original': 99.991764, 'dividend': 99.991764, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-06-03'}
+2026-05-15 19:30:21 [INFO] - [FETCHING] {'symbol': 'ZYRX.JK', 'date': '2026-05-11', 'dividend_original': 4.9, 'dividend': 4.9, 'recording_date': '2026-05-12', 'cum_date': '2026-05-08', 'updated_on': '2026-05-15 19:30:21', 'payment_date': '2026-05-29'}
+2026-05-15 19:30:21 [INFO] - Stop condition met: Found Ex-Date 2026-05-08 which is older than start date 2026-05-10.
+2026-05-15 19:30:23 [INFO] - Successfully upserted 12 data to database
