@@ -4340,3 +4340,32 @@
 2026-05-28 20:30:55 [INFO] - [FETCHING] {'symbol': 'WIIM.JK', 'date': '2026-05-29', 'dividend_original': 104.4, 'dividend': 104.4, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-28 20:30:55', 'payment_date': '2026-06-12'}
 2026-05-28 20:30:55 [INFO] - Stop condition met: Found Ex-Date 2026-05-26 which is older than start date 2026-05-29.
 2026-05-28 20:30:57,127 - INFO: update 2026-05-29 upcoming dividend data
+2026-05-29 20:23:24 [INFO] - Init Global Variable
+2026-05-29 20:23:25 [INFO] - Scrape for start date: 2026-05-24 and end date: 2026-05-30
+2026-05-29 20:23:25 [INFO] - Fetching page 1...
+2026-05-29 20:23:26 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.02568'
+2026-05-29 20:23:26 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'BBLD.JK', 'date': '2026-05-29', 'dividend_original': 2.5, 'dividend': 2.5, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-18'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'HMSP.JK', 'date': '2026-05-29', 'dividend_original': 56.3, 'dividend': 56.3, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-19'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'IFSH.JK', 'date': '2026-05-29', 'dividend_original': 26.0, 'dividend': 26.0, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-17'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'IRSX.JK', 'date': '2026-05-29', 'dividend_original': 0.17, 'dividend': 0.17, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-10'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'PTPS.JK', 'date': '2026-05-29', 'dividend_original': 4.5, 'dividend': 4.5, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-11'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'SKRN.JK', 'date': '2026-05-29', 'dividend_original': 18.0, 'dividend': 18.0, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-05'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'SMBR.JK', 'date': '2026-05-29', 'dividend_original': 3.46185, 'dividend': 3.46185, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-17'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'SRTG.JK', 'date': '2026-05-29', 'dividend_original': 103.3, 'dividend': 103.3, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-12'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'UNIC.JK', 'date': '2026-05-29', 'dividend_original': 1447.0, 'dividend': 1447.0, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-09'}
+2026-05-29 20:23:26 [INFO] - [FETCHING] {'symbol': 'WIIM.JK', 'date': '2026-05-29', 'dividend_original': 104.4, 'dividend': 104.4, 'recording_date': '2026-06-02', 'cum_date': '2026-05-26', 'updated_on': '2026-05-29 20:23:26', 'payment_date': '2026-06-12'}
+2026-05-29 20:23:27 [INFO] - Fetching page 2...
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'GGRP.JK', 'date': '2026-05-26', 'dividend_original': 28.0, 'dividend': 28.0, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-18'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'HYGN.JK', 'date': '2026-05-26', 'dividend_original': 3.0, 'dividend': 3.0, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-18'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'NTBK.JK', 'date': '2026-05-26', 'dividend_original': 0.0524, 'dividend': 0.0524, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-08'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'TPIA.JK', 'date': '2026-05-26', 'dividend_original': 6.07341, 'dividend': 6.07341, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-17'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'WINS.JK', 'date': '2026-05-26', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-18'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'WTON.JK', 'date': '2026-05-26', 'dividend_original': 0.46, 'dividend': 0.46, 'recording_date': '2026-05-29', 'cum_date': '2026-05-25', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-12'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'CHEM.JK', 'date': '2026-05-25', 'dividend_original': 0.33, 'dividend': 0.33, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-17'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'CITA.JK', 'date': '2026-05-25', 'dividend_original': 351.0, 'dividend': 351.0, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-12'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'MDLA.JK', 'date': '2026-05-25', 'dividend_original': 12.6, 'dividend': 12.6, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-17'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'PLIN.JK', 'date': '2026-05-25', 'dividend_original': 79.0, 'dividend': 79.0, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-04'}
+2026-05-29 20:23:29 [INFO] - [FETCHING] {'symbol': 'TGKA.JK', 'date': '2026-05-25', 'dividend_original': 285.0, 'dividend': 285.0, 'recording_date': '2026-05-26', 'cum_date': '2026-05-22', 'updated_on': '2026-05-29 20:23:29', 'payment_date': '2026-06-05'}
+2026-05-29 20:23:29 [INFO] - Stop condition met: Found Ex-Date 2026-05-22 which is older than start date 2026-05-24.
+2026-05-29 20:23:30 [INFO] - Successfully upserted 21 data to database
