@@ -4576,3 +4576,33 @@
 2026-06-05 19:53:17 [INFO] - Fetching page 1...
 2026-06-05 19:53:18 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
 2026-06-05 19:53:18 [WARNING] - No records to upsert to database. All data is up to date
+2026-06-05 20:01:41 [INFO] - Init Global Variable
+2026-06-05 20:01:41,533 - INFO: Program started
+2026-06-05 20:01:42 [INFO] - Scrape for start date: 2026-06-06 and end date: 2026-06-20
+2026-06-05 20:01:42 [INFO] - Fetching page 1...
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'PUDP.JK', 'date': '2026-06-15', 'dividend_original': 1.0, 'dividend': 1.0, 'recording_date': '2026-06-16', 'cum_date': '2026-06-12', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-01'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'BLOG.JK', 'date': '2026-06-11', 'dividend_original': 21.0, 'dividend': 21.0, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-03'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'EURO.JK', 'date': '2026-06-11', 'dividend_original': 0.8, 'dividend': 0.8, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-01'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'GOLF.JK', 'date': '2026-06-11', 'dividend_original': 0.53174, 'dividend': 0.53174, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-29'}
+2026-06-05 20:01:43 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.00433'
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MDKI.JK', 'date': '2026-06-11', 'dividend_original': 9.0, 'dividend': 9.0, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-03'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'SPTO.JK', 'date': '2026-06-11', 'dividend_original': 70.0, 'dividend': 70.0, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-24'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'TMAS.JK', 'date': '2026-06-11', 'dividend_original': 4.0, 'dividend': 4.0, 'recording_date': '2026-06-12', 'cum_date': '2026-06-10', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-03'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'GUNA.JK', 'date': '2026-06-10', 'dividend_original': 7.46, 'dividend': 7.46, 'recording_date': '2026-06-11', 'cum_date': '2026-06-09', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'JTPE.JK', 'date': '2026-06-10', 'dividend_original': 31.0, 'dividend': 31.0, 'recording_date': '2026-06-11', 'cum_date': '2026-06-09', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2026-06-09', 'dividend_original': 4.0, 'dividend': 4.0, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-02'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'BUAH.JK', 'date': '2026-06-09', 'dividend_original': 12.5, 'dividend': 12.5, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'CTBN.JK', 'date': '2026-06-09', 'dividend_original': 465.0, 'dividend': 465.0, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-02'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'KOCI.JK', 'date': '2026-06-09', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-02'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'META.JK', 'date': '2026-06-09', 'dividend_original': 2.62, 'dividend': 2.62, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-02'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MPMX.JK', 'date': '2026-06-09', 'dividend_original': 170.0, 'dividend': 170.0, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-25'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MTLA.JK', 'date': '2026-06-09', 'dividend_original': 9.7, 'dividend': 9.7, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-07-02'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'VICI.JK', 'date': '2026-06-09', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-06-10', 'cum_date': '2026-06-08', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-23'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'APLI.JK', 'date': '2026-06-08', 'dividend_original': 44.03, 'dividend': 44.03, 'recording_date': '2026-06-09', 'cum_date': '2026-06-05', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MAIN.JK', 'date': '2026-06-08', 'dividend_original': 52.0, 'dividend': 52.0, 'recording_date': '2026-06-09', 'cum_date': '2026-06-05', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MERK.JK', 'date': '2026-06-08', 'dividend_original': 275.0, 'dividend': 275.0, 'recording_date': '2026-06-09', 'cum_date': '2026-06-05', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-24'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'MSTI.JK', 'date': '2026-06-08', 'dividend_original': 106.0, 'dividend': 106.0, 'recording_date': '2026-06-09', 'cum_date': '2026-06-05', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-25'}
+2026-06-05 20:01:43 [INFO] - [FETCHING] {'symbol': 'SDPC.JK', 'date': '2026-06-08', 'dividend_original': 3.0, 'dividend': 3.0, 'recording_date': '2026-06-09', 'cum_date': '2026-06-05', 'updated_on': '2026-06-05 20:01:43', 'payment_date': '2026-06-26'}
+2026-06-05 20:01:43 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.02568'
+2026-06-05 20:01:43 [INFO] - Stop condition met: Found Ex-Date 2026-06-05 which is older than start date 2026-06-06.
+2026-06-05 20:01:45,272 - INFO: update 2026-06-06 upcoming dividend data
