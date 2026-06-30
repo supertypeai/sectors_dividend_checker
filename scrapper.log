@@ -5355,3 +5355,26 @@
 2026-06-29 20:06:29 [INFO] - [FETCHING] {'symbol': 'TBLA.JK', 'date': '2026-06-30', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-07-01', 'cum_date': '2026-06-29', 'updated_on': '2026-06-29 20:06:29', 'payment_date': '2026-07-22'}
 2026-06-29 20:06:29 [INFO] - Stop condition met: Found Ex-Date 2026-06-29 which is older than start date 2026-06-30.
 2026-06-29 20:06:30,659 - INFO: update 2026-06-30 upcoming dividend data
+2026-06-30 20:05:31 [INFO] - Init Global Variable
+2026-06-30 20:05:31,701 - INFO: Program started
+2026-06-30 20:05:32 [INFO] - Scrape for start date: 2026-07-01 and end date: 2026-07-15
+2026-06-30 20:05:32 [INFO] - Fetching page 1...
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'AMFG.JK', 'date': '2026-07-07', 'dividend_original': 80.0, 'dividend': 80.0, 'recording_date': '2026-07-08', 'cum_date': '2026-07-06', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-29'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'CSIS.JK', 'date': '2026-07-06', 'dividend_original': 3.0, 'dividend': 3.0, 'recording_date': '2026-07-07', 'cum_date': '2026-07-03', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-15'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'GTSI.JK', 'date': '2026-07-06', 'dividend_original': 1.0, 'dividend': 1.0, 'recording_date': '2026-07-07', 'cum_date': '2026-07-03', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'ALDO.JK', 'date': '2026-07-03', 'dividend_original': 0.5, 'dividend': 0.5, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'BPFI.JK', 'date': '2026-07-03', 'dividend_original': 7.96, 'dividend': 7.96, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'BREN.JK', 'date': '2026-07-03', 'dividend_original': 4.0933, 'dividend': 4.0933, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'INDS.JK', 'date': '2026-07-03', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'JECC.JK', 'date': '2026-07-03', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'KBLI.JK', 'date': '2026-07-03', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-23'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'MAPA.JK', 'date': '2026-07-03', 'dividend_original': 4.0, 'dividend': 4.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'MAPI.JK', 'date': '2026-07-03', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'PDPP.JK', 'date': '2026-07-03', 'dividend_original': 2.257983007, 'dividend': 2.257983007, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'PMJS.JK', 'date': '2026-07-03', 'dividend_original': 3.5, 'dividend': 3.5, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'SMDR.JK', 'date': '2026-07-03', 'dividend_original': 9.5, 'dividend': 9.5, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'SOCI.JK', 'date': '2026-07-03', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'MDKA.JK', 'date': '2026-07-02', 'dividend_original': 12.26, 'dividend': 12.26, 'recording_date': '2026-07-03', 'cum_date': '2026-07-01', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - [FETCHING] {'symbol': 'RAJA.JK', 'date': '2026-07-02', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-07-03', 'cum_date': '2026-07-01', 'updated_on': '2026-06-30 20:05:38', 'payment_date': '2026-07-24'}
+2026-06-30 20:05:38 [INFO] - Stop condition met: Found Ex-Date 2026-06-30 which is older than start date 2026-07-01.
+2026-06-30 20:05:40,019 - INFO: update 2026-07-01 upcoming dividend data
