@@ -5543,3 +5543,8 @@
 2026-07-08 19:41:51 [INFO] - [FETCHING] {'symbol': 'WIFI.JK', 'date': '2026-07-09', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-07-08 19:41:51', 'payment_date': '2026-07-31'}
 2026-07-08 19:41:51 [INFO] - Stop condition met: Found Ex-Date 2026-07-08 which is older than start date 2026-07-09.
 2026-07-08 19:41:52,992 - INFO: update 2026-07-09 upcoming dividend data
+2026-07-09 19:54:06 [INFO] - Init Global Variable
+2026-07-09 19:54:06,974 - INFO: Program started
+2026-07-09 19:54:07 [INFO] - Scrape for start date: 2026-07-10 and end date: 2026-07-24
+2026-07-09 19:54:07 [INFO] - Fetching page 1...
+2026-07-09 19:54:09 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-10.
