@@ -5847,3 +5847,8 @@
 2026-07-14 04:25:48 [INFO] - [FETCHING] {'symbol': 'UNVR.JK', 'date': '2026-06-15', 'dividend_original': 114.0, 'dividend': 114.0, 'recording_date': '2026-06-17', 'cum_date': '2026-06-12', 'updated_on': '2026-07-14 04:25:48', 'payment_date': '2026-06-30'}
 2026-07-14 04:25:48 [INFO] - Stop condition met: Found Ex-Date 2026-06-12 which is older than start date 2026-06-15.
 2026-07-14 04:25:49 [INFO] - Successfully upserted 169 data to database
+2026-07-14 19:14:16 [INFO] - Init Global Variable
+2026-07-14 19:14:17 [INFO] - Scrape for start date: 2026-06-16 and end date: 2026-07-15
+2026-07-14 19:14:17 [INFO] - Fetching page 1...
+2026-07-14 19:14:18 [INFO] - No more data rows found on this page. Stopping scrape
+2026-07-14 19:14:19 [WARNING] - No records to upsert to database. All data is up to date
