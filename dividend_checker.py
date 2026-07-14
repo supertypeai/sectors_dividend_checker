@@ -43,7 +43,7 @@ def check_start_year():
 
 
 class DividendChecker:
-    def __init__(self, supabase_client: Client, last_n_day: int = 14):
+    def __init__(self, supabase_client: Client, last_n_day: int = 30):
         """ 
         DividendChecker class to scrape dividend data from SahamIDX and manage it in a database.
 
