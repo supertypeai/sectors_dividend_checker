@@ -5852,3 +5852,8 @@
 2026-07-14 19:14:17 [INFO] - Fetching page 1...
 2026-07-14 19:14:18 [INFO] - No more data rows found on this page. Stopping scrape
 2026-07-14 19:14:19 [WARNING] - No records to upsert to database. All data is up to date
+2026-07-14 19:26:54 [INFO] - Init Global Variable
+2026-07-14 19:26:54,933 - INFO: Program started
+2026-07-14 19:26:55 [INFO] - Scrape for start date: 2026-07-15 and end date: 2026-07-29
+2026-07-14 19:26:55 [INFO] - Fetching page 1...
+2026-07-14 19:26:56 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-15.
