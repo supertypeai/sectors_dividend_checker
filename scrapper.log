@@ -5880,3 +5880,8 @@
 2026-07-15 19:06:18 [INFO] - Fetching page 1...
 2026-07-15 19:06:18 [ERROR] - 	[ATTEMPTS FAILED] Failed after 10 attempts. | Error retrieving data from SahamIDX
 2026-07-15 19:06:18 [WARNING] - No records to upsert to database. All data is up to date
+2026-07-15 19:19:47 [INFO] - Init Global Variable
+2026-07-15 19:19:47,922 - INFO: Program started
+2026-07-15 19:19:48 [INFO] - Scrape for start date: 2026-07-16 and end date: 2026-07-30
+2026-07-15 19:19:48 [INFO] - Fetching page 1...
+2026-07-15 19:19:50 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-16.
