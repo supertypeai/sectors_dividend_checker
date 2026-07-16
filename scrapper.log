@@ -6035,3 +6035,8 @@
 2026-07-16 19:04:25 [INFO] - [FETCHING] {'symbol': 'TLKM.JK', 'date': '2026-06-18', 'dividend_original': 223.1658777, 'dividend': 223.1658777, 'recording_date': '2026-06-19', 'cum_date': '2026-06-17', 'updated_on': '2026-07-16 19:04:25', 'payment_date': '2026-07-10'}
 2026-07-16 19:04:25 [INFO] - Stop condition met: Found Ex-Date 2026-06-17 which is older than start date 2026-06-18.
 2026-07-16 19:04:27 [INFO] - Successfully upserted 143 data to database
+2026-07-16 19:20:28 [INFO] - Init Global Variable
+2026-07-16 19:20:28,989 - INFO: Program started
+2026-07-16 19:20:29 [INFO] - Scrape for start date: 2026-07-17 and end date: 2026-07-31
+2026-07-16 19:20:29 [INFO] - Fetching page 1...
+2026-07-16 19:20:31 [INFO] - No more data rows found on this page. Stopping scrape
