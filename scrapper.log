@@ -6573,3 +6573,8 @@
 2026-07-20 19:40:08 [INFO] - [FETCHING] {'symbol': 'MLBI.JK', 'date': '2026-06-22', 'dividend_original': 371.0, 'dividend': 371.0, 'recording_date': '2026-06-23', 'cum_date': '2026-06-19', 'updated_on': '2026-07-20 19:40:08', 'payment_date': '2026-07-10'}
 2026-07-20 19:40:08 [INFO] - Stop condition met: Found Ex-Date 2026-06-19 which is older than start date 2026-06-22.
 2026-07-20 19:40:10 [INFO] - Successfully upserted 121 data to database
+2026-07-20 19:49:10 [INFO] - Init Global Variable
+2026-07-20 19:49:10,091 - INFO: Program started
+2026-07-20 19:49:10 [INFO] - Scrape for start date: 2026-07-21 and end date: 2026-08-04
+2026-07-20 19:49:10 [INFO] - Fetching page 1...
+2026-07-20 19:49:11 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-21.
