@@ -6808,3 +6808,8 @@
 2026-07-22 19:10:17 [INFO] - [FETCHING] {'symbol': 'TINS.JK', 'date': '2026-06-24', 'dividend_original': 88.189, 'dividend': 88.189, 'recording_date': '2026-06-25', 'cum_date': '2026-06-23', 'updated_on': '2026-07-22 19:10:17', 'payment_date': '2026-07-10'}
 2026-07-22 19:10:17 [INFO] - Stop condition met: Found Ex-Date 2026-06-23 which is older than start date 2026-06-24.
 2026-07-22 19:10:19 [INFO] - Successfully upserted 99 data to database
+2026-07-22 19:34:24 [INFO] - Init Global Variable
+2026-07-22 19:34:24,489 - INFO: Program started
+2026-07-22 19:34:25 [INFO] - Scrape for start date: 2026-07-23 and end date: 2026-08-06
+2026-07-22 19:34:25 [INFO] - Fetching page 1...
+2026-07-22 19:34:26 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-23.
