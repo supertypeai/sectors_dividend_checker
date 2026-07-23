@@ -6912,3 +6912,8 @@
 2026-07-23 19:10:02 [INFO] - [FETCHING] {'symbol': 'WINE.JK', 'date': '2026-06-25', 'dividend_original': 3.5, 'dividend': 3.5, 'recording_date': '2026-06-26', 'cum_date': '2026-06-24', 'updated_on': '2026-07-23 19:10:02', 'payment_date': '2026-07-17'}
 2026-07-23 19:10:02 [INFO] - Stop condition met: Found Ex-Date 2026-06-24 which is older than start date 2026-06-25.
 2026-07-23 19:10:03 [INFO] - Successfully upserted 93 data to database
+2026-07-23 19:26:15 [INFO] - Init Global Variable
+2026-07-23 19:26:15,492 - INFO: Program started
+2026-07-23 19:26:16 [INFO] - Scrape for start date: 2026-07-24 and end date: 2026-08-07
+2026-07-23 19:26:16 [INFO] - Fetching page 1...
+2026-07-23 19:26:17 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-24.
