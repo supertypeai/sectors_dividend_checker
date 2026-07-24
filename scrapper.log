@@ -7010,3 +7010,8 @@
 2026-07-24 19:19:53 [INFO] - [FETCHING] {'symbol': 'PNBN.JK', 'date': '2026-06-26', 'dividend_original': 42.0, 'dividend': 42.0, 'recording_date': '2026-06-29', 'cum_date': '2026-06-25', 'updated_on': '2026-07-24 19:19:53', 'payment_date': '2026-07-17'}
 2026-07-24 19:19:53 [INFO] - Stop condition met: Found Ex-Date 2026-06-25 which is older than start date 2026-06-26.
 2026-07-24 19:19:55 [INFO] - Successfully upserted 87 data to database
+2026-07-24 19:37:09 [INFO] - Init Global Variable
+2026-07-24 19:37:09,268 - INFO: Program started
+2026-07-24 19:37:10 [INFO] - Scrape for start date: 2026-07-25 and end date: 2026-08-08
+2026-07-24 19:37:10 [INFO] - Fetching page 1...
+2026-07-24 19:37:11 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-25.
