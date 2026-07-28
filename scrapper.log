@@ -7374,3 +7374,10 @@
 2026-07-28 19:17:34 [INFO] - [FETCHING] {'symbol': 'TBLA.JK', 'date': '2026-06-30', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-07-01', 'cum_date': '2026-06-29', 'updated_on': '2026-07-28 19:17:34', 'payment_date': '2026-07-22'}
 2026-07-28 19:17:34 [INFO] - Stop condition met: Found Ex-Date 2026-06-29 which is older than start date 2026-06-30.
 2026-07-28 19:17:36 [INFO] - Successfully upserted 72 data to database
+2026-07-28 19:39:51 [INFO] - Init Global Variable
+2026-07-28 19:39:52,003 - INFO: Program started
+2026-07-28 19:39:52 [INFO] - Scrape for start date: 2026-07-29 and end date: 2026-08-12
+2026-07-28 19:39:52 [INFO] - Fetching page 1...
+2026-07-28 19:39:54 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-07-28 19:39:54', 'payment_date': '2026-08-14'}
+2026-07-28 19:39:54 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-29.
+2026-07-28 19:39:56,393 - INFO: update 2026-07-29 upcoming dividend data
