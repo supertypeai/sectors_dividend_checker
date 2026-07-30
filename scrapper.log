@@ -7522,3 +7522,8 @@
 2026-07-30 19:20:01 [INFO] - [FETCHING] {'symbol': 'TKIM.JK', 'date': '2026-07-02', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-07-03', 'cum_date': '2026-07-01', 'updated_on': '2026-07-30 19:20:01', 'payment_date': '2026-07-24'}
 2026-07-30 19:20:01 [INFO] - Stop condition met: Found Ex-Date 2026-07-01 which is older than start date 2026-07-02.
 2026-07-30 19:20:02 [INFO] - Successfully upserted 58 data to database
+2026-07-30 19:40:44 [INFO] - Init Global Variable
+2026-07-30 19:40:44,754 - INFO: Program started
+2026-07-30 19:40:45 [INFO] - Scrape for start date: 2026-07-31 and end date: 2026-08-14
+2026-07-30 19:40:45 [INFO] - Fetching page 1...
+2026-07-30 19:40:46 [INFO] - No more data rows found on this page. Stopping scrape
