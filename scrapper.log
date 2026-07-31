@@ -7582,3 +7582,11 @@
 2026-07-31 19:19:26 [INFO] - [FETCHING] {'symbol': 'SOCI.JK', 'date': '2026-07-03', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-07-06', 'cum_date': '2026-07-02', 'updated_on': '2026-07-31 19:19:26', 'payment_date': '2026-07-24'}
 2026-07-31 19:19:26 [INFO] - Stop condition met: Found Ex-Date 2026-07-02 which is older than start date 2026-07-03.
 2026-07-31 19:19:28 [INFO] - Successfully upserted 49 data to database
+2026-07-31 19:42:29 [INFO] - Init Global Variable
+2026-07-31 19:42:29,174 - INFO: Program started
+2026-07-31 19:42:30 [INFO] - Scrape for start date: 2026-08-01 and end date: 2026-08-15
+2026-07-31 19:42:30 [INFO] - Fetching page 1...
+2026-07-31 19:42:31 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-07-31 19:42:31', 'payment_date': '2026-08-27'}
+2026-07-31 19:42:31 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-07-31 19:42:31', 'payment_date': '2026-08-14'}
+2026-07-31 19:42:31 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-08-01.
+2026-07-31 19:42:33,524 - INFO: update 2026-08-01 upcoming dividend data
