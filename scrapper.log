@@ -7675,3 +7675,8 @@
 2026-08-02 19:04:03 [INFO] - [FETCHING] {'symbol': 'SIMP.JK', 'date': '2026-07-06', 'dividend_original': 26.0, 'dividend': 26.0, 'recording_date': '2026-07-07', 'cum_date': '2026-07-03', 'updated_on': '2026-08-02 19:04:03', 'payment_date': '2026-07-28'}
 2026-08-02 19:04:03 [INFO] - Stop condition met: Found Ex-Date 2026-07-03 which is older than start date 2026-07-05.
 2026-08-02 19:04:04 [INFO] - Successfully upserted 38 data to database
+2026-08-03 19:26:02 [INFO] - Init Global Variable
+2026-08-03 19:26:03 [INFO] - Scrape for start date: 2026-07-06 and end date: 2026-08-04
+2026-08-03 19:26:03 [INFO] - Fetching page 1...
+2026-08-03 19:26:04 [INFO] - No more data rows found on this page. Stopping scrape
+2026-08-03 19:26:05 [WARNING] - No records to upsert to database. All data is up to date
