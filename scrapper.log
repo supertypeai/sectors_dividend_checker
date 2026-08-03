@@ -7680,3 +7680,8 @@
 2026-08-03 19:26:03 [INFO] - Fetching page 1...
 2026-08-03 19:26:04 [INFO] - No more data rows found on this page. Stopping scrape
 2026-08-03 19:26:05 [WARNING] - No records to upsert to database. All data is up to date
+2026-08-03 19:44:23 [INFO] - Init Global Variable
+2026-08-03 19:44:23,467 - INFO: Program started
+2026-08-03 19:44:23 [INFO] - Scrape for start date: 2026-08-04 and end date: 2026-08-18
+2026-08-03 19:44:23 [INFO] - Fetching page 1...
+2026-08-03 19:44:24 [INFO] - No more data rows found on this page. Stopping scrape
