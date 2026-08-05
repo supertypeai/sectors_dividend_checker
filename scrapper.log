@@ -7750,3 +7750,17 @@
 2026-08-05 19:24:39 [INFO] - [FETCHING] {'symbol': 'RUIS.JK', 'date': '2026-07-08', 'dividend_original': 6.0, 'dividend': 6.0, 'recording_date': '2026-07-09', 'cum_date': '2026-07-07', 'updated_on': '2026-08-05 19:24:39', 'payment_date': '2026-07-30'}
 2026-08-05 19:24:39 [INFO] - Stop condition met: Found Ex-Date 2026-07-07 which is older than start date 2026-07-08.
 2026-08-05 19:24:40 [INFO] - Successfully upserted 17 data to database
+2026-08-05 19:42:39 [INFO] - Init Global Variable
+2026-08-05 19:42:39,325 - INFO: Program started
+2026-08-05 19:42:40 [INFO] - Scrape for start date: 2026-08-06 and end date: 2026-08-20
+2026-08-05 19:42:40 [INFO] - Fetching page 1...
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'AMAR.JK', 'date': '2026-08-12', 'dividend_original': 3.9, 'dividend': 3.9, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-28'}
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2026-08-12', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-31'}
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-08-11', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-08-12', 'cum_date': '2026-08-10', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-28'}
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'IKBI.JK', 'date': '2026-08-11', 'dividend_original': 44.31, 'dividend': 44.31, 'recording_date': '2026-08-12', 'cum_date': '2026-08-10', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-28'}
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'NPGF.JK', 'date': '2026-08-10', 'dividend_original': 0.3, 'dividend': 0.3, 'recording_date': '2026-08-11', 'cum_date': '2026-08-07', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-09-02'}
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'SMDR.JK', 'date': '2026-08-10', 'dividend_original': 2.5, 'dividend': 2.5, 'recording_date': '2026-08-11', 'cum_date': '2026-08-07', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-28'}
+2026-08-05 19:42:41 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-27'}
+2026-08-05 19:42:41 [INFO] - Stop condition met: Found Ex-Date 2026-08-03 which is older than start date 2026-08-06.
+2026-08-05 19:42:43,625 - INFO: update 2026-08-06 upcoming dividend data
