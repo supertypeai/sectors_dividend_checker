@@ -7764,3 +7764,18 @@
 2026-08-05 19:42:41 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-08-05 19:42:41', 'payment_date': '2026-08-27'}
 2026-08-05 19:42:41 [INFO] - Stop condition met: Found Ex-Date 2026-08-03 which is older than start date 2026-08-06.
 2026-08-05 19:42:43,625 - INFO: update 2026-08-06 upcoming dividend data
+2026-08-06 23:55:03 [INFO] - Init Global Variable
+2026-08-06 23:55:04 [INFO] - Scrape for start date: 2026-07-09 and end date: 2026-08-07
+2026-08-06 23:55:04 [INFO] - Fetching page 1...
+2026-08-06 23:55:06 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'xstrix'
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-08-27'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-08-14'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'ESIP.JK', 'date': '2026-07-09', 'dividend_original': 0.5, 'dividend': 0.5, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-30'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'MICE.JK', 'date': '2026-07-09', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-31'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'MTEL.JK', 'date': '2026-07-09', 'dividend_original': 25.6457, 'dividend': 25.6457, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-31'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'NCKL.JK', 'date': '2026-07-09', 'dividend_original': 42.64, 'dividend': 42.64, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-31'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'PBSA.JK', 'date': '2026-07-09', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-31'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'TRST.JK', 'date': '2026-07-09', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-27'}
+2026-08-06 23:55:06 [INFO] - [FETCHING] {'symbol': 'WIFI.JK', 'date': '2026-07-09', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-07-10', 'cum_date': '2026-07-08', 'updated_on': '2026-08-06 23:55:06', 'payment_date': '2026-07-31'}
+2026-08-06 23:55:06 [INFO] - Stop condition met: Found Ex-Date 2026-07-08 which is older than start date 2026-07-09.
+2026-08-06 23:55:07 [INFO] - Successfully upserted 9 data to database
