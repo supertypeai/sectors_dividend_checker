@@ -7870,3 +7870,12 @@
 2026-08-11 18:56:54 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-08-11 18:56:54', 'payment_date': '2026-08-14'}
 2026-08-11 18:56:54 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-14.
 2026-08-11 18:56:56 [INFO] - Successfully upserted 8 data to database
+2026-08-11 19:08:53 [INFO] - Init Global Variable
+2026-08-11 19:08:54,030 - INFO: Program started
+2026-08-11 19:08:54 [INFO] - Scrape for start date: 2026-08-12 and end date: 2026-08-26
+2026-08-11 19:08:54 [INFO] - Fetching page 1...
+2026-08-11 19:08:57 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2026-08-14', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-08-17', 'cum_date': '2026-08-13', 'updated_on': '2026-08-11 19:08:57', 'payment_date': '2026-09-04'}
+2026-08-11 19:08:57 [INFO] - [FETCHING] {'symbol': 'AMAR.JK', 'date': '2026-08-12', 'dividend_original': 3.9, 'dividend': 3.9, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-11 19:08:57', 'payment_date': '2026-08-28'}
+2026-08-11 19:08:57 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2026-08-12', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-11 19:08:57', 'payment_date': '2026-08-31'}
+2026-08-11 19:08:57 [INFO] - Stop condition met: Found Ex-Date 2026-08-11 which is older than start date 2026-08-12.
+2026-08-11 19:08:59,238 - INFO: update 2026-08-12 upcoming dividend data
