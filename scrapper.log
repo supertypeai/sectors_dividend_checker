@@ -8115,3 +8115,19 @@
 2026-08-23 18:23:38 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-08-23 18:23:38', 'payment_date': '2026-08-14'}
 2026-08-23 18:23:38 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-26.
 2026-08-23 18:23:40 [INFO] - Successfully upserted 11 data to database
+2026-08-24 18:34:20 [INFO] - Init Global Variable
+2026-08-24 18:34:22 [INFO] - Scrape for start date: 2026-07-27 and end date: 2026-08-25
+2026-08-24 18:34:22 [INFO] - Fetching page 1...
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'INPP.JK', 'date': '2026-08-21', 'dividend_original': 4.5, 'dividend': 4.5, 'recording_date': '2026-08-24', 'cum_date': '2026-08-20', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-09-10'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2026-08-14', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-08-17', 'cum_date': '2026-08-13', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-09-04'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'AMAR.JK', 'date': '2026-08-12', 'dividend_original': 3.9, 'dividend': 3.9, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-28'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2026-08-12', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-31'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-08-11', 'dividend_original': 2.0, 'dividend': 2.0, 'recording_date': '2026-08-12', 'cum_date': '2026-08-10', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-28'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'IKBI.JK', 'date': '2026-08-11', 'dividend_original': 44.31, 'dividend': 44.31, 'recording_date': '2026-08-12', 'cum_date': '2026-08-10', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-28'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'NPGF.JK', 'date': '2026-08-10', 'dividend_original': 0.3, 'dividend': 0.3, 'recording_date': '2026-08-11', 'cum_date': '2026-08-07', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-09-02'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'SMDR.JK', 'date': '2026-08-10', 'dividend_original': 2.5, 'dividend': 2.5, 'recording_date': '2026-08-11', 'cum_date': '2026-08-07', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-28'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'HUMI.JK', 'date': '2026-08-07', 'dividend_original': 0.166, 'dividend': 0.166, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-28'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-27'}
+2026-08-24 18:34:23 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-08-24 18:34:23', 'payment_date': '2026-08-14'}
+2026-08-24 18:34:23 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-27.
+2026-08-24 18:34:25 [INFO] - Successfully upserted 11 data to database
