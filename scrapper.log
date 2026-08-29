@@ -8224,3 +8224,8 @@
 2026-08-29 01:25:34 [INFO] - [FETCHING] {'symbol': 'AKRA.JK', 'date': '2026-08-03', 'dividend_original': 50.0, 'dividend': 50.0, 'recording_date': '2026-08-04', 'cum_date': '2026-07-31', 'updated_on': '2026-08-29 01:25:34', 'payment_date': '2026-08-14'}
 2026-08-29 01:25:34 [INFO] - Stop condition met: Found Ex-Date 2026-07-09 which is older than start date 2026-07-31.
 2026-08-29 01:25:36 [INFO] - Successfully upserted 12 data to database
+2026-08-29 01:36:36 [INFO] - Init Global Variable
+2026-08-29 01:36:36,454 - INFO: Program started
+2026-08-29 01:36:37 [INFO] - Scrape for start date: 2026-08-29 and end date: 2026-09-12
+2026-08-29 01:36:37 [INFO] - Fetching page 1...
+2026-08-29 01:36:38 [INFO] - Stop condition met: Found Ex-Date 2026-08-27 which is older than start date 2026-08-29.
