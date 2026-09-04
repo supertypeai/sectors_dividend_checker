@@ -8380,3 +8380,11 @@
 2026-09-04 20:13:21 [INFO] - [FETCHING] {'symbol': 'SMSM.JK', 'date': '2026-08-07', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-08-10', 'cum_date': '2026-08-06', 'updated_on': '2026-09-04 20:13:21', 'payment_date': '2026-08-27'}
 2026-09-04 20:13:21 [INFO] - Stop condition met: Found Ex-Date 2026-08-03 which is older than start date 2026-08-07.
 2026-09-04 20:13:22 [INFO] - Successfully upserted 14 data to database
+2026-09-04 20:36:09 [INFO] - Init Global Variable
+2026-09-04 20:36:09,886 - INFO: Program started
+2026-09-04 20:36:10 [INFO] - Scrape for start date: 2026-09-05 and end date: 2026-09-19
+2026-09-04 20:36:10 [INFO] - Fetching page 1...
+2026-09-04 20:36:11 [INFO] - [FETCHING] {'symbol': 'DKFT.JK', 'date': '2026-09-14', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-15', 'cum_date': '2026-09-11', 'updated_on': '2026-09-04 20:36:11', 'payment_date': '2026-09-21'}
+2026-09-04 20:36:11 [INFO] - [FETCHING] {'symbol': 'TRIS.JK', 'date': '2026-09-10', 'dividend_original': 2.27, 'dividend': 2.27, 'recording_date': '2026-09-11', 'cum_date': '2026-09-09', 'updated_on': '2026-09-04 20:36:11', 'payment_date': '2026-09-23'}
+2026-09-04 20:36:11 [INFO] - Stop condition met: Found Ex-Date 2026-09-04 which is older than start date 2026-09-05.
+2026-09-04 20:36:13,627 - INFO: update 2026-09-05 upcoming dividend data
