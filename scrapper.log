@@ -8484,3 +8484,11 @@
 2026-09-09 20:20:45 [INFO] - [FETCHING] {'symbol': 'TAPG.JK', 'date': '2026-08-12', 'dividend_original': 60.0, 'dividend': 60.0, 'recording_date': '2026-08-13', 'cum_date': '2026-08-11', 'updated_on': '2026-09-09 20:20:45', 'payment_date': '2026-08-31'}
 2026-09-09 20:20:45 [INFO] - Stop condition met: Found Ex-Date 2026-08-11 which is older than start date 2026-08-12.
 2026-09-09 20:20:46 [INFO] - Successfully upserted 9 data to database
+2026-09-09 20:46:21 [INFO] - Init Global Variable
+2026-09-09 20:46:21,573 - INFO: Program started
+2026-09-09 20:46:22 [INFO] - Scrape for start date: 2026-09-10 and end date: 2026-09-24
+2026-09-09 20:46:22 [INFO] - Fetching page 1...
+2026-09-09 20:46:23 [INFO] - [FETCHING] {'symbol': 'DKFT.JK', 'date': '2026-09-14', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-15', 'cum_date': '2026-09-11', 'updated_on': '2026-09-09 20:46:23', 'payment_date': '2026-09-21'}
+2026-09-09 20:46:23 [INFO] - [FETCHING] {'symbol': 'TRIS.JK', 'date': '2026-09-10', 'dividend_original': 2.27, 'dividend': 2.27, 'recording_date': '2026-09-11', 'cum_date': '2026-09-09', 'updated_on': '2026-09-09 20:46:23', 'payment_date': '2026-09-23'}
+2026-09-09 20:46:23 [INFO] - Stop condition met: Found Ex-Date 2026-09-04 which is older than start date 2026-09-10.
+2026-09-09 20:46:26,343 - INFO: update 2026-09-10 upcoming dividend data
