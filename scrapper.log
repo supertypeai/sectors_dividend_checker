@@ -8523,3 +8523,8 @@
 2026-09-11 20:23:33 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2026-08-14', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-08-17', 'cum_date': '2026-08-13', 'updated_on': '2026-09-11 20:23:33', 'payment_date': '2026-09-04'}
 2026-09-11 20:23:33 [INFO] - Stop condition met: Found Ex-Date 2026-08-12 which is older than start date 2026-08-14.
 2026-09-11 20:23:34 [INFO] - Successfully upserted 7 data to database
+2026-09-11 20:46:57 [INFO] - Init Global Variable
+2026-09-11 20:46:57,356 - INFO: Program started
+2026-09-11 20:46:58 [INFO] - Scrape for start date: 2026-09-12 and end date: 2026-09-26
+2026-09-11 20:46:58 [INFO] - Fetching page 1...
+2026-09-11 20:47:01 [INFO] - No more data rows found on this page. Stopping scrape
