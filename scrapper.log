@@ -8528,3 +8528,14 @@
 2026-09-11 20:46:58 [INFO] - Scrape for start date: 2026-09-12 and end date: 2026-09-26
 2026-09-11 20:46:58 [INFO] - Fetching page 1...
 2026-09-11 20:47:01 [INFO] - No more data rows found on this page. Stopping scrape
+2026-09-12 20:07:56 [INFO] - Init Global Variable
+2026-09-12 20:07:57 [INFO] - Scrape for start date: 2026-08-15 and end date: 2026-09-13
+2026-09-12 20:07:57 [INFO] - Fetching page 1...
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'TRIS.JK', 'date': '2026-09-10', 'dividend_original': 2.27, 'dividend': 2.27, 'recording_date': '2026-09-11', 'cum_date': '2026-09-09', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-23'}
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'CMRY.JK', 'date': '2026-09-04', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-09-07', 'cum_date': '2026-09-03', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-18'}
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2026-09-01', 'dividend_original': 17.0148608178, 'dividend': 17.0148608178, 'recording_date': '2026-09-02', 'cum_date': '2026-08-31', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-10'}
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-08-31', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-09-01', 'cum_date': '2026-08-28', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-16'}
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'BPII.JK', 'date': '2026-08-27', 'dividend_original': 3.54, 'dividend': 3.54, 'recording_date': '2026-08-28', 'cum_date': '2026-08-26', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-11'}
+2026-09-12 20:08:01 [INFO] - [FETCHING] {'symbol': 'INPP.JK', 'date': '2026-08-21', 'dividend_original': 4.5, 'dividend': 4.5, 'recording_date': '2026-08-24', 'cum_date': '2026-08-20', 'updated_on': '2026-09-12 20:08:01', 'payment_date': '2026-09-10'}
+2026-09-12 20:08:01 [INFO] - Stop condition met: Found Ex-Date 2026-08-14 which is older than start date 2026-08-15.
+2026-09-12 20:08:02 [INFO] - Successfully upserted 6 data to database
