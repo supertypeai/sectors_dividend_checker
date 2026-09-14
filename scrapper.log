@@ -8551,3 +8551,8 @@
 2026-09-13 20:15:03 [INFO] - [FETCHING] {'symbol': 'INPP.JK', 'date': '2026-08-21', 'dividend_original': 4.5, 'dividend': 4.5, 'recording_date': '2026-08-24', 'cum_date': '2026-08-20', 'updated_on': '2026-09-13 20:15:03', 'payment_date': '2026-09-10'}
 2026-09-13 20:15:03 [INFO] - Stop condition met: Found Ex-Date 2026-08-14 which is older than start date 2026-08-16.
 2026-09-13 20:15:05 [INFO] - Successfully upserted 7 data to database
+2026-09-14 21:24:03 [INFO] - Init Global Variable
+2026-09-14 21:24:04 [INFO] - Scrape for start date: 2026-08-17 and end date: 2026-09-15
+2026-09-14 21:24:04 [INFO] - Fetching page 1...
+2026-09-14 21:24:06 [INFO] - No more data rows found on this page. Stopping scrape
+2026-09-14 21:24:07 [WARNING] - No records to upsert to database. All data is up to date
