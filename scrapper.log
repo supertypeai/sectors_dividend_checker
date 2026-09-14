@@ -8556,3 +8556,11 @@
 2026-09-14 21:24:04 [INFO] - Fetching page 1...
 2026-09-14 21:24:06 [INFO] - No more data rows found on this page. Stopping scrape
 2026-09-14 21:24:07 [WARNING] - No records to upsert to database. All data is up to date
+2026-09-14 21:41:35 [INFO] - Init Global Variable
+2026-09-14 21:41:35,956 - INFO: Program started
+2026-09-14 21:41:36 [INFO] - Scrape for start date: 2026-09-15 and end date: 2026-09-29
+2026-09-14 21:41:36 [INFO] - Fetching page 1...
+2026-09-14 21:41:38 [INFO] - [FETCHING] {'symbol': 'BMRI.JK', 'date': '2026-09-16', 'dividend_original': 66.0, 'dividend': 66.0, 'recording_date': '2026-09-17', 'cum_date': '2026-09-15', 'updated_on': '2026-09-14 21:41:38', 'payment_date': '2026-10-02'}
+2026-09-14 21:41:38 [INFO] - [FETCHING] {'symbol': 'PSAB.JK', 'date': '2026-09-16', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-17', 'cum_date': '2026-09-15', 'updated_on': '2026-09-14 21:41:38', 'payment_date': '2026-09-29'}
+2026-09-14 21:41:38 [INFO] - Stop condition met: Found Ex-Date 2026-09-14 which is older than start date 2026-09-15.
+2026-09-14 21:41:39,839 - INFO: update 2026-09-15 upcoming dividend data
