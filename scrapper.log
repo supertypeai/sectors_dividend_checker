@@ -8586,3 +8586,17 @@
 2026-09-15 21:05:25 [INFO] - [FETCHING] {'symbol': 'PSAB.JK', 'date': '2026-09-16', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-17', 'cum_date': '2026-09-15', 'updated_on': '2026-09-15 21:05:25', 'payment_date': '2026-09-29'}
 2026-09-15 21:05:25 [INFO] - Stop condition met: Found Ex-Date 2026-09-14 which is older than start date 2026-09-16.
 2026-09-15 21:05:27,721 - INFO: update 2026-09-16 upcoming dividend data
+2026-09-16 20:49:26 [INFO] - Init Global Variable
+2026-09-16 20:49:27 [INFO] - Scrape for start date: 2026-08-19 and end date: 2026-09-17
+2026-09-16 20:49:27 [INFO] - Fetching page 1...
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'BMRI.JK', 'date': '2026-09-16', 'dividend_original': 66.0, 'dividend': 66.0, 'recording_date': '2026-09-17', 'cum_date': '2026-09-15', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-10-02'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'PSAB.JK', 'date': '2026-09-16', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-17', 'cum_date': '2026-09-15', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-29'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'DKFT.JK', 'date': '2026-09-14', 'dividend_original': 30.0, 'dividend': 30.0, 'recording_date': '2026-09-15', 'cum_date': '2026-09-11', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-21'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'TRIS.JK', 'date': '2026-09-10', 'dividend_original': 2.27, 'dividend': 2.27, 'recording_date': '2026-09-11', 'cum_date': '2026-09-09', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-23'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'CMRY.JK', 'date': '2026-09-04', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-09-07', 'cum_date': '2026-09-03', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-18'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2026-09-01', 'dividend_original': 17.0148608178, 'dividend': 17.0148608178, 'recording_date': '2026-09-02', 'cum_date': '2026-08-31', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-10'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-08-31', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-09-01', 'cum_date': '2026-08-28', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-16'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'BPII.JK', 'date': '2026-08-27', 'dividend_original': 3.54, 'dividend': 3.54, 'recording_date': '2026-08-28', 'cum_date': '2026-08-26', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-11'}
+2026-09-16 20:49:28 [INFO] - [FETCHING] {'symbol': 'INPP.JK', 'date': '2026-08-21', 'dividend_original': 4.5, 'dividend': 4.5, 'recording_date': '2026-08-24', 'cum_date': '2026-08-20', 'updated_on': '2026-09-16 20:49:28', 'payment_date': '2026-09-10'}
+2026-09-16 20:49:28 [INFO] - Stop condition met: Found Ex-Date 2026-08-14 which is older than start date 2026-08-19.
+2026-09-16 20:49:29 [INFO] - Successfully upserted 9 data to database
