@@ -8682,3 +8682,11 @@
 2026-09-21 21:40:05 [INFO] - [FETCHING] {'symbol': 'BPII.JK', 'date': '2026-08-27', 'dividend_original': 3.54, 'dividend': 3.54, 'recording_date': '2026-08-28', 'cum_date': '2026-08-26', 'updated_on': '2026-09-21 21:40:05', 'payment_date': '2026-09-11'}
 2026-09-21 21:40:05 [INFO] - Stop condition met: Found Ex-Date 2026-08-21 which is older than start date 2026-08-24.
 2026-09-21 21:40:06 [INFO] - Successfully upserted 8 data to database
+2026-09-21 21:52:13 [INFO] - Init Global Variable
+2026-09-21 21:52:13,624 - INFO: Program started
+2026-09-21 21:52:14 [INFO] - Scrape for start date: 2026-09-22 and end date: 2026-10-06
+2026-09-21 21:52:14 [INFO] - Fetching page 1...
+2026-09-21 21:52:15 [INFO] - [FETCHING] {'symbol': 'IFII.JK', 'date': '2026-09-29', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-09-30', 'cum_date': '2026-09-28', 'updated_on': '2026-09-21 21:52:15', 'payment_date': '2026-10-15'}
+2026-09-21 21:52:15 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2026-09-24', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-09-25', 'cum_date': '2026-09-23', 'updated_on': '2026-09-21 21:52:15', 'payment_date': '2026-10-15'}
+2026-09-21 21:52:15 [INFO] - Stop condition met: Found Ex-Date 2026-09-16 which is older than start date 2026-09-22.
+2026-09-21 21:52:17,504 - INFO: update 2026-09-22 upcoming dividend data
