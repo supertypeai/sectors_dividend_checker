@@ -8782,3 +8782,14 @@
 2026-09-25 21:03:06 [INFO] - [FETCHING] {'symbol': 'BBCA.JK', 'date': '2026-08-31', 'dividend_original': 25.0, 'dividend': 25.0, 'recording_date': '2026-09-01', 'cum_date': '2026-08-28', 'updated_on': '2026-09-25 21:03:06', 'payment_date': '2026-09-16'}
 2026-09-25 21:03:06 [INFO] - Stop condition met: Found Ex-Date 2026-08-27 which is older than start date 2026-08-28.
 2026-09-25 21:03:08 [INFO] - Successfully upserted 8 data to database
+2026-09-25 21:21:42 [INFO] - Init Global Variable
+2026-09-25 21:21:42,379 - INFO: Program started
+2026-09-25 21:21:43 [INFO] - Scrape for start date: 2026-09-26 and end date: 2026-10-10
+2026-09-25 21:21:43 [INFO] - Fetching page 1...
+2026-09-25 21:21:44 [INFO] - [FETCHING] {'symbol': 'CDIA.JK', 'date': '2026-10-01', 'dividend_original': 1.422181, 'dividend': 1.422181, 'recording_date': '2026-10-02', 'cum_date': '2026-09-30', 'updated_on': '2026-09-25 21:21:44', 'payment_date': '2026-10-22'}
+2026-09-25 21:21:44 [INFO] - [FETCHING] {'symbol': 'BSSR.JK', 'date': '2026-09-30', 'dividend_original': 406.1609, 'dividend': 406.1609, 'recording_date': '2026-10-01', 'cum_date': '2026-09-29', 'updated_on': '2026-09-25 21:21:44', 'payment_date': '2026-10-09'}
+2026-09-25 21:21:44 [INFO] - [FETCHING] {'symbol': 'IFII.JK', 'date': '2026-09-29', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-09-30', 'cum_date': '2026-09-28', 'updated_on': '2026-09-25 21:21:44', 'payment_date': '2026-10-15'}
+2026-09-25 21:21:44 [INFO] - [FETCHING] {'symbol': 'VICO.JK', 'date': '2026-09-29', 'dividend_original': 8.0, 'dividend': 8.0, 'recording_date': '2026-09-30', 'cum_date': '2026-09-28', 'updated_on': '2026-09-25 21:21:44', 'payment_date': '2026-10-22'}
+2026-09-25 21:21:44 [ERROR] - Skipping row due to parsing error: could not convert string to float: 'US$ 0.013319'
+2026-09-25 21:21:44 [INFO] - Stop condition met: Found Ex-Date 2026-09-24 which is older than start date 2026-09-26.
+2026-09-25 21:21:47,475 - INFO: update 2026-09-26 upcoming dividend data
