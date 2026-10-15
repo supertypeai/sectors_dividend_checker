@@ -9330,3 +9330,13 @@
 2026-10-15 20:53:40 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2026-09-24', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-09-25', 'cum_date': '2026-09-23', 'updated_on': '2026-10-15 20:53:40', 'payment_date': '2026-10-15'}
 2026-10-15 20:53:40 [INFO] - Stop condition met: Found Ex-Date 2026-09-16 which is older than start date 2026-09-17.
 2026-10-15 20:53:42 [INFO] - Successfully upserted 19 data to database
+2026-10-15 21:09:21 [INFO] - Init Global Variable
+2026-10-15 21:09:21,621 - INFO: Program started
+2026-10-15 21:09:22 [INFO] - Scrape for start date: 2026-10-16 and end date: 2026-10-30
+2026-10-15 21:09:22 [INFO] - Fetching page 1...
+2026-10-15 21:09:23 [INFO] - [FETCHING] {'symbol': 'CSRA.JK', 'date': '2026-10-23', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-10-26', 'cum_date': '2026-10-22', 'updated_on': '2026-10-15 21:09:23', 'payment_date': '2026-11-13'}
+2026-10-15 21:09:23 [INFO] - [FETCHING] {'symbol': 'IMPC.JK', 'date': '2026-10-22', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-10-23', 'cum_date': '2026-10-21', 'updated_on': '2026-10-15 21:09:23', 'payment_date': '2026-10-30'}
+2026-10-15 21:09:23 [INFO] - [FETCHING] {'symbol': 'BUAH.JK', 'date': '2026-10-19', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-10-20', 'cum_date': '2026-10-16', 'updated_on': '2026-10-15 21:09:23', 'payment_date': '2026-11-06'}
+2026-10-15 21:09:23 [INFO] - [FETCHING] {'symbol': 'PLIN.JK', 'date': '2026-10-16', 'dividend_original': 76.0, 'dividend': 76.0, 'recording_date': '2026-10-19', 'cum_date': '2026-10-15', 'updated_on': '2026-10-15 21:09:23', 'payment_date': '2026-10-27'}
+2026-10-15 21:09:23 [INFO] - Stop condition met: Found Ex-Date 2026-10-14 which is older than start date 2026-10-16.
+2026-10-15 21:09:25,813 - INFO: update 2026-10-16 upcoming dividend data
