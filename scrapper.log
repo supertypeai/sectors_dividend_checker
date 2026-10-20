@@ -9480,3 +9480,11 @@
 2026-10-20 21:11:57 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2026-09-24', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-09-25', 'cum_date': '2026-09-23', 'updated_on': '2026-10-20 21:11:57', 'payment_date': '2026-10-15'}
 2026-10-20 21:11:57 [INFO] - Stop condition met: Found Ex-Date 2026-09-16 which is older than start date 2026-09-22.
 2026-10-20 21:11:59 [INFO] - Successfully upserted 20 data to database
+2026-10-20 21:26:14 [INFO] - Init Global Variable
+2026-10-20 21:26:14,452 - INFO: Program started
+2026-10-20 21:26:15 [INFO] - Scrape for start date: 2026-10-21 and end date: 2026-11-04
+2026-10-20 21:26:15 [INFO] - Fetching page 1...
+2026-10-20 21:26:16 [INFO] - [FETCHING] {'symbol': 'CSRA.JK', 'date': '2026-10-23', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-10-26', 'cum_date': '2026-10-22', 'updated_on': '2026-10-20 21:26:16', 'payment_date': '2026-11-13'}
+2026-10-20 21:26:16 [INFO] - [FETCHING] {'symbol': 'IMPC.JK', 'date': '2026-10-22', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-10-23', 'cum_date': '2026-10-21', 'updated_on': '2026-10-20 21:26:16', 'payment_date': '2026-10-30'}
+2026-10-20 21:26:16 [INFO] - Stop condition met: Found Ex-Date 2026-10-19 which is older than start date 2026-10-21.
+2026-10-20 21:26:19,531 - INFO: update 2026-10-21 upcoming dividend data
