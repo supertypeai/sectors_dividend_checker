@@ -9552,3 +9552,13 @@
 2026-10-22 21:09:20 [INFO] - [FETCHING] {'symbol': 'KKGI.JK', 'date': '2026-09-24', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-09-25', 'cum_date': '2026-09-23', 'updated_on': '2026-10-22 21:09:20', 'payment_date': '2026-10-15'}
 2026-10-22 21:09:20 [INFO] - Stop condition met: Found Ex-Date 2026-09-16 which is older than start date 2026-09-24.
 2026-10-22 21:09:21 [INFO] - Successfully upserted 22 data to database
+2026-10-22 21:23:00 [INFO] - Init Global Variable
+2026-10-22 21:23:00,606 - INFO: Program started
+2026-10-22 21:23:01 [INFO] - Scrape for start date: 2026-10-23 and end date: 2026-11-06
+2026-10-22 21:23:01 [INFO] - Fetching page 1...
+2026-10-22 21:23:02 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2026-10-29', 'dividend_original': 8.0, 'dividend': 8.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-22 21:23:02', 'payment_date': '2026-11-19'}
+2026-10-22 21:23:02 [INFO] - [FETCHING] {'symbol': 'DMAS.JK', 'date': '2026-10-29', 'dividend_original': 29.0, 'dividend': 29.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-22 21:23:02', 'payment_date': '2026-11-13'}
+2026-10-22 21:23:02 [INFO] - [FETCHING] {'symbol': 'SCMA.JK', 'date': '2026-10-28', 'dividend_original': 8.4, 'dividend': 8.4, 'recording_date': '2026-10-29', 'cum_date': '2026-10-27', 'updated_on': '2026-10-22 21:23:02', 'payment_date': '2026-11-18'}
+2026-10-22 21:23:02 [INFO] - [FETCHING] {'symbol': 'CSRA.JK', 'date': '2026-10-23', 'dividend_original': 15.0, 'dividend': 15.0, 'recording_date': '2026-10-26', 'cum_date': '2026-10-22', 'updated_on': '2026-10-22 21:23:02', 'payment_date': '2026-11-13'}
+2026-10-22 21:23:02 [INFO] - Stop condition met: Found Ex-Date 2026-10-22 which is older than start date 2026-10-23.
+2026-10-22 21:23:04,515 - INFO: update 2026-10-23 upcoming dividend data
