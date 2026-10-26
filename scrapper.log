@@ -9675,3 +9675,14 @@
 2026-10-26 22:14:53 [INFO] - [FETCHING] {'symbol': 'HEXA.JK', 'date': '2026-09-28', 'dividend_original': 239.3, 'dividend': 239.3, 'recording_date': '2026-09-29', 'cum_date': '2026-09-25', 'updated_on': '2026-10-26 22:14:53', 'payment_date': '2026-10-21'}
 2026-10-26 22:14:53 [INFO] - Stop condition met: Found Ex-Date 2026-09-24 which is older than start date 2026-09-28.
 2026-10-26 22:14:55 [INFO] - Successfully upserted 21 data to database
+2026-10-26 22:30:35 [INFO] - Init Global Variable
+2026-10-26 22:30:35,959 - INFO: Program started
+2026-10-26 22:30:36 [INFO] - Scrape for start date: 2026-10-27 and end date: 2026-11-10
+2026-10-26 22:30:36 [INFO] - Fetching page 1...
+2026-10-26 22:30:38 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2026-11-03', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-11-04', 'cum_date': '2026-11-02', 'updated_on': '2026-10-26 22:30:38', 'payment_date': '2026-11-20'}
+2026-10-26 22:30:38 [INFO] - [FETCHING] {'symbol': 'TSPC.JK', 'date': '2026-11-02', 'dividend_original': 75.0, 'dividend': 75.0, 'recording_date': '2026-11-03', 'cum_date': '2026-10-30', 'updated_on': '2026-10-26 22:30:38', 'payment_date': '2026-11-20'}
+2026-10-26 22:30:38 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2026-10-29', 'dividend_original': 8.0, 'dividend': 8.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-26 22:30:38', 'payment_date': '2026-11-19'}
+2026-10-26 22:30:38 [INFO] - [FETCHING] {'symbol': 'DMAS.JK', 'date': '2026-10-29', 'dividend_original': 29.0, 'dividend': 29.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-26 22:30:38', 'payment_date': '2026-11-13'}
+2026-10-26 22:30:38 [INFO] - [FETCHING] {'symbol': 'SCMA.JK', 'date': '2026-10-28', 'dividend_original': 8.4, 'dividend': 8.4, 'recording_date': '2026-10-29', 'cum_date': '2026-10-27', 'updated_on': '2026-10-26 22:30:38', 'payment_date': '2026-11-18'}
+2026-10-26 22:30:38 [INFO] - Stop condition met: Found Ex-Date 2026-10-23 which is older than start date 2026-10-27.
+2026-10-26 22:30:41,077 - INFO: update 2026-10-27 upcoming dividend data
