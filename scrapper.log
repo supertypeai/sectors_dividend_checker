@@ -9748,3 +9748,15 @@
 2026-10-28 22:08:13 [INFO] - [FETCHING] {'symbol': 'BSSR.JK', 'date': '2026-09-30', 'dividend_original': 406.1609, 'dividend': 406.1609, 'recording_date': '2026-10-01', 'cum_date': '2026-09-29', 'updated_on': '2026-10-28 22:08:13', 'payment_date': '2026-10-09'}
 2026-10-28 22:08:13 [INFO] - Stop condition met: Found Ex-Date 2026-09-29 which is older than start date 2026-09-30.
 2026-10-28 22:08:15 [INFO] - Successfully upserted 20 data to database
+2026-10-28 22:24:39 [INFO] - Init Global Variable
+2026-10-28 22:24:39,969 - INFO: Program started
+2026-10-28 22:24:40 [INFO] - Scrape for start date: 2026-10-29 and end date: 2026-11-12
+2026-10-28 22:24:40 [INFO] - Fetching page 1...
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'JPFA.JK', 'date': '2026-11-06', 'dividend_original': 90.0, 'dividend': 90.0, 'recording_date': '2026-11-09', 'cum_date': '2026-11-05', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-12'}
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'UNTR.JK', 'date': '2026-11-06', 'dividend_original': 430.0, 'dividend': 430.0, 'recording_date': '2026-11-09', 'cum_date': '2026-11-05', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-23'}
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2026-11-03', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-11-04', 'cum_date': '2026-11-02', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-20'}
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'TSPC.JK', 'date': '2026-11-02', 'dividend_original': 75.0, 'dividend': 75.0, 'recording_date': '2026-11-03', 'cum_date': '2026-10-30', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-20'}
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'AXIO.JK', 'date': '2026-10-29', 'dividend_original': 8.0, 'dividend': 8.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-19'}
+2026-10-28 22:24:42 [INFO] - [FETCHING] {'symbol': 'DMAS.JK', 'date': '2026-10-29', 'dividend_original': 29.0, 'dividend': 29.0, 'recording_date': '2026-10-30', 'cum_date': '2026-10-28', 'updated_on': '2026-10-28 22:24:42', 'payment_date': '2026-11-13'}
+2026-10-28 22:24:42 [INFO] - Stop condition met: Found Ex-Date 2026-10-28 which is older than start date 2026-10-29.
+2026-10-28 22:24:44,300 - INFO: update 2026-10-29 upcoming dividend data
