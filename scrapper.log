@@ -9899,3 +9899,12 @@
 2026-11-03 00:26:55 [INFO] - [FETCHING] {'symbol': 'NICL.JK', 'date': '2026-10-05', 'dividend_original': 6.0, 'dividend': 6.0, 'recording_date': '2026-10-06', 'cum_date': '2026-10-02', 'updated_on': '2026-11-03 00:26:55', 'payment_date': '2026-10-14'}
 2026-11-03 00:26:55 [INFO] - Stop condition met: Found Ex-Date 2026-10-01 which is older than start date 2026-10-05.
 2026-11-03 00:26:56 [INFO] - Successfully upserted 20 data to database
+2026-11-03 00:47:54 [INFO] - Init Global Variable
+2026-11-03 00:47:54,249 - INFO: Program started
+2026-11-03 00:47:55 [INFO] - Scrape for start date: 2026-11-03 and end date: 2026-11-17
+2026-11-03 00:47:55 [INFO] - Fetching page 1...
+2026-11-03 00:47:56 [INFO] - [FETCHING] {'symbol': 'JPFA.JK', 'date': '2026-11-06', 'dividend_original': 90.0, 'dividend': 90.0, 'recording_date': '2026-11-09', 'cum_date': '2026-11-05', 'updated_on': '2026-11-03 00:47:56', 'payment_date': '2026-11-12'}
+2026-11-03 00:47:56 [INFO] - [FETCHING] {'symbol': 'UNTR.JK', 'date': '2026-11-06', 'dividend_original': 430.0, 'dividend': 430.0, 'recording_date': '2026-11-09', 'cum_date': '2026-11-05', 'updated_on': '2026-11-03 00:47:56', 'payment_date': '2026-11-23'}
+2026-11-03 00:47:56 [INFO] - [FETCHING] {'symbol': 'SIDO.JK', 'date': '2026-11-03', 'dividend_original': 10.0, 'dividend': 10.0, 'recording_date': '2026-11-04', 'cum_date': '2026-11-02', 'updated_on': '2026-11-03 00:47:56', 'payment_date': '2026-11-20'}
+2026-11-03 00:47:56 [INFO] - Stop condition met: Found Ex-Date 2026-11-02 which is older than start date 2026-11-03.
+2026-11-03 00:47:58,218 - INFO: update 2026-11-03 upcoming dividend data
