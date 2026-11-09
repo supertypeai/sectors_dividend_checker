@@ -54,14 +54,14 @@ class FutureDividendChecker(DividendChecker):
     @final
     def upsert_to_db(self):
         if not self.retrieved_records:
-            print("No records to upsert to database. All data is up to date")
-            raise SystemExit(0)
+            logging.warning("No records to upsert to database. All data is up to date")
+            return
 
         try:
             self.supabase_client.table("idx_upcoming_dividend").upsert(
                 self.retrieved_records
             ).execute()
-            print(
+            logging.info(
                 f"Successfully upserted {len(self.retrieved_records)} data to database"
             )
             # Insert news, commented for now
@@ -97,5 +97,7 @@ if __name__ == "__main__":
     # Delete past dividend data from the same table
     deletion_date = _LOCAL_TODAY - pd.Timedelta(days=_RETENTION_PERIOD)
     _supabase_client.table("idx_upcoming_dividend").delete().lt("payment_date", deletion_date.isoformat()).execute()
+
+    future_dividend_checker.raise_for_failed_records()
 
     logging.info(f"update {_LOCAL_TODAY} upcoming dividend data")
