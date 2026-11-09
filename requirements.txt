@@ -1,7 +1,7 @@
 beautifulsoup4==4.12.2
 pandas==2.2.3
-python-dotenv==1.0.0
-requests==2.31.0
+python-dotenv==1.2.4
+requests==2.34.2
 supabase==2.16.0
 yfinance[nospam]==0.2.59
-lxml==4.9.3
+lxml==6.1.3
