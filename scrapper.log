@@ -10173,3 +10173,36 @@
 2026-11-10 01:08:18 [INFO] - [FETCHING] {'symbol': 'TLDN.JK', 'date': '2026-10-13', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-10-14', 'cum_date': '2026-10-12', 'updated_on': '2026-11-10 01:08:18', 'payment_date': '2026-10-22'}
 2026-11-10 01:08:18 [INFO] - Stop condition met: Found Ex-Date 2026-10-09 which is older than start date 2026-10-12.
 2026-11-10 01:08:19 [INFO] - Successfully upserted 19 data to database
+2026-11-12 00:20:49 [INFO] - Init Global Variable
+2026-11-12 00:20:49,309 - INFO: Program started
+2026-11-12 00:20:50 [INFO] - Scrape for start date: 2026-11-12 and end date: 2026-11-26
+2026-11-12 00:20:50 [INFO] - Fetching page 1...
+2026-11-12 00:20:51 [INFO] - [AMOUNT] EAST.JK 2026-11-18 raw=1.6 previous=2.0 ratio=8.000e-01 -> IDR
+2026-11-12 00:20:51 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-11-18', 'dividend_original': 1.6, 'dividend': 1.6, 'recording_date': '2026-11-19', 'cum_date': '2026-11-17', 'updated_on': '2026-11-12 00:20:51', 'payment_date': '2026-11-30'}
+2026-11-12 00:20:52 [INFO] - [AMOUNT] KINO.JK 2026-11-18 raw=52.0 previous=32.0 ratio=1.625e+00 -> IDR
+2026-11-12 00:20:52 [INFO] - [FETCHING] {'symbol': 'KINO.JK', 'date': '2026-11-18', 'dividend_original': 52.0, 'dividend': 52.0, 'recording_date': '2026-11-19', 'cum_date': '2026-11-17', 'updated_on': '2026-11-12 00:20:52', 'payment_date': '2026-12-09'}
+2026-11-12 00:20:52 [INFO] - [AMOUNT] PORT.JK 2026-11-17 raw=35.6 no previous dividend, treated as IDR
+2026-11-12 00:20:52 [INFO] - [FETCHING] {'symbol': 'PORT.JK', 'date': '2026-11-17', 'dividend_original': 35.6, 'dividend': 35.6, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-12 00:20:52', 'payment_date': '2026-12-03'}
+2026-11-12 00:20:52 [INFO] - [AMOUNT] TOTL.JK 2026-11-17 raw=40.0 previous=110.0 ratio=3.636e-01 -> IDR
+2026-11-12 00:20:52 [INFO] - [FETCHING] {'symbol': 'TOTL.JK', 'date': '2026-11-17', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-12 00:20:52', 'payment_date': '2026-12-04'}
+2026-11-12 00:20:53 [INFO] - [AMOUNT] ULTJ.JK 2026-11-17 raw=100.0 previous=130.0 ratio=7.692e-01 -> IDR
+2026-11-12 00:20:53 [INFO] - [FETCHING] {'symbol': 'ULTJ.JK', 'date': '2026-11-17', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-12 00:20:53', 'payment_date': '2026-12-09'}
+2026-11-12 00:20:53 [INFO] - [AMOUNT] YUPI.JK 2026-11-17 raw=14.8347396372 previous=17.0149 ratio=8.719e-01 -> IDR
+2026-11-12 00:20:53 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2026-11-17', 'dividend_original': 14.8347396372, 'dividend': 14.8347396372, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-12 00:20:53', 'payment_date': '2026-11-26'}
+2026-11-12 00:20:53 [INFO] - [AMOUNT] AMOR.JK 2026-11-13 raw=23.0 previous=13.0 ratio=1.769e+00 -> IDR
+2026-11-12 00:20:53 [INFO] - [FETCHING] {'symbol': 'AMOR.JK', 'date': '2026-11-13', 'dividend_original': 23.0, 'dividend': 23.0, 'recording_date': '2026-11-16', 'cum_date': '2026-11-12', 'updated_on': '2026-11-12 00:20:53', 'payment_date': '2026-11-24'}
+2026-11-12 00:20:53 [INFO] - [AMOUNT] ASSA.JK 2026-11-13 raw=20.0 previous=30.0 ratio=6.667e-01 -> IDR
+2026-11-12 00:20:53 [INFO] - [FETCHING] {'symbol': 'ASSA.JK', 'date': '2026-11-13', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-11-16', 'cum_date': '2026-11-12', 'updated_on': '2026-11-12 00:20:53', 'payment_date': '2026-11-20'}
+2026-11-12 00:20:54 [INFO] - [AMOUNT] MARK.JK 2026-11-13 raw=20.0 previous=20.0 ratio=1.000e+00 -> IDR
+2026-11-12 00:20:54 [INFO] - [FETCHING] {'symbol': 'MARK.JK', 'date': '2026-11-13', 'dividend_original': 20.0, 'dividend': 20.0, 'recording_date': '2026-11-16', 'cum_date': '2026-11-12', 'updated_on': '2026-11-12 00:20:54', 'payment_date': '2026-12-04'}
+2026-11-12 00:20:54 [INFO] - [AMOUNT] SMAR.JK 2026-11-13 raw=490.0 previous=30.0 ratio=1.633e+01 -> IDR
+2026-11-12 00:20:54 [INFO] - [FETCHING] {'symbol': 'SMAR.JK', 'date': '2026-11-13', 'dividend_original': 490.0, 'dividend': 490.0, 'recording_date': '2026-11-16', 'cum_date': '2026-11-12', 'updated_on': '2026-11-12 00:20:54', 'payment_date': '2026-11-26'}
+2026-11-12 00:20:54 [INFO] - [AMOUNT] IFII.JK 2026-11-12 raw=5.0 previous=5.0 ratio=1.000e+00 -> IDR
+2026-11-12 00:20:54 [INFO] - [FETCHING] {'symbol': 'IFII.JK', 'date': '2026-11-12', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-11-13', 'cum_date': '2026-11-11', 'updated_on': '2026-11-12 00:20:54', 'payment_date': '2026-11-26'}
+2026-11-12 00:20:54 [INFO] - [AMOUNT] META.JK 2026-11-12 raw=3.5 previous=2.62 ratio=1.336e+00 -> IDR
+2026-11-12 00:20:54 [INFO] - [FETCHING] {'symbol': 'META.JK', 'date': '2026-11-12', 'dividend_original': 3.5, 'dividend': 3.5, 'recording_date': '2026-11-13', 'cum_date': '2026-11-11', 'updated_on': '2026-11-12 00:20:54', 'payment_date': '2026-12-03'}
+2026-11-12 00:20:55 [INFO] - [AMOUNT] MIDI.JK 2026-11-12 raw=3.8 previous=11.85 ratio=3.207e-01 -> IDR
+2026-11-12 00:20:55 [INFO] - [FETCHING] {'symbol': 'MIDI.JK', 'date': '2026-11-12', 'dividend_original': 3.8, 'dividend': 3.8, 'recording_date': '2026-11-13', 'cum_date': '2026-11-11', 'updated_on': '2026-11-12 00:20:55', 'payment_date': '2026-12-01'}
+2026-11-12 00:20:55 [INFO] - Stop condition met: Found Ex-Date 2026-11-11 which is older than start date 2026-11-12.
+2026-11-12 00:20:56,428 - INFO: Successfully upserted 13 data to database
+2026-11-12 00:20:56,687 - INFO: update 2026-11-12 upcoming dividend data
