@@ -157,6 +157,36 @@ def parse_dividend_amount(raw_amount: str) -> float:
     return idr_amount
 
 
+def skip_tag(row: dict) -> str:
+    """Terse reason code for a failed record, for monitoring greps."""
+    msg = str(row.get("reason") or row.get("error") or "").lower()
+    if "converted to idr" in msg:
+        return "usd_converted"
+    if "conversion failed" in msg:
+        return "usd_convert_failed"
+    if (
+        "fx feed unavailable" in msg
+        or "no conversion rate" in msg
+        or "/usd rate" in msg
+        or "/sgd rate" in msg
+        or "/idr rate" in msg
+    ):
+        return "fx_no_rate"
+    if "unsupported currency marker" in msg:
+        return "bad_currency"
+    if "invalid dividend amount" in msg:
+        return "invalid_amount"
+    if "invalid previous dividend" in msg:
+        return "invalid_previous"
+    if "could not convert string to float" in msg:
+        return "not_a_number"
+    if "does not match format" in msg or "unconverted data" in msg:
+        return "bad_date"
+    if "missing payment_date" in msg:
+        return "missing_payment_date"
+    return "other"
+
+
 def check_start_year():
     """ 
     Check if the current date is in the first week of the first month of the year.
@@ -443,8 +473,6 @@ class DividendChecker:
                 a dividend date older than this is found. Default is "2020-01-01".
             db_table_name (str): The name of the database table to check for existing records.
 
-        Raises:
-            RuntimeError: After the backfill if any row failed parsing, FX, or comparison.
         """
         page = 1
         keep_scraping = True
@@ -583,7 +611,7 @@ class DividendChecker:
 
     def raise_for_failed_records(self):
         """
-        Raises after DB updates when any scraped row could not be parsed.
+        Logs scraped rows that could not be parsed after DB updates.
         """
         if not self.failed_records:
             return
@@ -603,10 +631,14 @@ class DividendChecker:
             parts.append(f"({row.get('reason') or row.get('error')})")
             return " ".join(parts)
 
-        details = "; ".join(format_failure(row) for row in self.failed_records)
-        raise RuntimeError(
-            f"Failed to process {len(self.failed_records)} dividend record(s): {details}"
+        for row in self.failed_records:
+            LOGGER.warning(f"[SKIPPED] {format_failure(row)} [{skip_tag(row)}]")
+
+        summary = " ".join(
+            f"{row.get('symbol') or 'UNKNOWN'}:{skip_tag(row)}"
+            for row in self.failed_records
         )
+        LOGGER.warning(f"[SKIPPED-TOTAL] {len(self.failed_records)} | {summary}")
 
     def upsert_to_db(self):
         """
