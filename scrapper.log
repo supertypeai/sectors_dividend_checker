@@ -10354,3 +10354,28 @@
 2026-11-13 23:12:12 [INFO] - [FETCHING] {'symbol': 'PLIN.JK', 'date': '2026-10-16', 'dividend_original': 76.0, 'dividend': 76.0, 'recording_date': '2026-10-19', 'cum_date': '2026-10-15', 'updated_on': '2026-11-13 23:12:12', 'payment_date': '2026-10-27'}
 2026-11-13 23:12:12 [INFO] - Stop condition met: Found Ex-Date 2026-10-14 which is older than start date 2026-10-16.
 2026-11-13 23:12:14 [INFO] - Successfully upserted 27 data to database
+2026-11-13 23:25:34 [INFO] - Init Global Variable
+2026-11-13 23:25:34,248 - INFO: Program started
+2026-11-13 23:25:35 [INFO] - Scrape for start date: 2026-11-14 and end date: 2026-11-28
+2026-11-13 23:25:35 [INFO] - Fetching page 1...
+2026-11-13 23:25:36 [INFO] - [AMOUNT] POWR.JK 2026-11-23 raw=31.27592 previous=49.5272 ratio=6.315e-01 -> IDR
+2026-11-13 23:25:36 [INFO] - [FETCHING] {'symbol': 'POWR.JK', 'date': '2026-11-23', 'dividend_original': 31.27592, 'dividend': 31.27592, 'recording_date': '2026-11-24', 'cum_date': '2026-11-20', 'updated_on': '2026-11-13 23:25:36', 'payment_date': '2026-12-11'}
+2026-11-13 23:25:36 [INFO] - [AMOUNT] SKBM.JK 2026-11-19 raw=17.5 previous=9.97 ratio=1.755e+00 -> IDR
+2026-11-13 23:25:36 [INFO] - [FETCHING] {'symbol': 'SKBM.JK', 'date': '2026-11-19', 'dividend_original': 17.5, 'dividend': 17.5, 'recording_date': '2026-11-20', 'cum_date': '2026-11-18', 'updated_on': '2026-11-13 23:25:36', 'payment_date': '2026-11-30'}
+2026-11-13 23:25:36 [INFO] - [AMOUNT] TGKA.JK 2026-11-19 raw=100.0 previous=285.0 ratio=3.509e-01 -> IDR
+2026-11-13 23:25:36 [INFO] - [FETCHING] {'symbol': 'TGKA.JK', 'date': '2026-11-19', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-11-20', 'cum_date': '2026-11-18', 'updated_on': '2026-11-13 23:25:36', 'payment_date': '2026-11-30'}
+2026-11-13 23:25:37 [INFO] - [AMOUNT] EAST.JK 2026-11-18 raw=1.6 previous=2.0 ratio=8.000e-01 -> IDR
+2026-11-13 23:25:37 [INFO] - [FETCHING] {'symbol': 'EAST.JK', 'date': '2026-11-18', 'dividend_original': 1.6, 'dividend': 1.6, 'recording_date': '2026-11-19', 'cum_date': '2026-11-17', 'updated_on': '2026-11-13 23:25:37', 'payment_date': '2026-11-30'}
+2026-11-13 23:25:37 [INFO] - [AMOUNT] KINO.JK 2026-11-18 raw=52.0 previous=32.0 ratio=1.625e+00 -> IDR
+2026-11-13 23:25:37 [INFO] - [FETCHING] {'symbol': 'KINO.JK', 'date': '2026-11-18', 'dividend_original': 52.0, 'dividend': 52.0, 'recording_date': '2026-11-19', 'cum_date': '2026-11-17', 'updated_on': '2026-11-13 23:25:37', 'payment_date': '2026-12-09'}
+2026-11-13 23:25:37 [INFO] - [AMOUNT] PORT.JK 2026-11-17 raw=35.6 no previous dividend, treated as IDR
+2026-11-13 23:25:37 [INFO] - [FETCHING] {'symbol': 'PORT.JK', 'date': '2026-11-17', 'dividend_original': 35.6, 'dividend': 35.6, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-13 23:25:37', 'payment_date': '2026-12-03'}
+2026-11-13 23:25:37 [INFO] - [AMOUNT] TOTL.JK 2026-11-17 raw=40.0 previous=110.0 ratio=3.636e-01 -> IDR
+2026-11-13 23:25:37 [INFO] - [FETCHING] {'symbol': 'TOTL.JK', 'date': '2026-11-17', 'dividend_original': 40.0, 'dividend': 40.0, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-13 23:25:37', 'payment_date': '2026-12-04'}
+2026-11-13 23:25:38 [INFO] - [AMOUNT] ULTJ.JK 2026-11-17 raw=100.0 previous=130.0 ratio=7.692e-01 -> IDR
+2026-11-13 23:25:38 [INFO] - [FETCHING] {'symbol': 'ULTJ.JK', 'date': '2026-11-17', 'dividend_original': 100.0, 'dividend': 100.0, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-13 23:25:38', 'payment_date': '2026-12-09'}
+2026-11-13 23:25:38 [INFO] - [AMOUNT] YUPI.JK 2026-11-17 raw=14.8347396372 previous=17.0149 ratio=8.719e-01 -> IDR
+2026-11-13 23:25:38 [INFO] - [FETCHING] {'symbol': 'YUPI.JK', 'date': '2026-11-17', 'dividend_original': 14.8347396372, 'dividend': 14.8347396372, 'recording_date': '2026-11-18', 'cum_date': '2026-11-16', 'updated_on': '2026-11-13 23:25:38', 'payment_date': '2026-11-26'}
+2026-11-13 23:25:38 [INFO] - Stop condition met: Found Ex-Date 2026-11-13 which is older than start date 2026-11-14.
+2026-11-13 23:25:39,578 - INFO: Successfully upserted 9 data to database
+2026-11-13 23:25:39,816 - INFO: update 2026-11-14 upcoming dividend data
