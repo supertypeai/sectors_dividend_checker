@@ -29,9 +29,11 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
       - name: Pull changes
+        if: ${{ !cancelled() }}
         run: git pull origin master
 
       - name: Commit and push changes
+        if: ${{ !cancelled() }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

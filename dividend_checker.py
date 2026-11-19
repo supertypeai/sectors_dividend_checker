@@ -203,7 +203,7 @@ class DividendChecker:
 
         Args:
             supabase_client (Client): Supabase client instance for database operations.
-            last_n_day (int): Number of days to look back for dividend data. Default is 7
+            last_n_day (int): Number of days to look back for dividend data. Default is 30
         """
         self.url = "https://www.new.sahamidx.com/?/deviden/page/{page}"
         self.supabase_client = supabase_client
@@ -321,7 +321,8 @@ class DividendChecker:
             include_payment_date (bool): If True, includes payment date in the retrieved records. Default is False.
         """
         attempt = 1
-        max_attempt = 10
+        max_attempt = 3
+        last_error = None
         
         LOGGER.info(f'Scrape for start date: {self.start_date} and end date: {self.end_date}')
 
@@ -334,7 +335,7 @@ class DividendChecker:
                     current_url = self.url.format(page=page)
                     LOGGER.info(f"Fetching page {page}...")
                     
-                    response = requests.get(current_url)
+                    response = requests.get(current_url, timeout=15)
                     if response.status_code != 200:
                         raise Exception("Error retrieving data from SahamIDX")
 
@@ -452,12 +453,18 @@ class DividendChecker:
                 break
 
             except Exception as error:
+                last_error = error
                 if (attempt == max_attempt):
                     LOGGER.error(f"\t[ATTEMPTS FAILED] Failed after {max_attempt} attempts. | {error}")
                 else:
                     LOGGER.error(f"\t[FAILED] Failed after {attempt} attempt(s). Retrying after 2 seconds... | {error}")
                     time.sleep(2)
                 attempt += 1
+
+        else:
+            raise RuntimeError(
+                f"Failed to fetch dividends after {max_attempt} attempts: {last_error}"
+            ) from last_error
 
     def check_fill_missing_dividend(self, 
                                     is_saved: bool= True,
