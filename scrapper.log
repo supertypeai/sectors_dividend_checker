@@ -10738,3 +10738,10 @@
 2026-11-18 23:51:11 [INFO] - [FETCHING] {'symbol': 'IMPC.JK', 'date': '2026-10-22', 'dividend_original': 5.0, 'dividend': 5.0, 'recording_date': '2026-10-23', 'cum_date': '2026-10-21', 'updated_on': '2026-11-18 23:51:11', 'payment_date': '2026-10-30'}
 2026-11-18 23:51:11 [INFO] - Stop condition met: Found Ex-Date 2026-10-19 which is older than start date 2026-10-21.
 2026-11-18 23:51:12 [INFO] - Successfully upserted 33 data to database
+2026-11-19 00:06:22 [INFO] - Init Global Variable
+2026-11-19 00:06:22,651 - INFO: Program started
+2026-11-19 00:06:23 [INFO] - Scrape for start date: 2026-11-19 and end date: 2026-12-03
+2026-11-19 00:06:23 [INFO] - Fetching page 1...
+2026-11-19 00:06:24 [INFO] - No more data rows found on this page. Stopping scrape
+2026-11-19 00:06:25,547 - WARNING: No records to upsert to database. All data is up to date
+2026-11-19 00:06:26,154 - INFO: update 2026-11-19 upcoming dividend data
