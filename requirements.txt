@@ -5,3 +5,4 @@ requests==2.34.2
 supabase==2.16.0
 yfinance[nospam]==0.2.59
 lxml==6.1.3
+pytest==9.1.1

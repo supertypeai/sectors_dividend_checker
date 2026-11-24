@@ -327,6 +327,11 @@ class DividendChecker:
         LOGGER.info(f'Scrape for start date: {self.start_date} and end date: {self.end_date}')
 
         while (attempt <= max_attempt):
+            # A retry re-scrapes the same window, so drop the partial results of the
+            # previous attempt: appending twice would put duplicate (symbol, date)
+            # keys in the upsert payload, which Postgres rejects outright.
+            self.retrieved_records = []
+            self.failed_records = []
             try:
                 page = 1                      
                 keep_scraping = True
@@ -444,6 +449,14 @@ class DividendChecker:
                             continue
 
                     if not data_found_on_page:
+                        if page == 1:
+                            # An empty first page means the listing is broken or the
+                            # request was blocked, not that the window has no
+                            # dividends. Fail loudly instead of upserting nothing.
+                            raise RuntimeError(
+                                "Page 1 returned no dividend rows; source layout "
+                                "changed or the request was blocked"
+                            )
                         LOGGER.info("No more data rows found on this page. Stopping scrape")
                         keep_scraping = False
 
@@ -465,6 +478,11 @@ class DividendChecker:
             raise RuntimeError(
                 f"Failed to fetch dividends after {max_attempt} attempts: {last_error}"
             ) from last_error
+
+        if not self.retrieved_records and not self.failed_records:
+            LOGGER.info(
+                f"[EMPTY] No dividends between {self.start_date} and {self.end_date}"
+            )
 
     def check_fill_missing_dividend(self, 
                                     is_saved: bool= True,
@@ -647,6 +665,25 @@ class DividendChecker:
         )
         LOGGER.warning(f"[SKIPPED-TOTAL] {len(self.failed_records)} | {summary}")
 
+    @staticmethod
+    def dedupe_records(records: list[dict], key_fields: tuple[str, ...]) -> list[dict]:
+        """Collapse records sharing the table's primary key (last one wins).
+
+        The listing can repeat a dividend and a retried scrape returns the same
+        row again. Postgres rejects an upsert payload that contains duplicate
+        keys, which would drop the whole batch, so collapse before writing.
+        """
+        unique = {}
+        for record in records:
+            unique[tuple(record[field] for field in key_fields)] = record
+        collapsed = list(unique.values())
+        if len(collapsed) != len(records):
+            LOGGER.warning(
+                f"[DEDUPE] Collapsed {len(records)} records to {len(collapsed)} "
+                f"unique {key_fields}"
+            )
+        return collapsed
+
     def upsert_to_db(self):
         """
         Upserts the retrieved dividend records to the database.
@@ -655,12 +692,14 @@ class DividendChecker:
             LOGGER.warning("No records to upsert to database. All data is up to date")
             return
 
+        records = self.dedupe_records(self.retrieved_records, ("symbol", "date"))
+
         try:
             self.supabase_client.table("idx_dividend").upsert(
-                self.retrieved_records
+                records, on_conflict="symbol,date"
             ).execute()
             LOGGER.info(
-                f"Successfully upserted {len(self.retrieved_records)} data to database"
+                f"Successfully upserted {len(records)} data to database"
             )
         except Exception as error:
             raise Exception(f"Error upserting to database: {error}")

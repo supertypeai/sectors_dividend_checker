@@ -1,5 +1,6 @@
 import json
 import os
+import time
 import pandas as pd
 import logging
 from imp import reload
@@ -22,6 +23,8 @@ def initiate_logging(LOG_FILENAME):
 
 # Default next N days of dividend ex-date to fetch
 _DEFAULT_TIMEFRAME = 14  # days
+# Refetch an empty upcoming window this many times before giving up
+_EMPTY_WINDOW_ATTEMPTS = 3
 # Default retention period after dividend payment date in database
 _RETENTION_PERIOD = 14  # days
 _LOCAL_TIMEZONE = 'Asia/Bangkok'
@@ -43,7 +46,19 @@ class FutureDividendChecker(DividendChecker):
 
     @final
     def get_dividend_records(self, include_payment_date=True):
-        super().get_dividend_records(include_payment_date=True)
+        # An empty window usually means the listing has not been refreshed yet, so
+        # refetch a few times before concluding there is nothing upcoming.
+        for attempt in range(1, _EMPTY_WINDOW_ATTEMPTS + 1):
+            super().get_dividend_records(include_payment_date=True)
+            if self.retrieved_records:
+                break
+            if attempt < _EMPTY_WINDOW_ATTEMPTS:
+                logging.warning(
+                    f"[EMPTY WINDOW] {self.start_date}..{self.end_date} attempt "
+                    f"{attempt}/{_EMPTY_WINDOW_ATTEMPTS} returned nothing, refetching"
+                )
+                time.sleep(2)
+
         # Transform the record names accordingly to match the future_dividend table attributes
         for record in self.retrieved_records:
             record["ex_date"] = record.pop("date")
@@ -57,12 +72,17 @@ class FutureDividendChecker(DividendChecker):
             logging.warning("No records to upsert to database. All data is up to date")
             return
 
+        # idx_upcoming_dividend PK is (symbol, payment_date), not ex_date.
+        records = self.dedupe_records(
+            self.retrieved_records, ("symbol", "payment_date")
+        )
+
         try:
             self.supabase_client.table("idx_upcoming_dividend").upsert(
-                self.retrieved_records
+                records, on_conflict="symbol,payment_date"
             ).execute()
             logging.info(
-                f"Successfully upserted {len(self.retrieved_records)} data to database"
+                f"Successfully upserted {len(records)} data to database"
             )
             # Insert news, commented for now
             # print("Sending data to external endpoint")
