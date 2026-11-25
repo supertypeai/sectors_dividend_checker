@@ -9,9 +9,9 @@ import pandas as pd
 import requests
 import re
 import time
-import yfinance as yf
-import numpy as np
 import os
+
+from yield_helper import compute_and_upsert_yields, sync_upcoming_dividends
 
 
 load_dotenv()
@@ -21,18 +21,22 @@ load_dotenv()
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler('scrapper.log')
-file_handler.setLevel(logging.INFO)
 
-formatter = logging.Formatter(
-    '%(asctime)s [%(levelname)s] - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
-file_handler.setFormatter(formatter)
+def configure_file_logging(path='scrapper.log'):
+    """Write this module's log to a file, but only when a run actually starts.
 
-LOGGER.addHandler(file_handler)
-
-LOGGER.info("Init Global Variable")
+    Importing this module must stay side-effect free: tests and the repair
+    scripts import it, and a module-level FileHandler dirtied scrapper.log.
+    """
+    if any(isinstance(handler, logging.FileHandler) for handler in LOGGER.handlers):
+        return
+    file_handler = logging.FileHandler(path)
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(logging.Formatter(
+        '%(asctime)s [%(levelname)s] - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    ))
+    LOGGER.addHandler(file_handler)
 
 
 CONVERSION_RATE_URL = (
@@ -185,15 +189,6 @@ def skip_tag(row: dict) -> str:
     if "missing payment_date" in msg:
         return "missing_payment_date"
     return "other"
-
-
-def check_start_year():
-    """ 
-    Check if the current date is in the first week of the first month of the year.
-    """
-    today_date = date.today()
-    # Check if it is the first week of the first month in the year
-    return today_date.month == 1 and today_date.day <= 7
 
 
 class DividendChecker:
@@ -704,51 +699,11 @@ class DividendChecker:
         except Exception as error:
             raise Exception(f"Error upserting to database: {error}")
 
-    def upsert_yield_in_db(self):
-        """
-        Calculates the yield for each dividend record in the database where the yield is missing,
-        and updates the database with the calculated yield values.
-        """
-        database_data = supabase_client.from_("idx_dividend").select("*").execute().data
-        db_df = pd.DataFrame(database_data)
-
-        count = 0
-        for index, row in db_df.iterrows():
-            if pd.isna(row['yield']):
-                ticker = row['symbol']
-                dividend_date = row['date']
-                dividend_year = int(dividend_date.split("-")[0])
-                current_year = datetime.now().year
-
-                if (dividend_year < current_year):
-                    # If starting from that year
-                    start_date = f"{dividend_year}-01-01"
-                    end_date = f"{dividend_year}-12-31"
-                    count += 1
-
-                    stock = yf.Ticker(ticker).history(start=start_date, end=end_date, auto_adjust=False)
-                    stock = stock[["Close"]]  # Get only the Close data
-                    mean_val = stock.mean().values[0]
-                    yield_val = row['dividend'] / mean_val
-                    db_df.at[index, 'yield'] = yield_val
-                    db_df.at[index, 'updated_on'] = pd.Timestamp.now(tz="GMT").strftime("%Y-%m-%d %H:%M:%S")
-                    LOGGER.info(f"[UPDATING YIELD] {ticker} {dividend_date} yield : {yield_val}")
-
-        db_df = db_df.replace({np.nan: None})
-
-        # Upsert to db the result
-        try:
-            self.supabase_client.table("idx_dividend").upsert(
-                db_df.to_dict(orient="records")
-            ).execute()
-            LOGGER.info(
-                f"Successfully updated {count} yield data in database"
-            )
-        except Exception as e:
-            raise Exception(f"Error upserting to database: {e}")
-
 
 if __name__ == "__main__":
+    configure_file_logging()
+    LOGGER.info("Init Global Variable")
+
     url, key = os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY")
     supabase_client = create_client(url, key)
 
@@ -761,10 +716,12 @@ if __name__ == "__main__":
     # Upsert DB
     stock_split_checker.upsert_to_db()
 
-    logging.info(f"update {date.today()} dividend data")
+    # idx_dividend is the source of truth once an ex-date passes
+    sync_upcoming_dividends(supabase_client, log=LOGGER.info)
 
-    if check_start_year():
-        stock_split_checker.upsert_yield_in_db()
+    compute_and_upsert_yields(supabase_client, log=LOGGER.info)
+
+    LOGGER.info(f"update {date.today()} dividend data")
 
     stock_split_checker.raise_for_failed_records()
   

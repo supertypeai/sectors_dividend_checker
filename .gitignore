@@ -6,3 +6,6 @@ late_data_updater/.env
 __pycache__/
 backfill_missing.py
 backfill_*.json
+fix_split_adjustment.py
+rollback_*.json
+repair_yields_*.json

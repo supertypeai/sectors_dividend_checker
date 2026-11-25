@@ -100,11 +100,6 @@ class FutureDividendChecker(DividendChecker):
         except Exception as e:
             raise Exception(f"Error upserting to database: {e}")
 
-    @final
-    def upsert_yield_in_db(self):
-        raise NotImplementedError("Future dividend does not require yield update")
-
-
 if __name__ == "__main__":
 
     initiate_logging(LOG_FILENAME)

@@ -377,3 +377,124 @@ def test_fake_client_blocks_writes():
     ):
         with pytest.raises(WriteAttempted):
             blocked()
+
+
+# ------------------------------------------------------------- yield selection
+from yield_helper import select_targets, split_factor, sync_upcoming_dividends  # noqa: E402
+
+
+def _div(symbol, date, dividend, yield_=0.02, updated_on="2024-01-05T00:00:00"):
+    return {"symbol": symbol, "date": date, "dividend": dividend,
+            "yield": yield_, "updated_on": updated_on}
+
+
+def test_select_targets_marks_split_null_and_prior_year_rows():
+    dividends = [
+        _div("AAAA.JK", "2024-05-02", 100.0, yield_=None),          # split + null
+        _div("BBBB.JK", "2025-05-02", 50.0, updated_on="2025-05-03"),  # partial year
+        _div("CCCC.JK", "2024-05-02", 10.0, updated_on="2026-02-01"),  # settled
+    ]
+    splits = [{"symbol": "AAAA.JK", "date": "2024-08-01", "split_ratio": 2,
+               "applied_on": "2024-08-01T00:00:00"}]
+    targets, skipped = select_targets(dividends, splits, [], current_year=2026)
+    reasons = {(t["symbol"], t["date"]): t["reason"] for t in targets}
+    assert reasons == {("AAAA.JK", "2024-05-02"): "split",
+                       ("BBBB.JK", "2025-05-02"): "prior-year"}
+    assert skipped == []
+
+
+def test_select_targets_defers_bonus_affected_rows():
+    dividends = [_div("KEJU.JK", "2024-05-06", 53.0),
+                 _div("WGSH.JK", "2025-07-09", 1.0, updated_on="2025-07-14")]
+    bonus = [{"symbol": "KEJU.JK", "ex_date": "2024-12-30"},
+             {"symbol": "WGSH.JK", "ex_date": "2026-04-06"}]
+    splits = [{"symbol": "KEJU.JK", "date": "2025-01-02", "split_ratio": 2,
+               "applied_on": "2025-01-02T00:00:00"}]
+    targets, skipped = select_targets(dividends, splits, bonus, current_year=2026)
+    assert targets == []
+    assert {(s, d) for s, d, _ in skipped} == {("KEJU.JK", "2024-05-06"),
+                                               ("WGSH.JK", "2025-07-09")}
+
+
+def test_bonus_on_ex_date_counts_as_bonus_affected():
+    row = _div("CLEO.JK", "2025-06-10", 5.0)
+    bonus = [{"symbol": "CLEO.JK", "ex_date": "2025-06-10"}]
+    targets, skipped = select_targets([row], [], bonus, current_year=2026)
+    assert targets == [] and len(skipped) == 1
+
+
+def test_split_factor_ignores_zero_and_future_ratios():
+    row = {"symbol": "BCIC.JK", "date": "2024-01-02"}
+    splits = [{"symbol": "BCIC.JK", "date": "2024-02-01", "split_ratio": 0},
+              {"symbol": "BCIC.JK", "date": "2024-03-01", "split_ratio": 2},
+              {"symbol": "BCIC.JK", "date": "2023-01-01", "split_ratio": 4}]
+    assert split_factor(row, {"BCIC.JK": splits}) == 0.5
+
+
+class _SyncTable:
+    def __init__(self, client, name):
+        self.client, self.name = client, name
+
+    def select(self, *args, **kwargs):
+        return self
+
+    def eq(self, *args, **kwargs):
+        return self
+
+    def gte(self, *args, **kwargs):
+        return self
+
+    def in_(self, *args, **kwargs):
+        return self
+
+    def update(self, values):
+        self.client.pending = values
+        return self
+
+    def execute(self):
+        if self.name == "idx_upcoming_dividend" and self.client.pending is None:
+            return FakeResult([{"symbol": "ITMG.JK", "ex_date": "2026-11-11",
+                                "dividend_amount": 1191.09}])
+        if self.name == "idx_dividend":
+            return FakeResult([{"symbol": "ITMG.JK", "date": "2026-11-11",
+                                "dividend": 1286.83}])
+        self.client.updates.append(self.client.pending)
+        self.client.pending = None
+        return FakeResult([])
+
+
+class _SyncClient:
+    def __init__(self):
+        self.pending = None
+        self.updates = []
+
+    def from_(self, name):
+        return _SyncTable(self, name)
+
+    def table(self, name):
+        return _SyncTable(self, name)
+
+
+def test_sync_upcoming_copies_dividend_amount_only_when_it_differs():
+    client = _SyncClient()
+    assert sync_upcoming_dividends(client, log=lambda *_: None) == 1
+    assert client.updates == [{"dividend_amount": 1286.83}]
+
+
+def test_is_change_ignores_column_rounding_but_not_real_moves():
+    from yield_helper import is_change
+
+    # 0.1242015034 was stored as 0.124202 (column keeps 7 decimals): noise, not a change
+    assert is_change(0.1242015034, 0.124202) is False
+    assert is_change(0.0001996161, 0.000199616) is False
+    # real moves still register, including on small yields
+    assert is_change(0.1242015034, 1.24202) is True
+    assert is_change(0.0521, 0.0416) is True
+    assert is_change(0.02, None) is True
+
+
+def test_fetch_all_refuses_unstable_pagination():
+    from yield_helper import fetch_all
+
+    with pytest.raises(ValueError, match="stable pagination"):
+        fetch_all(_FAKE, "idx_ca_bonus", "symbol,old_ratio")
