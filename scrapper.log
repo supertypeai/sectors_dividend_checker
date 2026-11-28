@@ -11493,3 +11493,11 @@
 2026-11-27 01:36:08,497 - INFO: Program started
 2026-11-27 01:36:18,225 - INFO: Successfully upserted 11 data to database
 2026-11-27 01:36:19,032 - INFO: update 2026-11-27 upcoming dividend data
+2026-11-28 01:01:14 [INFO] - Init Global Variable
+2026-11-28 01:01:15 [INFO] - Scrape for start date: 2026-10-30 and end date: 2026-11-28
+2026-11-28 01:01:15 [INFO] - Fetching page 1...
+2026-11-28 01:01:17 [ERROR] - 	[FAILED] Failed after 1 attempt(s). Retrying after 2 seconds... | Page 1 returned no dividend rows; source layout changed or the request was blocked
+2026-11-28 01:01:19 [INFO] - Fetching page 1...
+2026-11-28 01:01:20 [ERROR] - 	[FAILED] Failed after 2 attempt(s). Retrying after 2 seconds... | Page 1 returned no dividend rows; source layout changed or the request was blocked
+2026-11-28 01:01:22 [INFO] - Fetching page 1...
+2026-11-28 01:01:23 [ERROR] - 	[ATTEMPTS FAILED] Failed after 3 attempts. | Page 1 returned no dividend rows; source layout changed or the request was blocked
